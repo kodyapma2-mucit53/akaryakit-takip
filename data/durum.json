@@ -1,4 +1,21 @@
 {
  "gonderilen": {},
- "son_calisma": "2026-10-12T17:03:29.881362+03:00"
+ "son_calisma": "2026-10-12T17:26:35.150939+03:00",
+ "opet_son": {
+  "34": {
+   "il": "İstanbul",
+   "fiyat": {
+    "benzin": 83.64,
+    "motorin": 96.43
+   }
+  },
+  "25": {
+   "il": "Erzurum",
+   "fiyat": {
+    "benzin": 85.8,
+    "motorin": 98.7
+   }
+  }
+ },
+ "opet_lastupdate": "10.10.2026"
 }
