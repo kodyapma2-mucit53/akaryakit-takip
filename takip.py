@@ -365,6 +365,7 @@ def opet_degisim_kontrol(opet, son_guncelleme, durum):
                       "erken": erken, "degisimler": degisimler})
         json_yaz("opet_degisim.json", kayit[-300:])
     durum["opet_son"] = {k: {"il": v["il"], "fiyat": v["fiyat"]} for k, v in opet.items()}
+    durum["opet_urun_adlari"] = sorted({ad for v in opet.values() for ad in v["tum"]})
     durum["opet_lastupdate"] = son_guncelleme
     return degisimler
 
