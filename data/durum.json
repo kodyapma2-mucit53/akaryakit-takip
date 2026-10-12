@@ -1,6 +1,6 @@
 {
  "gonderilen": {},
- "son_calisma": "2026-10-12T17:33:29.848980+03:00",
+ "son_calisma": "2026-10-12T17:39:54.255471+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
@@ -26,5 +26,9 @@
   "Motorin EcoForce",
   "Motorin UltraForce",
   "Yüksek Kükürtlü Fuel Oil"
- ]
+ ],
+ "son_pompa_degisim": {
+  "motorin": "2026-10-10",
+  "benzin": "2026-10-10"
+ }
 }
