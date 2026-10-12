@@ -1,6 +1,6 @@
 {
  "gonderilen": {},
- "son_calisma": "2026-10-12T17:26:35.150939+03:00",
+ "son_calisma": "2026-10-12T17:33:29.848980+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
@@ -17,5 +17,14 @@
    }
   }
  },
- "opet_lastupdate": "10.10.2026"
+ "opet_lastupdate": "10.10.2026",
+ "opet_urun_adlari": [
+  "Fuel Oil",
+  "Gazyağı",
+  "Kalorifer Yakıtı",
+  "Kurşunsuz Benzin 95",
+  "Motorin EcoForce",
+  "Motorin UltraForce",
+  "Yüksek Kükürtlü Fuel Oil"
+ ]
 }
