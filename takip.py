@@ -354,6 +354,8 @@ def analiz(haberler):
         if re.search(IPTAL, t) and re.search(ZAM + "|" + INDIRIM, t):
             iptaller.append(h)
             continue
+        if re.search(r"\bm[ıiuü]\b[^?]*\?|\bm[ıiuü]\?", t):
+            continue  # "zam kapıda mı?" gibi soru basliklari bilgi degil, tahmin/clickbait
         if re.search(GECMIS, t) and not re.search(ILERI, t):
             continue  # olmus bir degisiklik, erken uyari degil
         if not re.search(ILERI, t):
