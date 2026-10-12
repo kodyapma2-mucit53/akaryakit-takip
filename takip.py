@@ -13,6 +13,7 @@ Ortam degiskenleri:
   NTFY_TOPIC   ntfy konu adi (GitHub Secret)
   TEST_BILDIRIM=1  calisinca deneme bildirimi gonderir
 """
+import calendar
 import html
 import json
 import os
@@ -35,6 +36,8 @@ UA = {"User-Agent": "Mozilla/5.0 (akaryakit-takip; +github actions)"}
 
 GUCLU_ESIK = 3          # bu kadar farkli site ayni tutari verirse bildirim
 HABER_PENCERE_SAAT = 30  # bundan eski haberler dikkate alinmaz
+AA_ADI = "Anadolu Ajansı"  # resmi ajans: sayimda 2 site degerinde
+OPET_ILLER = {"34": "İstanbul", "25": "Erzurum"}  # plaka kodu -> ad
 
 ARAMALAR = [
     "motorine zam bekleniyor",
@@ -194,7 +197,7 @@ def haberleri_topla():
         for g in akis.entries:
             if not getattr(g, "published_parsed", None):
                 continue
-            zaman = datetime.fromtimestamp(time.mktime(g.published_parsed), timezone.utc).astimezone(TR)
+            zaman = datetime.fromtimestamp(calendar.timegm(g.published_parsed), timezone.utc).astimezone(TR)
             if zaman < sinir:
                 continue
             baslik = g.title
@@ -214,7 +217,33 @@ def haberleri_topla():
                              "link": g.link, "zaman": zaman.isoformat(timespec="minutes")})
         time.sleep(1)
     durum_kaynak["Google News"] = "ok" if hata == 0 else f"{hata}/{len(ARAMALAR)} arama hatali"
+
+    # Anadolu Ajansi ekonomi akisi (dogrudan, Google'dan bagimsiz)
+    try:
+        r = requests.get("https://www.aa.com.tr/tr/rss/default?cat=ekonomi", headers=UA, timeout=25)
+        r.raise_for_status()
+        akis = feedparser.parse(r.content)
+        for g in akis.entries:
+            if not getattr(g, "published_parsed", None):
+                continue
+            zaman = datetime.fromtimestamp(calendar.timegm(g.published_parsed), timezone.utc).astimezone(TR)
+            if zaman < sinir or not re.search(r"motorin|benzin|lpg|otogaz|akaryakıt|mazot", kucult(g.title)):
+                continue
+            anahtar = kucult(g.title) + "|" + AA_ADI
+            if anahtar in gorulen_link:
+                continue
+            gorulen_link.add(anahtar)
+            haberler.append({"baslik": g.title, "kaynak": AA_ADI, "link": g.link,
+                             "zaman": zaman.isoformat(timespec="minutes")})
+        durum_kaynak["AA RSS"] = "ok"
+    except Exception as e:
+        durum_kaynak["AA RSS"] = f"hata: {e}"
     return haberler
+
+
+def agirlik(g):
+    """Farkli site sayisi; Anadolu Ajansi 2 site sayilir."""
+    return len(g["kaynaklar"]) + (1 if AA_ADI in g["kaynaklar"] else 0)
 
 
 def analiz(haberler):
@@ -263,8 +292,81 @@ def analiz(haberler):
             for k, z in kaynak_grup["kaynaklar"].items():
                 g["kaynaklar"].setdefault(k, z)
             g["haberler"].extend(kaynak_grup["haberler"])
-    liste = sorted(gruplar.values(), key=lambda g: -len(g["kaynaklar"]))
+    liste = sorted(gruplar.values(), key=lambda g: -agirlik(g))
     return liste, iptaller
+
+
+# ---------------------------------------------------------------- Opet resmi fiyatlar
+OPET_API = "https://api.opet.com.tr/api/fuelprices"
+
+
+def opet_urun_sec(fiyatlar):
+    """Opet urun listesinden standart benzin/motorin/lpg fiyatini secer."""
+    sec = {}
+    for u in fiyatlar:
+        ad = kucult(u.get("productName", ""))
+        tutar = u.get("amount")
+        if tutar is None:
+            continue
+        if "benzin" in ad and "95" in ad and "benzin" not in sec:
+            sec["benzin"] = float(tutar)
+        elif "motorin" in ad and "ultra" not in ad and "motorin" not in sec:
+            sec["motorin"] = float(tutar)
+        elif ("otogaz" in ad or "lpg" in ad) and "lpg" not in sec:
+            sec["lpg"] = float(tutar)
+    return sec
+
+
+def opet_al():
+    """{il_kodu: {"il":..., "fiyat": {...}, "tum": [...]}} ve son guncelleme."""
+    try:
+        son = requests.get(f"{OPET_API}/lastupdate", headers=UA, timeout=20).json()
+        sonuc = {}
+        for kod, il in OPET_ILLER.items():
+            r = requests.get(f"{OPET_API}/prices?ProvinceCode={kod}&IncludeAllProducts=true",
+                             headers=UA, timeout=20)
+            r.raise_for_status()
+            veri = r.json()
+            urunler = veri[0]["prices"] if veri else []
+            sonuc[kod] = {"il": il, "fiyat": opet_urun_sec(urunler),
+                          "tum": {u.get("productName"): u.get("amount") for u in urunler}}
+        for v in sonuc.values():
+            print("Opet", v["il"], "urunler:", v["tum"], "-> secilen:", v["fiyat"])
+        durum_kaynak["Opet"] = "ok"
+        return sonuc, (son or {}).get("lastUpdateDate")
+    except Exception as e:
+        durum_kaynak["Opet"] = f"hata: {e}"
+        return None, None
+
+
+def opet_degisim_kontrol(opet, son_guncelleme, durum):
+    """Onceki kayitla karsilastirir; gece yarisindan ONCE gorulen degisimi bildirir."""
+    if not opet:
+        return []
+    onceki = durum.get("opet_son", {})
+    degisimler = []
+    for kod, v in opet.items():
+        eski = onceki.get(kod, {}).get("fiyat", {})
+        for yakit, yeni in v["fiyat"].items():
+            if yakit in eski and abs(eski[yakit] - yeni) >= 0.01:
+                degisimler.append({"il": v["il"], "yakit": yakit, "eski": eski[yakit], "yeni": yeni})
+    if degisimler and onceki:
+        # Tarife gece 00:00'da yururluge girer; 12:00-23:59 arasi gorulen degisim erken haberdir
+        erken = 12 <= SIMDI.hour <= 23
+        satirlar = [f"{d['il']} {d['yakit']}: {d['eski']:.2f} → {d['yeni']:.2f} TL "
+                    f"({d['yeni'] - d['eski']:+.2f})" for d in degisimler]
+        if erken:
+            ntfy("OPET YENI FIYAT GIRDI", "Opet yeni tarifeyi sisteme girdi (gece yarısından önce):\n"
+                 + "\n".join(satirlar), "high", "fuelpump,rotating_light")
+        print("Opet degisim:", satirlar, "(erken)" if erken else "(sonra)")
+        # isabet olcumu: Opet'in degisimi ne zaman gosterdigini kaydet
+        kayit = json_oku("opet_degisim.json", [])
+        kayit.append({"zaman": SIMDI.isoformat(timespec="minutes"), "lastUpdate": son_guncelleme,
+                      "erken": erken, "degisimler": degisimler})
+        json_yaz("opet_degisim.json", kayit[-300:])
+    durum["opet_son"] = {k: {"il": v["il"], "fiyat": v["fiyat"]} for k, v in opet.items()}
+    durum["opet_lastupdate"] = son_guncelleme
+    return degisimler
 
 
 # ---------------------------------------------------------------- bildirim mantigi
@@ -280,7 +382,7 @@ def bildirimleri_gonder(beklentiler, iptaller, durum):
         del gonderilen[k]
 
     for g in beklentiler:
-        n = len(g["kaynaklar"])
+        n = agirlik(g)
         if n < GUCLU_ESIK or (g["tutar"] is None and n < GUCLU_ESIK + 2):
             continue
         anahtar = f"{SIMDI:%Y-%m-%d}|{g['yakit']}|{g['yon']}|{g['tutar']}"
@@ -289,7 +391,7 @@ def bildirimleri_gonder(beklentiler, iptaller, durum):
             continue
         yakit = {"motorin": "Motorine", "benzin": "Benzine", "lpg": "LPG'ye"}[g["yakit"]]
         mesaj = (f"{yakit} {tutar_yazi(g['tutar'])} {g['yon']} bekleniyor.\n"
-                 f"{n} farklı site aynı rakamı veriyor: {', '.join(list(g['kaynaklar'])[:5])}")
+                 f"{len(g['kaynaklar'])} farklı site aynı rakamı veriyor: {', '.join(list(g['kaynaklar'])[:5])}")
         baslik = f"{g['yakit'].upper()} {'ZAM' if g['yon'] == 'zam' else 'INDIRIM'} BEKLENIYOR"
         if ntfy(baslik, mesaj, "high" if g["yon"] == "zam" else "default",
                 "fuelpump,warning" if g["yon"] == "zam" else "fuelpump,chart_with_downwards_trend"):
@@ -305,11 +407,11 @@ def bildirimleri_gonder(beklentiler, iptaller, durum):
 
 
 # ---------------------------------------------------------------- HTML
-def html_uret(beklentiler, iptaller, kur, kur_gecmis):
+def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=None):
     e = html.escape
     satirlar = []
     for g in beklentiler:
-        n = len(g["kaynaklar"])
+        n = agirlik(g)
         seviye = "guclu" if n >= GUCLU_ESIK else "soylenti"
         etiket = "Güçlü beklenti" if n >= GUCLU_ESIK else "Söylenti"
         linkler = "".join(
@@ -321,7 +423,7 @@ def html_uret(beklentiler, iptaller, kur, kur_gecmis):
   <div class="ust"><b>{e(g['yakit'].capitalize())}</b>
   <span class="yon">{'▲ zam' if g['yon'] == 'zam' else '▼ indirim'}</span>
   <span class="tutar">{e(tutar_yazi(g['tutar']))}</span></div>
-  <div class="alt">{etiket} · {n} farklı site</div>
+  <div class="alt">{etiket} · {len(g['kaynaklar'])} farklı site{' (AA dahil)' if AA_ADI in g['kaynaklar'] else ''}</div>
   <details><summary>Haberler</summary><ul>{linkler}</ul></details>
 </div>""")
     if not satirlar:
@@ -350,6 +452,17 @@ def html_uret(beklentiler, iptaller, kur, kur_gecmis):
                f'<polyline points="{noktalar}" fill="none" stroke="currentColor" stroke-width="2"/></svg>'
                f'<div class="k">USD/TL son {len(seri)} gün: {mn:.2f} – {mx:.2f}</div>')
 
+    opet_html = ""
+    if opet:
+        satir = "".join(
+            f"<tr><td>{e(v['il'])}</td>"
+            + "".join(f"<td>{v['fiyat'][y]:.2f}</td>" if y in v["fiyat"] else "<td>–</td>"
+                      for y in ("benzin", "motorin", "lpg")) + "</tr>"
+            for v in opet.values())
+        opet_html = (f"<h2>Pompa fiyatı (Opet)</h2><table><tr><th></th><th>Benzin</th><th>Motorin</th>"
+                     f"<th>LPG</th></tr>{satir}</table>"
+                     f"<div class='k'>Opet son güncelleme: {e(str(opet_guncel or '?'))}</div>")
+
     durum = " · ".join(f"{e(k)}: {'✓' if v == 'ok' else '✗ ' + e(v)}" for k, v in durum_kaynak.items())
 
     sayfa = f"""<!doctype html>
@@ -372,6 +485,8 @@ h1{{font-size:1.35rem;margin:.2rem 0}}h2{{font-size:1.05rem;margin:1.4rem 0 .5re
 details{{margin-top:6px}}summary{{cursor:pointer;color:var(--muted);font-size:.9rem}}
 ul{{padding-left:18px;margin:.4rem 0}}li{{margin:.35rem 0;font-size:.92rem}}a{{color:inherit}}
 .kur{{display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}}
+table{{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}}
+th,td{{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line)}}th:first-child,td:first-child{{text-align:left}}
 .grafik{{width:100%;height:62px;margin-top:8px}}.bos{{color:var(--muted)}}
 footer{{margin-top:24px;font-size:.8rem;color:var(--muted)}}
 </style></head><body><main>
@@ -380,6 +495,7 @@ footer{{margin-top:24px;font-size:.8rem;color:var(--muted)}}
 <h2>Beklenen değişiklikler</h2>
 {''.join(satirlar)}
 {iptal_blok}
+{opet_html}
 <h2>Kur</h2>
 {kur_html}
 {svg}
@@ -409,18 +525,21 @@ def main():
         kur_gecmis = kur_gecmis[-400:]
         json_yaz("kur.json", kur_gecmis)
 
+    opet, opet_guncel = opet_al()
+    opet_degisim_kontrol(opet, opet_guncel, durum)
+
     haberler = haberleri_topla()
     beklentiler, iptaller = analiz(haberler)
 
     for g in beklentiler:
-        print(f"{g['yakit']:8} {g['yon']:8} {tutar_yazi(g['tutar']):>14}  {len(g['kaynaklar'])} site")
+        print(f"{g['yakit']:8} {g['yon']:8} {tutar_yazi(g['tutar']):>14}  {len(g['kaynaklar'])} site (agirlik {agirlik(g)})")
 
     bildirimleri_gonder(beklentiler, iptaller, durum)
 
     # sadece guclu beklentileri kayit altina al (isabet olcumu icin)
     arsiv = json_oku("beklenti_arsiv.json", [])
     for g in beklentiler:
-        if len(g["kaynaklar"]) >= GUCLU_ESIK:
+        if agirlik(g) >= GUCLU_ESIK:
             kayit = {"gun": f"{SIMDI:%Y-%m-%d}", "yakit": g["yakit"], "yon": g["yon"],
                      "tutar": g["tutar"], "siteler": sorted(g["kaynaklar"])}
             if kayit not in arsiv:
@@ -429,7 +548,7 @@ def main():
 
     durum["son_calisma"] = SIMDI.isoformat()
     json_yaz("durum.json", durum)
-    html_uret(beklentiler, iptaller, kur, kur_gecmis)
+    html_uret(beklentiler, iptaller, kur, kur_gecmis, opet, opet_guncel)
     print("Kaynak durumu:", durum_kaynak)
     return 0
 
