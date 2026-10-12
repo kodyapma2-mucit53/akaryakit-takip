@@ -351,6 +351,11 @@ def opet_degisim_kontrol(opet, son_guncelleme, durum):
             if yakit in eski and abs(eski[yakit] - yeni) >= 0.01:
                 degisimler.append({"il": v["il"], "yakit": yakit, "eski": eski[yakit], "yeni": yeni})
     if degisimler and onceki:
+        yururluk = SIMDI if SIMDI.hour < 12 else SIMDI + timedelta(days=1)
+        spd = durum.setdefault("son_pompa_degisim", {})
+        for d in degisimler:
+            if d["yakit"] in ("motorin", "benzin"):
+                spd[d["yakit"]] = yururluk.strftime("%Y-%m-%d")
         # Tarife gece 00:00'da yururluge girer; 12:00-23:59 arasi gorulen degisim erken haberdir
         erken = 12 <= SIMDI.hour <= 23
         satirlar = [f"{d['il']} {d['yakit']}: {d['eski']:.2f} → {d['yeni']:.2f} TL "
@@ -368,6 +373,103 @@ def opet_degisim_kontrol(opet, son_guncelleme, durum):
     durum["opet_urun_adlari"] = sorted({ad for v in opet.values() for ad in v["tum"]})
     durum["opet_lastupdate"] = son_guncelleme
     return degisimler
+
+
+# ---------------------------------------------------------------- urun fiyati (gasoil vekili) ve maliyet baskisi
+# Rafineriler Platts CIF MED fiyatini kullanir (ucretli). Ucretsiz vekil olarak NYMEX vadelileri:
+#   motorin <- HO=F (ULSD / heating oil, $/galon), benzin <- RB=F (RBOB, $/galon)
+# Pompa farki ~= (urun maliyeti TL/L farki) x 1.20 (KDV). OTV litre basina sabit oldugu icin etkilemez.
+VEKIL = {"motorin": "HO=F", "benzin": "RB=F"}
+GALON_L = 3.78541
+KDV = 1.20
+BASKI_ESIK = 1.5   # TL/L: bu kadar birikince bildirim
+# Bilinen son pompa degisim tarihleri (Opet degisim yakalayinca otomatik guncellenir)
+BASLANGIC_DEGISIM = {"motorin": "2026-10-10", "benzin": "2026-10-10"}
+# Geriye donuk test icin bilinen Ekim 2026 motorin degisimleri (OTV kaynakli 1 Ekim haric)
+BILINEN_DEGISIM = {"motorin": [("2026-10-03", -2.22), ("2026-10-06", -4.95), ("2026-10-10", 6.40)]}
+
+
+def piyasa_al():
+    """yfinance ile HO=F, RB=F, BZ=F ve USD/TRY gunluk kapanislari: {sembol: {tarih: kapanis}}"""
+    try:
+        import yfinance as yf
+        seriler = {}
+        for sembol in ("HO=F", "RB=F", "BZ=F", "TRY=X"):
+            df = yf.Ticker(sembol).history(period="3mo", interval="1d", auto_adjust=False)
+            if df is None or df.empty:
+                raise ValueError(f"{sembol} bos")
+            seriler[sembol] = {i.strftime("%Y-%m-%d"): float(c) for i, c in df["Close"].items()}
+        durum_kaynak["Yahoo vadeli"] = "ok"
+        return seriler
+    except Exception as e:
+        durum_kaynak["Yahoo vadeli"] = f"hata: {e}"
+        return None
+
+
+def maliyet_serisi(seriler, yakit):
+    """Gunluk urun maliyeti TL/L (KDV haric): fiyat($/gal) x kur / 3.785"""
+    urun, kur = seriler[VEKIL[yakit]], seriler["TRY=X"]
+    return {g: urun[g] * kur[g] / GALON_L for g in sorted(urun) if g in kur}
+
+
+def ort_once(seri, tarih, gun=3):
+    """'tarih'ten ONCEKI son 'gun' islem gununun ortalamasi."""
+    degerler = [v for g, v in sorted(seri.items()) if g < tarih][-gun:]
+    return sum(degerler) / len(degerler) if degerler else None
+
+
+def baski_hesapla(seriler, durum):
+    """Son pompa degisiminden bu yana birikmis tahmini zam/indirim (TL/L, KDV dahil)."""
+    if not seriler:
+        return {}
+    sonuc = {}
+    son_degisim = durum.setdefault("son_pompa_degisim", dict(BASLANGIC_DEGISIM))
+    yarin = (SIMDI + timedelta(days=1)).strftime("%Y-%m-%d")
+    for yakit in VEKIL:
+        seri = maliyet_serisi(seriler, yakit)
+        taban = ort_once(seri, son_degisim[yakit])
+        simdi = ort_once(seri, yarin)
+        if taban is None or simdi is None:
+            continue
+        sonuc[yakit] = {"baski": (simdi - taban) * KDV, "taban_tarih": son_degisim[yakit]}
+    return sonuc
+
+
+def geriye_donuk_test(seriler):
+    """Bilinen degisimlerde tahmin ile gercegi karsilastirir (log'a yazar)."""
+    if not seriler:
+        return []
+    satirlar = []
+    for yakit, liste in BILINEN_DEGISIM.items():
+        seri = maliyet_serisi(seriler, yakit)
+        for i in range(1, len(liste)):
+            onceki, (tarih, gercek) = liste[i - 1][0], liste[i]
+            a, b = ort_once(seri, onceki), ort_once(seri, tarih)
+            if a is None or b is None:
+                continue
+            tahmin = (b - a) * KDV
+            satirlar.append({"yakit": yakit, "tarih": tarih, "tahmin": round(tahmin, 2), "gercek": gercek})
+            print(f"GERIYE DONUK TEST {yakit} {tarih}: tahmin {tahmin:+.2f} TL, gercek {gercek:+.2f} TL")
+    return satirlar
+
+
+def baski_bildirim(baski, durum):
+    gonderilen = durum.setdefault("gonderilen", {})
+    for yakit, v in baski.items():
+        b = v["baski"]
+        if abs(b) < BASKI_ESIK:
+            continue
+        kademe = int(abs(b) // BASKI_ESIK)  # 1.5, 3.0, 4.5 ... her kademede bir kez
+        anahtar = f"baski|{yakit}|{v['taban_tarih']}|{'+' if b > 0 else '-'}|{kademe}"
+        if anahtar in gonderilen:
+            continue
+        yon = "zam" if b > 0 else "indirim"
+        mesaj = (f"{yakit.capitalize()}: son değişimden ({v['taban_tarih']}) bu yana uluslararası ürün "
+                 f"fiyatı ve kura göre yaklaşık {abs(b):.2f} TL/L {yon} baskısı birikti.\n"
+                 f"Kaba tahmindir; bant kırılınca değişim gelir.")
+        if ntfy(f"{yakit.upper()} {'ZAM' if b > 0 else 'INDIRIM'} BASKISI", mesaj, "default",
+                "chart_with_upwards_trend" if b > 0 else "chart_with_downwards_trend"):
+            gonderilen[anahtar] = SIMDI.isoformat()
 
 
 # ---------------------------------------------------------------- bildirim mantigi
@@ -408,7 +510,8 @@ def bildirimleri_gonder(beklentiler, iptaller, durum):
 
 
 # ---------------------------------------------------------------- HTML
-def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=None):
+def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=None,
+              baski=None, seriler=None, test=None):
     e = html.escape
     satirlar = []
     for g in beklentiler:
@@ -464,6 +567,30 @@ def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=Non
                      f"<th>LPG</th></tr>{satir}</table>"
                      f"<div class='k'>Opet son güncelleme: {e(str(opet_guncel or '?'))}</div>")
 
+    baski_html = ""
+    if baski:
+        kartlar = ""
+        for yakit, v in baski.items():
+            b = v["baski"]
+            sinif = "zam" if b >= BASKI_ESIK else "indirim" if b <= -BASKI_ESIK else "notr"
+            yazi = "zam baskısı" if b > 0.3 else "indirim baskısı" if b < -0.3 else "nötr"
+            kartlar += (f'<div class="kart guclu {sinif}"><div class="ust"><b>{yakit.capitalize()}</b>'
+                        f'<span class="yon">{yazi}</span><span class="tutar">{b:+.2f} TL/L</span></div>'
+                        f'<div class="alt">{e(v["taban_tarih"])} değişiminden bu yana, tahmini</div></div>')
+        piyasa = ""
+        if seriler:
+            son = lambda s: seriler[s][max(seriler[s])]
+            piyasa = (f"<div class='k'>Brent {son('BZ=F'):.2f} $/varil · ULSD (HO) {son('HO=F'):.4f} $/gal · "
+                      f"RBOB {son('RB=F'):.4f} $/gal · USD/TRY {son('TRY=X'):.4f}</div>")
+        test_html = ""
+        if test:
+            test_html = "<details><summary>Geriye dönük test</summary><ul>" + "".join(
+                f"<li>{e(t['yakit'])} {e(t['tarih'])}: tahmin {t['tahmin']:+.2f}, gerçek {t['gercek']:+.2f} TL</li>"
+                for t in test) + "</ul></details>"
+        baski_html = (f"<h2>Maliyet baskısı</h2>{kartlar}{piyasa}{test_html}"
+                      "<div class='k'>NYMEX vadelileri gasoil yerine vekil olarak kullanılıyor; "
+                      "rafinerinin baktığı Platts CIF MED ile birebir aynı değil.</div>")
+
     durum = " · ".join(f"{e(k)}: {'✓' if v == 'ok' else '✗ ' + e(v)}" for k, v in durum_kaynak.items())
 
     sayfa = f"""<!doctype html>
@@ -479,6 +606,7 @@ h1{{font-size:1.35rem;margin:.2rem 0}}h2{{font-size:1.05rem;margin:1.4rem 0 .5re
 .k{{color:var(--muted);font-size:.85rem}}
 .kart{{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--muted);border-radius:10px;padding:12px 14px;margin:10px 0}}
 .kart.guclu.zam{{border-left-color:var(--zam)}}.kart.guclu.indirim{{border-left-color:var(--ind)}}
+.kart.notr{{border-left-color:var(--muted)}}
 .kart.soylenti{{border-left-color:var(--warn)}}
 .ust{{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;font-size:1.1rem}}
 .zam .yon{{color:var(--zam)}}.indirim .yon{{color:var(--ind)}}.tutar{{font-weight:700;margin-left:auto}}
@@ -496,6 +624,7 @@ footer{{margin-top:24px;font-size:.8rem;color:var(--muted)}}
 <h2>Beklenen değişiklikler</h2>
 {''.join(satirlar)}
 {iptal_blok}
+{baski_html}
 {opet_html}
 <h2>Kur</h2>
 {kur_html}
@@ -529,6 +658,13 @@ def main():
     opet, opet_guncel = opet_al()
     opet_degisim_kontrol(opet, opet_guncel, durum)
 
+    seriler = piyasa_al()
+    baski = baski_hesapla(seriler, durum)
+    test = geriye_donuk_test(seriler)
+    for y, v in baski.items():
+        print(f"Baski {y}: {v['baski']:+.2f} TL/L (taban {v['taban_tarih']})")
+    baski_bildirim(baski, durum)
+
     haberler = haberleri_topla()
     beklentiler, iptaller = analiz(haberler)
 
@@ -549,7 +685,7 @@ def main():
 
     durum["son_calisma"] = SIMDI.isoformat()
     json_yaz("durum.json", durum)
-    html_uret(beklentiler, iptaller, kur, kur_gecmis, opet, opet_guncel)
+    html_uret(beklentiler, iptaller, kur, kur_gecmis, opet, opet_guncel, baski, seriler, test)
     print("Kaynak durumu:", durum_kaynak)
     return 0
 
