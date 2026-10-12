@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Akaryakit zam erken uyari sistemi (v1)
+Akaryakit zam erken uyari sistemi (v4)
 
 - Google News RSS'ten "zam/indirim bekleniyor" haberlerini toplar
 - Her basliktan yakit turu, yon (zam/indirim) ve tutari cikarir
@@ -47,9 +47,39 @@ ARAMALAR = [
     "LPG zam bekleniyor",
     "akaryakıt zam iptal",
     "akaryakıt tabela değişiyor",
+    "motorine zam geliyor",
+    "benzine zam geliyor",
+    "mazota zam",
+    "akaryakıt indirim geliyor",
+    "pompaya yansıyacak akaryakıt",
+    "gece yarısından itibaren motorin",
+    "gece yarısından itibaren benzin",
+    "sektör kaynakları akaryakıt",
 ]
+# Bing News: Google'dan bagimsiz ikinci haber toplayici
+BING_ARAMALAR = ["motorine zam", "benzine zam", "motorine indirim", "benzine indirim", "akaryakıt zam"]
+KAYNAK_TAKMA = {"aa": "anadoluajansi", "aacomtr": "anadoluajansi", "haberturkcom": "haberturk",
+                "hurriyetcomtr": "hurriyet", "bigparahurriyetcomtr": "bigpara"}
+KAYNAK_AD = {"anadoluajansi": "Anadolu Ajansı"}
+
+
+def kaynak_kimlik(ad):
+    t = kucult(ad or "").translate(str.maketrans("çğıöşü", "cgiosu"))
+    t = re.sub(r"^https?://|^www\.", "", t)
+    t = re.sub(r"[^a-z0-9]", "", t)
+    t = re.sub(r"(comtr|com|nettr|net|tr|org)$", "", t) if len(t) > 6 else t
+    return KAYNAK_TAKMA.get(t, t)
+
+
+def kaynak_normal(ad):
+    """Google'da 'Habertürk', Bing'de 'haberturk.com' gelen ayni siteyi tek ada indirger."""
+    k = kaynak_kimlik(ad)
+    if not k:
+        return "?"
+    return KAYNAK_AD.setdefault(k, ad.strip())
 
 durum_kaynak = {}  # kaynak adi -> "ok" / hata mesaji
+durum_global = {}
 
 
 # ---------------------------------------------------------------- yardimcilar
@@ -209,14 +239,49 @@ def haberleri_topla():
                 if not kaynak:
                     kaynak = son
                 baslik = govde
-            anahtar = kucult(baslik) + "|" + kaynak
+            anahtar = kucult(baslik) + "|" + kaynak_kimlik(kaynak)
             if anahtar in gorulen_link:
                 continue
             gorulen_link.add(anahtar)
-            haberler.append({"baslik": baslik, "kaynak": kaynak.strip() or "?",
+            haberler.append({"baslik": baslik, "kaynak": kaynak_normal(kaynak),
                              "link": g.link, "zaman": zaman.isoformat(timespec="minutes")})
         time.sleep(1)
     durum_kaynak["Google News"] = "ok" if hata == 0 else f"{hata}/{len(ARAMALAR)} arama hatali"
+
+    # Bing News RSS
+    bhata = 0
+    for sorgu in BING_ARAMALAR:
+        try:
+            r = requests.get("https://www.bing.com/news/search?format=rss&setlang=tr-TR&cc=TR&q="
+                             + quote_plus(sorgu), headers=UA, timeout=25)
+            r.raise_for_status()
+            akis = feedparser.parse(r.content)
+        except Exception as e:
+            bhata += 1
+            print("Bing hatasi:", sorgu, e)
+            continue
+        for g in akis.entries:
+            if not getattr(g, "published_parsed", None):
+                continue
+            zaman = datetime.fromtimestamp(calendar.timegm(g.published_parsed), timezone.utc).astimezone(TR)
+            if zaman < sinir:
+                continue
+            kaynak = g.get("news_source", "")
+            link = g.get("link", "")
+            m = re.search(r"[?&]url=([^&]+)", link)
+            if m:
+                from urllib.parse import unquote
+                link = unquote(m.group(1))
+            if not kaynak:
+                kaynak = urlparse(link).netloc
+            anahtar = kucult(g.title) + "|" + kaynak_kimlik(kaynak)
+            if anahtar in gorulen_link:
+                continue
+            gorulen_link.add(anahtar)
+            haberler.append({"baslik": g.title, "kaynak": kaynak_normal(kaynak), "link": link,
+                             "zaman": zaman.isoformat(timespec="minutes")})
+        time.sleep(1)
+    durum_kaynak["Bing News"] = "ok" if bhata == 0 else f"{bhata}/{len(BING_ARAMALAR)} arama hatali"
 
     # Anadolu Ajansi ekonomi akisi (dogrudan, Google'dan bagimsiz)
     try:
@@ -229,7 +294,7 @@ def haberleri_topla():
             zaman = datetime.fromtimestamp(calendar.timegm(g.published_parsed), timezone.utc).astimezone(TR)
             if zaman < sinir or not re.search(r"motorin|benzin|lpg|otogaz|akaryakıt|mazot", kucult(g.title)):
                 continue
-            anahtar = kucult(g.title) + "|" + AA_ADI
+            anahtar = kucult(g.title) + "|" + kaynak_kimlik(AA_ADI)
             if anahtar in gorulen_link:
                 continue
             gorulen_link.add(anahtar)
@@ -241,9 +306,44 @@ def haberleri_topla():
     return haberler
 
 
+GUVENILIR = set()  # gecmiste en az 3 kez dogru tutar vermis, isabeti %80+ siteler (main'de dolar)
+
+
 def agirlik(g):
-    """Farkli site sayisi; Anadolu Ajansi 2 site sayilir."""
-    return len(g["kaynaklar"]) + (1 if AA_ADI in g["kaynaklar"] else 0)
+    """Farkli site sayisi; Anadolu Ajansi ve kanitlanmis guvenilir siteler 2 site sayilir."""
+    return sum(2 if (k == AA_ADI or k in GUVENILIR) else 1 for k in g["kaynaklar"])
+
+
+def site_karnesi_guncelle(degisimler, durum):
+    """Opet'te gercek degisim gorulunce, son 2 gunde o yakit icin tutar veren siteleri puanlar."""
+    gozlem = json_oku("gozlem.json", [])
+    karne = durum.setdefault("site_karnesi", {})
+    sinir = (SIMDI - timedelta(days=2)).strftime("%Y-%m-%d")
+    for d in degisimler:
+        if d["il"] != "İstanbul":
+            continue
+        gercek = d["yeni"] - d["eski"]
+        yon = "zam" if gercek > 0 else "indirim"
+        degerlendirilen = set()
+        for o in gozlem:
+            if o["gun"] < sinir or o["yakit"] != d["yakit"] or o["tutar"] is None:
+                continue
+            dogru = o["yon"] == yon and abs(o["tutar"] - abs(gercek)) <= 0.15
+            for site in o["siteler"]:
+                if (site, d["yakit"]) in degerlendirilen:
+                    continue
+                degerlendirilen.add((site, d["yakit"]))
+                k = karne.setdefault(site, {"dogru": 0, "yanlis": 0})
+                k["dogru" if dogru else "yanlis"] += 1
+    return karne
+
+
+def guvenilirleri_belirle(durum):
+    GUVENILIR.clear()
+    for site, k in durum.get("site_karnesi", {}).items():
+        toplam = k["dogru"] + k["yanlis"]
+        if k["dogru"] >= 3 and k["dogru"] / toplam >= 0.8:
+            GUVENILIR.add(site)
 
 
 def analiz(haberler):
@@ -353,9 +453,13 @@ def opet_degisim_kontrol(opet, son_guncelleme, durum):
     if degisimler and onceki:
         yururluk = SIMDI if SIMDI.hour < 12 else SIMDI + timedelta(days=1)
         spd = durum.setdefault("son_pompa_degisim", {})
+        gecmis = durum.setdefault("degisim_gecmis", [])
         for d in degisimler:
             if d["yakit"] in ("motorin", "benzin"):
                 spd[d["yakit"]] = yururluk.strftime("%Y-%m-%d")
+            if d["il"] == "İstanbul" and d["yakit"] in ("motorin", "benzin"):
+                gecmis.append([d["yakit"], yururluk.strftime("%Y-%m-%d"), round(d["yeni"] - d["eski"], 2)])
+        site_karnesi_guncelle(degisimler, durum)
         # Tarife gece 00:00'da yururluge girer; 12:00-23:59 arasi gorulen degisim erken haberdir
         erken = 12 <= SIMDI.hour <= 23
         satirlar = [f"{d['il']} {d['yakit']}: {d['eski']:.2f} → {d['yeni']:.2f} TL "
@@ -435,12 +539,18 @@ def baski_hesapla(seriler, durum):
     return sonuc
 
 
-def geriye_donuk_test(seriler):
-    """Bilinen degisimlerde tahmin ile gercegi karsilastirir (log'a yazar)."""
+def geriye_donuk_test(seriler, durum=None):
+    """Bilinen + Opet'in yakaladigi degisimlerde tahmin ile gercegi karsilastirir."""
     if not seriler:
         return []
+    tum = {y: list(l) for y, l in BILINEN_DEGISIM.items()}
+    for yakit, tarih, tutar in (durum or {}).get("degisim_gecmis", []):
+        liste = tum.setdefault(yakit, [])
+        if all(t != tarih for t, _ in liste):
+            liste.append((tarih, tutar))
     satirlar = []
-    for yakit, liste in BILINEN_DEGISIM.items():
+    for yakit, liste in tum.items():
+        liste.sort()
         seri = maliyet_serisi(seriler, yakit)
         for i in range(1, len(liste)):
             onceki, (tarih, gercek) = liste[i - 1][0], liste[i]
@@ -451,6 +561,17 @@ def geriye_donuk_test(seriler):
             satirlar.append({"yakit": yakit, "tarih": tarih, "tahmin": round(tahmin, 2), "gercek": gercek})
             print(f"GERIYE DONUK TEST {yakit} {tarih}: tahmin {tahmin:+.2f} TL, gercek {gercek:+.2f} TL")
     return satirlar
+
+
+def katsayi_hesapla(test):
+    """Gercek/tahmin oranlarinin medyani (|tahmin|>0.5 ve ayni yondekiler). Az veri -> None."""
+    oranlar = sorted(t["gercek"] / t["tahmin"] for t in test
+                     if abs(t["tahmin"]) > 0.5 and t["gercek"] * t["tahmin"] > 0)
+    if len(oranlar) < 2:
+        return None, len(oranlar)
+    n = len(oranlar)
+    med = oranlar[n // 2] if n % 2 else (oranlar[n // 2 - 1] + oranlar[n // 2]) / 2
+    return med, n
 
 
 def baski_bildirim(baski, durum):
@@ -511,7 +632,7 @@ def bildirimleri_gonder(beklentiler, iptaller, durum):
 
 # ---------------------------------------------------------------- HTML
 def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=None,
-              baski=None, seriler=None, test=None):
+              baski=None, seriler=None, test=None, katsayi=None, katsayi_n=0):
     e = html.escape
     satirlar = []
     for g in beklentiler:
@@ -561,10 +682,9 @@ def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=Non
         satir = "".join(
             f"<tr><td>{e(v['il'])}</td>"
             + "".join(f"<td>{v['fiyat'][y]:.2f}</td>" if y in v["fiyat"] else "<td>–</td>"
-                      for y in ("benzin", "motorin", "lpg")) + "</tr>"
+                      for y in ("benzin", "motorin")) + "</tr>"
             for v in opet.values())
-        opet_html = (f"<h2>Pompa fiyatı (Opet)</h2><table><tr><th></th><th>Benzin</th><th>Motorin</th>"
-                     f"<th>LPG</th></tr>{satir}</table>"
+        opet_html = (f"<h2>Pompa fiyatı (Opet)</h2><table><tr><th></th><th>Benzin</th><th>Motorin</th></tr>{satir}</table>"
                      f"<div class='k'>Opet son güncelleme: {e(str(opet_guncel or '?'))}</div>")
 
     baski_html = ""
@@ -576,7 +696,9 @@ def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=Non
             yazi = "zam baskısı" if b > 0.3 else "indirim baskısı" if b < -0.3 else "nötr"
             kartlar += (f'<div class="kart guclu {sinif}"><div class="ust"><b>{yakit.capitalize()}</b>'
                         f'<span class="yon">{yazi}</span><span class="tutar">{b:+.2f} TL/L</span></div>'
-                        f'<div class="alt">{e(v["taban_tarih"])} değişiminden bu yana, tahmini</div></div>')
+                        f'<div class="alt">{e(v["taban_tarih"])} değişiminden bu yana, ham tahmin'
+                        + (f' · düzeltilmiş (×{katsayi:.1f}, {katsayi_n} veriyle, deneme): '
+                           f'<b>{b * katsayi:+.2f} TL/L</b>' if katsayi else '') + '</div></div>')
         piyasa = ""
         if seriler:
             son = lambda s: seriler[s][max(seriler[s])]
@@ -590,6 +712,16 @@ def html_uret(beklentiler, iptaller, kur, kur_gecmis, opet=None, opet_guncel=Non
         baski_html = (f"<h2>Maliyet baskısı</h2>{kartlar}{piyasa}{test_html}"
                       "<div class='k'>NYMEX vadelileri gasoil yerine vekil olarak kullanılıyor; "
                       "rafinerinin baktığı Platts CIF MED ile birebir aynı değil.</div>")
+
+    karne_html = ""
+    karne = durum_global.get("site_karnesi", {})
+    if karne:
+        sirali = sorted(karne.items(), key=lambda kv: (-kv[1]["dogru"], kv[1]["yanlis"]))[:12]
+        karne_html = ("<h2>Site karnesi</h2><table><tr><th>Site</th><th>Doğru</th><th>Yanlış</th></tr>"
+                      + "".join(f"<tr><td>{e(k)}{' ★' if k in GUVENILIR else ''}</td><td>{v['dogru']}</td>"
+                                f"<td>{v['yanlis']}</td></tr>" for k, v in sirali)
+                      + "</table><div class='k'>★ = kanıtlanmış güvenilir, 2 site sayılır. Opet'te gerçek "
+                        "değişim görülünce otomatik puanlanır.</div>")
 
     durum = " · ".join(f"{e(k)}: {'✓' if v == 'ok' else '✗ ' + e(v)}" for k, v in durum_kaynak.items())
 
@@ -626,6 +758,7 @@ footer{{margin-top:24px;font-size:.8rem;color:var(--muted)}}
 {iptal_blok}
 {baski_html}
 {opet_html}
+{karne_html}
 <h2>Kur</h2>
 {kur_html}
 {svg}
@@ -642,6 +775,9 @@ footer{{margin-top:24px;font-size:.8rem;color:var(--muted)}}
 # ---------------------------------------------------------------- ana akis
 def main():
     durum = json_oku("durum.json", {})
+    global durum_global
+    durum_global = durum
+    guvenilirleri_belirle(durum)
 
     if os.environ.get("TEST_BILDIRIM") == "1":
         ok = ntfy("Akaryakit takip calisiyor", "Deneme bildirimi: sistem kuruldu ve çalışıyor.",
@@ -660,7 +796,9 @@ def main():
 
     seriler = piyasa_al()
     baski = baski_hesapla(seriler, durum)
-    test = geriye_donuk_test(seriler)
+    test = geriye_donuk_test(seriler, durum)
+    katsayi, katsayi_n = katsayi_hesapla(test)
+    print("Kalibrasyon katsayisi:", katsayi, "veri:", katsayi_n)
     for y, v in baski.items():
         print(f"Baski {y}: {v['baski']:+.2f} TL/L (taban {v['taban_tarih']})")
     baski_bildirim(baski, durum)
@@ -682,10 +820,24 @@ def main():
             if kayit not in arsiv:
                 arsiv.append(kayit)
     json_yaz("beklenti_arsiv.json", arsiv[-500:])
+    gozlem = json_oku("gozlem.json", [])
+    for g in beklentiler:
+        if g["tutar"] is None:
+            continue
+        kayit = {"gun": f"{SIMDI:%Y-%m-%d}", "yakit": g["yakit"], "yon": g["yon"], "tutar": g["tutar"],
+                 "siteler": sorted(g["kaynaklar"])}
+        eski = next((o for o in gozlem if (o["gun"], o["yakit"], o["yon"], o["tutar"]) ==
+                     (kayit["gun"], kayit["yakit"], kayit["yon"], kayit["tutar"])), None)
+        if eski:
+            eski["siteler"] = sorted(set(eski["siteler"]) | set(kayit["siteler"]))
+        else:
+            gozlem.append(kayit)
+    json_yaz("gozlem.json", gozlem[-1000:])
 
     durum["son_calisma"] = SIMDI.isoformat()
     json_yaz("durum.json", durum)
-    html_uret(beklentiler, iptaller, kur, kur_gecmis, opet, opet_guncel, baski, seriler, test)
+    html_uret(beklentiler, iptaller, kur, kur_gecmis, opet, opet_guncel, baski, seriler, test,
+              katsayi, katsayi_n)
     print("Kaynak durumu:", durum_kaynak)
     return 0
 
