@@ -2,24 +2,24 @@
  "gonderilen": {
   "baski|motorin|2026-10-10|+|1": "2026-10-13T18:56:25.559894+03:00"
  },
- "son_calisma": "2026-10-13T23:39:28.541145+03:00",
+ "son_calisma": "2026-10-14T00:33:48.440056+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 83.64,
-    "motorin": 96.43
+    "benzin": 83.69,
+    "motorin": 96.53
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 85.8,
-    "motorin": 98.7
+    "benzin": 85.9,
+    "motorin": 98.8
    }
   }
  },
- "opet_lastupdate": "10.10.2026",
+ "opet_lastupdate": "14.10.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -30,7 +30,25 @@
   "Yüksek Kükürtlü Fuel Oil"
  ],
  "son_pompa_degisim": {
-  "motorin": "2026-10-10",
-  "benzin": "2026-10-10"
+  "motorin": "2026-10-14",
+  "benzin": "2026-10-14"
+ },
+ "degisim_gecmis": [
+  [
+   "benzin",
+   "2026-10-14",
+   0.05
+  ],
+  [
+   "motorin",
+   "2026-10-14",
+   0.1
+  ]
+ ],
+ "site_karnesi": {
+  "Hey Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  }
  }
 }

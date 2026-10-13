@@ -1,0 +1,33 @@
+[
+ {
+  "zaman": "2026-10-14T00:33+03:00",
+  "lastUpdate": "14.10.2026",
+  "erken": false,
+  "degisimler": [
+   {
+    "il": "İstanbul",
+    "yakit": "benzin",
+    "eski": 83.64,
+    "yeni": 83.69
+   },
+   {
+    "il": "İstanbul",
+    "yakit": "motorin",
+    "eski": 96.43,
+    "yeni": 96.53
+   },
+   {
+    "il": "Erzurum",
+    "yakit": "benzin",
+    "eski": 85.8,
+    "yeni": 85.9
+   },
+   {
+    "il": "Erzurum",
+    "yakit": "motorin",
+    "eski": 98.7,
+    "yeni": 98.8
+   }
+  ]
+ }
+]
