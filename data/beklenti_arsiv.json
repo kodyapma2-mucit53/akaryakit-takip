@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "gun": "2026-10-15",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 5.65,
+  "siteler": [
+   "Cumhuriyet",
+   "Ege Alternatif",
+   "Hunat TV",
+   "KARAR",
+   "Kayserim.net",
+   "Ulusal Kanal"
+  ]
+ }
+]
