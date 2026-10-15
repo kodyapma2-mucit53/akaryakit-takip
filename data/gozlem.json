@@ -23,6 +23,7 @@
   "yon": "indirim",
   "tutar": 5.65,
   "siteler": [
+   "24 Saat Gazetesi",
    "AHB Medya",
    "Afyon Haber",
    "Afyon Türkeli Gazetesi",
@@ -32,6 +33,7 @@
    "Bugün Kocaeli Gazetesi",
    "Bursa Saati Gazetesi",
    "Bursa TV",
+   "Bursada Bugün",
    "Bölgenin Sesi Gazetesi",
    "Cumhuriyet",
    "Doğruhaber",
@@ -39,6 +41,7 @@
    "Ege Alternatif",
    "Ensonhaber",
    "Eskişehir Haberleri",
+   "F5Haber",
    "Gazete Kritik",
    "Haberler.com on MSN",
    "Haberlisin",
@@ -53,11 +56,14 @@
    "N Gazete",
    "Personel Sağlık Net",
    "Rudaw",
+   "Samsun Gazetesi",
    "Saray Medya",
    "Son Dakika",
    "Ulusal Kanal",
    "Urfanatik",
    "Yayla Haber",
+   "Yeni Akit",
+   "Yeni Akit Gazetesi",
    "Yeni Bakış Gazetesi İzmir",
    "Yeni Meram",
    "Yeni Şafak",
@@ -65,6 +71,7 @@
    "https://www.babaocagi.com/",
    "kayserihaber.com",
    "urfahaberler.com",
+   "www.yenijournal.com",
    "Şehrivan"
   ]
  }
