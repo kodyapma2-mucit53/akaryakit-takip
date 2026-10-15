@@ -65,5 +65,48 @@
    "kayserihaber.com",
    "Şehrivan"
   ]
+ },
+ {
+  "gun": "2026-10-15",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 5.65,
+  "siteler": [
+   "AHB Medya",
+   "Ankara Masası",
+   "Aydın Kulis",
+   "Bingöl Online",
+   "Bursa Saati Gazetesi",
+   "Bölgenin Sesi Gazetesi",
+   "Cumhuriyet",
+   "Doğruhaber",
+   "Dürüst Haber",
+   "Ege Alternatif",
+   "Ensonhaber",
+   "Eskişehir Haberleri",
+   "Haberlisin",
+   "Hunat TV",
+   "Instagram",
+   "KARAR",
+   "Kastamonu İstiklal Gazetesi",
+   "Kayseri Gündem Gazetesi",
+   "Kayserim.net",
+   "Manisa Kulis Haber",
+   "N Gazete",
+   "Personel Sağlık Net",
+   "Rudaw",
+   "Saray Medya",
+   "Son Dakika",
+   "Ulusal Kanal",
+   "Urfanatik",
+   "Yayla Haber",
+   "Yeni Meram",
+   "Yeni Şafak",
+   "Yüksekova Halkın Sesi",
+   "https://www.babaocagi.com/",
+   "kayserihaber.com",
+   "urfahaberler.com",
+   "Şehrivan"
+  ]
  }
 ]
