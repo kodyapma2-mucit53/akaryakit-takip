@@ -129,7 +129,9 @@
    "F5Haber",
    "GZT",
    "Gazete Kritik",
+   "Haber Expres",
    "Haber Gündemim",
+   "Haber3",
    "HaberTS",
    "Haberhergün",
    "Haberler",
@@ -140,6 +142,7 @@
    "Kastamonu İstiklal Gazetesi",
    "Kayseri Gündem Gazetesi",
    "Kayserim.net",
+   "Kocaeli Denge",
    "Kocaeli TV",
    "Manisa Kulis Haber",
    "Mardin Life",
@@ -154,6 +157,7 @@
    "Saray Medya",
    "TV Bolu",
    "TeknoTalk",
+   "Timeturk",
    "Ulusal Kanal",
    "Urfanatik",
    "Van Ekspres",
@@ -181,6 +185,19 @@
    "İnegöl Yerel Haber",
    "İşçi Haber",
    "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-16",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Anka Haber",
+   "Aydın Haber, Son Dakika Aydın Haberleri | Aydinpost.com",
+   "Notbir",
+   "Son Dakika",
+   "Toplumsal Haber"
   ]
  }
 ]
