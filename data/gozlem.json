@@ -272,11 +272,24 @@
   "yon": "indirim",
   "tutar": 4.3,
   "siteler": [
+   "Bursa TV",
    "Egeli Gazete",
    "Haber.com",
+   "Haberlisin",
    "Kocaeli Kent Gazetesi",
    "TGRT Haber",
-   "Yayla Haber"
+   "Yayla Haber",
+   "Yeniçağ Gazetesi",
+   "İlke Haber Ajansı"
+  ]
+ },
+ {
+  "gun": "2026-10-17",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.3,
+  "siteler": [
+   "kayserihaber.com"
   ]
  }
 ]
