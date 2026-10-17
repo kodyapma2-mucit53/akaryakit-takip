@@ -264,5 +264,14 @@
    "Toplumsal Haber",
    "İşte Kocaeli Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-17",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "TGRT Haber"
+  ]
  }
 ]
