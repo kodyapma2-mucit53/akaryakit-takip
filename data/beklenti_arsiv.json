@@ -4160,5 +4160,31 @@
    "İlkses Gazetesi",
    "İz Gazete"
   ]
+ },
+ {
+  "gun": "2026-10-17",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 5.65,
+  "siteler": [
+   "AHB Medya",
+   "Ajans04",
+   "Aksu TV Haber",
+   "Bursa Hakimiyet",
+   "Bursa TV",
+   "Finans Gündem",
+   "GZT",
+   "Gazete Gerçek",
+   "Haber Expres",
+   "Haber Fark",
+   "Haber Meydan",
+   "Haber3",
+   "Ortadoğu Gazetesi",
+   "Rize Takip",
+   "Toros Gazetesi",
+   "Yeni Malatya",
+   "Yeniçağ Gazetesi",
+   "İşçi Haber"
+  ]
  }
 ]
