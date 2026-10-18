@@ -396,5 +396,27 @@
   "siteler": [
    "Yeni Kıroba"
   ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "AHB Medya",
+   "Ajans04",
+   "Anadolu Ekspres Gazetesi",
+   "Milli Gazete",
+   "Sivas Ekspres Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.37,
+  "siteler": [
+   "Yeni Kıroba"
+  ]
  }
 ]
