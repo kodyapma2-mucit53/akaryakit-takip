@@ -7187,5 +7187,39 @@
    "Şehrivan",
    "Şok Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-18",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "AHB Medya",
+   "Adapazarı Akşam Haberleri Gazetesi",
+   "Aksu TV Haber",
+   "Besni Güncel Gazetesi",
+   "Bursa TV",
+   "Diken",
+   "Ege Saati",
+   "Haber Ekspres",
+   "Haberlisin",
+   "Karamanhaberleri.com",
+   "Kayseri Gündem Gazetesi",
+   "Kocaeli Kent Gazetesi",
+   "Malatya Güncel",
+   "Pamukova Halk",
+   "Rize Takip",
+   "Samsun Gazetesi",
+   "Sivas Ekspres Gazetesi",
+   "TGRT Haber",
+   "Türkiye Eğitim",
+   "Veryansın TV",
+   "Yayla Haber",
+   "Yeniçağ Gazetesi",
+   "Yeşil Afşin Gazetesi",
+   "https://kelkitvadisi.com.tr/",
+   "urfahaberler.com",
+   "İlke Haber Ajansı"
+  ]
  }
 ]
