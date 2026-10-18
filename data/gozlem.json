@@ -323,6 +323,7 @@
   "siteler": [
    "AHB Medya",
    "Adapazarı Akşam Haberleri Gazetesi",
+   "Ajans04",
    "Aksu TV Haber",
    "Anadolu Ekspres Gazetesi",
    "Ankara Masası",
@@ -385,6 +386,15 @@
   "tutar": 5.65,
   "siteler": [
    "Rize Takip"
+  ]
+ },
+ {
+  "gun": "2026-10-18",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.37,
+  "siteler": [
+   "Yeni Kıroba"
   ]
  }
 ]
