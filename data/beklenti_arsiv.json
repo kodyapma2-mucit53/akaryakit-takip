@@ -8940,5 +8940,52 @@
    "İstiklal Gazetesi",
    "Şehrivan"
   ]
+ },
+ {
+  "gun": "2026-10-18",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "2Eylül Haber",
+   "Anadolu Gazetesi",
+   "Ankara Haber",
+   "Boyoz Haber",
+   "Bu Sabah Malatya",
+   "Bugün Kocaeli Gazetesi",
+   "Burdur Yenigün",
+   "Enerji Günlüğü",
+   "Erzincan Net",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Habertürk",
+   "Kocaeli Denge",
+   "Marmara Bölge",
+   "Niğde DMC Haber",
+   "Nokta Gazetesi",
+   "Saray Medya",
+   "Sivas İrade",
+   "Sonsöz Gazetesi",
+   "TV5 Haber",
+   "Telgraf Gazetesi",
+   "Uzmanpara",
+   "Özgün Kocaeli Gazetesi",
+   "İnternet Haber",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-18",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "AHB Medya",
+   "Ajans04",
+   "Anadolu Ekspres Gazetesi",
+   "Milli Gazete",
+   "Pamukova Halk",
+   "Sivas Ekspres Gazetesi"
+  ]
  }
 ]
