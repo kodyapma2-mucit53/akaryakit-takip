@@ -8708,5 +8708,45 @@
    "Sivas Ekspres Gazetesi",
    "Türkiye Eğitim"
   ]
+ },
+ {
+  "gun": "2026-10-18",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "2Eylül Haber",
+   "Afyon Haber",
+   "Afyon Türkeli Gazetesi",
+   "Anadolu Gazetesi",
+   "Anadolu'da Bugün",
+   "Ankara Haber",
+   "Bugün Kocaeli Gazetesi",
+   "Egemen Gazetesi",
+   "Enerji Günlüğü",
+   "Erzincan Net",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Haberizlenim",
+   "Habertürk",
+   "Kocaeli Denge",
+   "Marmara Bölge",
+   "Mavi Kocaeli",
+   "Memur Postası",
+   "Mücadele Gazetesi",
+   "Niğde DMC Haber",
+   "Nokta Gazetesi",
+   "Saray Medya",
+   "Sonsöz Gazetesi",
+   "TV5 Haber",
+   "Telgraf Gazetesi",
+   "Uzmanpara",
+   "Van Haber",
+   "bingöl kent haber",
+   "Özgün Kocaeli Gazetesi",
+   "İnternet Haber",
+   "İstiklal Gazetesi",
+   "Şehrivan"
+  ]
  }
 ]
