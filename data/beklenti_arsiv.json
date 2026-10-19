@@ -9167,5 +9167,52 @@
    "Sivas Ekspres Gazetesi",
    "Son Dakika"
   ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "2Eylül Haber",
+   "Anadolu Gazetesi",
+   "Boyoz Haber",
+   "Bu Sabah Malatya",
+   "Burdur Yenigün",
+   "Ekonomim",
+   "Gaziantep Time",
+   "Habertürk",
+   "Kocaeli Denge",
+   "Manşet Haber",
+   "Marmara Bölge",
+   "Niğde DMC Haber",
+   "Nokta Gazetesi",
+   "Saray Medya",
+   "Seydişehir Haber",
+   "Sivas İrade",
+   "Sonsöz Gazetesi",
+   "Telgraf Gazetesi",
+   "Uzmanpara",
+   "Yeni Akit",
+   "Özgün Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Ajans04",
+   "Anadolu Ekspres Gazetesi",
+   "Ardahan Haber",
+   "Haberler",
+   "Milli Gazete",
+   "Sivas Ekspres Gazetesi",
+   "Son Dakika",
+   "Uşak Haber Gazetesi",
+   "Yeni Alanya",
+   "Yeni Alanya Gazetesi"
+  ]
  }
 ]
