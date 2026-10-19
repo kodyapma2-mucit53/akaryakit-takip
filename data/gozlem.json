@@ -408,6 +408,7 @@
    "Anadolu Ekspres Gazetesi",
    "Ardahan Haber",
    "BBN Haber",
+   "BRS Haber",
    "Bursa Hakimiyet",
    "Dumlupınar Gazetesi",
    "Düzce TV",
@@ -417,15 +418,21 @@
    "Haber32",
    "Haberler",
    "Haberler.com",
+   "Hunat TV",
    "Medyaradar",
    "Milli Gazete",
    "Okur Gazetesi",
+   "Ortadoğu Gazetesi",
+   "SAYFA16",
    "Sivas Ekspres Gazetesi",
    "Son Dakika",
+   "Timeturk",
+   "Uyan 32",
    "Uşak Haber Gazetesi",
    "Yeni Alanya",
    "Yeni Alanya Gazetesi",
-   "YeniSöke Gazetesi"
+   "YeniSöke Gazetesi",
+   "Yeniçağ Gazetesi"
   ]
  },
  {
@@ -435,6 +442,15 @@
   "tutar": 4.37,
   "siteler": [
    "Yeni Kıroba"
+  ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.67,
+  "siteler": [
+   "Kocaeli Kent Gazetesi"
   ]
  }
 ]
