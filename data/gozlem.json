@@ -412,7 +412,9 @@
    "Ardahan Haber",
    "BBN Haber",
    "BRS Haber",
+   "Bitlis Haber",
    "Bursa Hakimiyet",
+   "Bursa TV",
    "Büyük Sivas Haber",
    "Dumlupınar Gazetesi",
    "Düzce TV",
@@ -423,10 +425,12 @@
    "Haberler",
    "Haberler.com",
    "Hunat TV",
+   "Kırıkkale Manşet Gazetesi",
    "Medyaradar",
    "Milli Gazete",
    "Muğla Yenigün",
    "N Gazete",
+   "NetGaste",
    "Okur Gazetesi",
    "Ordu Yeni Dönem Gazetesi",
    "Ortadoğu Gazetesi",
@@ -440,10 +444,12 @@
    "Son haberler",
    "Timeturk",
    "Türkgün",
+   "Türkiye Eğitim",
    "Urfanın Nabzı",
    "Uyan 32",
    "Uşak Haber Gazetesi",
    "Uşak Olay",
+   "Van Haber",
    "Yeni Alanya",
    "Yeni Alanya Gazetesi",
    "YeniSöke Gazetesi",
@@ -470,6 +476,15 @@
   "tutar": 4.67,
   "siteler": [
    "Kocaeli Kent Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.3,
+  "siteler": [
+   "Yeni Ankara"
   ]
  }
 ]
