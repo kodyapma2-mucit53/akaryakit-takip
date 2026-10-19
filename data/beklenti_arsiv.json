@@ -9214,5 +9214,55 @@
    "Yeni Alanya",
    "Yeni Alanya Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "2Eylül Haber",
+   "Anadolu Gazetesi",
+   "Bağımsız Kocaeli",
+   "Boyoz Haber",
+   "Bu Sabah Malatya",
+   "Burdur Yenigün",
+   "Diyarbakir.Net",
+   "Ekonomim",
+   "Gaziantep Time",
+   "Haber Global",
+   "Habertürk",
+   "Kocaeli Denge",
+   "Manşet Haber",
+   "Marmara Bölge",
+   "Mynet Finans",
+   "Niğde DMC Haber",
+   "Nokta Gazetesi",
+   "Saray Medya",
+   "Seydişehir Haber",
+   "Sivas İrade",
+   "Uzmanpara",
+   "Yeni Akit",
+   "Özgün Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-19",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Ajans04",
+   "Anadolu Ekspres Gazetesi",
+   "Gündem Sivas",
+   "Haberler",
+   "Milli Gazete",
+   "Sivas Ekspres Gazetesi",
+   "Son Dakika",
+   "Uşak Haber Gazetesi",
+   "Yeni Alanya",
+   "Yeni Alanya Gazetesi",
+   "YeniSöke Gazetesi"
+  ]
  }
 ]
