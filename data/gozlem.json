@@ -500,5 +500,77 @@
   "siteler": [
    "Yeni Ankara"
   ]
+ },
+ {
+  "gun": "2026-10-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "45 Haber",
+   "AHB Medya",
+   "Ajans04",
+   "Aksu TV Haber",
+   "BBN Haber",
+   "Bitlis Haber",
+   "Bugün Kocaeli Gazetesi",
+   "Bursa Hakimiyet",
+   "Bursa TV",
+   "Dumlupınar Gazetesi",
+   "Dürüst Haber",
+   "Düzce TV",
+   "Ensonhaber",
+   "Fethiye Haber",
+   "GZT",
+   "Gündem Sivas",
+   "Haber Hürriyeti",
+   "Haber32",
+   "Haberler",
+   "Milli Gazete",
+   "Muğla Yenigün",
+   "N Gazete",
+   "NetGaste",
+   "Okur Gazetesi",
+   "Ordu Yeni Dönem Gazetesi",
+   "Ortadoğu Gazetesi",
+   "Referans Türk",
+   "Rize Takip",
+   "SAYFA16",
+   "Samsun Cep Haber",
+   "Samsun Haber",
+   "Son Dakika",
+   "Timeturk",
+   "Türkgün",
+   "Türkiye Eğitim",
+   "Urfanın Nabzı",
+   "Uyan 32",
+   "Uşak Haber Gazetesi",
+   "Van Haber",
+   "Yeni Alanya",
+   "YeniSöke Gazetesi",
+   "Yeniçağ Gazetesi",
+   "Yıldırım Gazetesi",
+   "haberonses.com",
+   "Çanakkale TV"
+  ]
+ },
+ {
+  "gun": "2026-10-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.37,
+  "siteler": [
+   "Bismil Haber",
+   "Van Bölge Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.67,
+  "siteler": [
+   "Kocaeli Kent Gazetesi"
+  ]
  }
 ]
