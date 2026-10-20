@@ -13728,5 +13728,24 @@
    "Ege Alternatif",
    "Haber Hürriyeti"
   ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Ege Telgraf",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Genç Gazete",
+   "Haberci TV",
+   "NNC Haber",
+   "Sözcü Gazetesi",
+   "Süper Kanal TV",
+   "İnegöl Online",
+   "İnternet Haber",
+   "İz Gazete"
+  ]
  }
 ]
