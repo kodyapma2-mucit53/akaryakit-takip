@@ -580,5 +580,28 @@
   "siteler": [
    "Kocaeli Kent Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "AjansHaber",
+   "Aksu TV Haber",
+   "Bursa TV",
+   "Ege Alternatif",
+   "Haber Hürriyeti"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.37,
+  "siteler": [
+   "Bismil Haber",
+   "Van Bölge Gazetesi"
+  ]
  }
 ]

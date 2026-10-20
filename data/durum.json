@@ -1,14 +1,14 @@
 {
  "gonderilen": {
-  "2026-10-18|benzin|indirim|None": "2026-10-18T00:00:25.222573+03:00",
   "iptal|benzine indirim ertelendi! yeni rakam belli oldu": "2026-10-18T06:33:42.828673+03:00",
   "iptal|benzin indirimi iptal mi oldu, ne zaman gelecek? 17 ekim 2026 istanbul, ankara v": "2026-10-18T14:30:45.135324+03:00",
   "2026-10-19|benzin|indirim|4.3": "2026-10-19T00:32:02.701085+03:00",
   "baski|motorin|2026-10-14|+|1": "2026-10-19T02:29:22.338763+03:00",
   "baski|benzin|2026-10-14|-|1": "2026-10-19T07:12:29.021997+03:00",
-  "2026-10-20|benzin|indirim|None": "2026-10-20T00:08:59.633200+03:00"
+  "2026-10-20|benzin|indirim|None": "2026-10-20T00:08:59.633200+03:00",
+  "2026-10-21|benzin|indirim|4.3": "2026-10-21T00:36:05.161204+03:00"
  },
- "son_calisma": "2026-10-20T23:39:15.285822+03:00",
+ "son_calisma": "2026-10-21T00:36:05.161204+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
