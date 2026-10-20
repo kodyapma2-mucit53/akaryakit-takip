@@ -13652,5 +13652,26 @@
    "Gündem Sivas",
    "Haber Hürriyeti"
   ]
+ },
+ {
+  "gun": "2026-10-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Demokrat Gazetesi",
+   "Ege Telgraf",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Genç Gazete",
+   "Haberci TV",
+   "Haberlisin",
+   "Sözcü Gazetesi",
+   "Süper Kanal TV",
+   "Özgün Kocaeli Gazetesi",
+   "İnegöl Online",
+   "İnternet Haber",
+   "İz Gazete"
+  ]
  }
 ]
