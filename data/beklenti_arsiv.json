@@ -13404,5 +13404,66 @@
    "Türkiye Eğitim",
    "haberonses.com"
   ]
+ },
+ {
+  "gun": "2026-10-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "A Haber",
+   "Antalya Hürses",
+   "Demokrat Gazetesi",
+   "Düzce Damla Gazetesi",
+   "Düzce Gazete Efsane",
+   "Ege Postası",
+   "Ege Telgraf",
+   "Eskişehir Ekspres",
+   "Eskişehir Haber",
+   "Eskişehir Haberleri",
+   "Gazete Zebra",
+   "Gaziantep Time",
+   "Genç Gazete",
+   "Haber Fark",
+   "Haberci TV",
+   "Haberlisin",
+   "Haymana Gazetesi",
+   "Konya Hakimiyet Gazetesi",
+   "Lider Haber",
+   "Merhaba Yozgat Gazetesi",
+   "N Haber İzmir",
+   "Sözcü Gazetesi",
+   "Süper Kanal TV",
+   "Uzmanpara",
+   "Van Ekspres",
+   "Yalova Hayat",
+   "Yeni Ankara",
+   "Özgün Kocaeli Gazetesi",
+   "İnegöl Online",
+   "İnternet Haber",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-10-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "45 Haber",
+   "AHB Medya",
+   "AjansHaber",
+   "Aksu TV Haber",
+   "Bitlis Haber",
+   "Bugün Kocaeli Gazetesi",
+   "Bursa TV",
+   "Ege Alternatif",
+   "Fethiye Haber",
+   "Gündem Sivas",
+   "Haber Hürriyeti",
+   "Rize Takip",
+   "Türkiye Eğitim",
+   "haberonses.com"
+  ]
  }
 ]
