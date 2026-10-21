@@ -13907,5 +13907,88 @@
    "Ege Alternatif",
    "Haber Hürriyeti"
   ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "12punto",
+   "AHB Medya",
+   "Afyon Haber",
+   "Alanya Postası",
+   "Açıksöz Gazetesi",
+   "Besni Güncel Gazetesi",
+   "Bugün Kocaeli Gazetesi",
+   "Bursa Hakimiyet",
+   "Bursa TV",
+   "Cumhuriyet",
+   "Diken",
+   "Dumlupınar Gazetesi",
+   "Ege Postası",
+   "Ege Telgraf",
+   "Ekonomim",
+   "Ensonhaber",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Gün Haber",
+   "Haber 7",
+   "Haber Vakti",
+   "Haber61",
+   "Haberci TV",
+   "Haberizma",
+   "Habertürk",
+   "Haymana Gazetesi",
+   "Hunat TV",
+   "KARAR",
+   "Kamudanhaber",
+   "Kangal Gündem",
+   "Malatya Sonsöz Haber",
+   "Manisa Kulis Haber",
+   "Manşet Haber",
+   "Mardin Life",
+   "Milat Gazetesi",
+   "Muğla Yenigün",
+   "NNC Haber",
+   "Samsun Gazetesi",
+   "Saray Medya",
+   "Son Dakika",
+   "Sözcü Gazetesi",
+   "T24",
+   "TRHaber",
+   "Van Bölge Gazetesi",
+   "birgun.net",
+   "ekotürk",
+   "Özgün Kocaeli",
+   "Şok Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.35,
+  "siteler": [
+   "Egeli Gazete",
+   "Kayserim.net",
+   "Yeni Alanya",
+   "Yeniçağ Gazetesi",
+   "İstanbul Ticaret Gazetesi",
+   "İzmir’de Son Dakika"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Aksu TV Haber",
+   "Bursa TV",
+   "Ege Alternatif",
+   "Haber Hürriyeti",
+   "Instagram"
+  ]
  }
 ]

@@ -598,6 +598,7 @@
    "Genç Gazete",
    "Haber Hürriyeti",
    "Haberci TV",
+   "Instagram",
    "Lider Haber",
    "Manşet Haber",
    "NNC Haber",
@@ -624,7 +625,31 @@
   "yon": "indirim",
   "tutar": 3.35,
   "siteler": [
+   "Egeli Gazete",
+   "Kayserim.net",
+   "Yeni Alanya",
+   "Yeniçağ Gazetesi",
+   "İstanbul Ticaret Gazetesi",
    "İzmir’de Son Dakika"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 7.65,
+  "siteler": [
+   "YatırımX",
+   "Yeni Şafak"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 7.5,
+  "siteler": [
+   "tv100 Haber"
   ]
  }
 ]
