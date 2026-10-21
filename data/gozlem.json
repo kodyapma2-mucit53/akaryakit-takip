@@ -629,11 +629,14 @@
    "Gazete Arena",
    "Gündem Sivas",
    "Haber Aktüel",
+   "Haber Ekspres",
+   "Kayseri Gündem",
    "Kayserim.net",
    "Kısa Dalga",
    "Milli Gazete",
    "Toplumsal Haber",
    "Yeni Alanya",
+   "Yeni Ankara",
    "Yeniçağ Gazetesi",
    "Yeşil Afşin Gazetesi",
    "İstanbul Ticaret Gazetesi",
@@ -666,6 +669,7 @@
   "yon": "indirim",
   "tutar": 0.35,
   "siteler": [
+   "Gazete Kritik",
    "Son Dakika",
    "YENİ ASYA"
   ]
