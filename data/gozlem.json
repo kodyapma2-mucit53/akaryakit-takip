@@ -628,6 +628,7 @@
    "Egeli Gazete",
    "Gazete Arena",
    "Gündem Sivas",
+   "Haber Aktüel",
    "Kayserim.net",
    "Kısa Dalga",
    "Milli Gazete",
@@ -645,6 +646,7 @@
   "yon": "indirim",
   "tutar": 7.65,
   "siteler": [
+   "Ege Telgraf",
    "YatırımX",
    "Yeni Şafak"
   ]
@@ -664,7 +666,8 @@
   "yon": "indirim",
   "tutar": 0.35,
   "siteler": [
-   "Son Dakika"
+   "Son Dakika",
+   "YENİ ASYA"
   ]
  },
  {
