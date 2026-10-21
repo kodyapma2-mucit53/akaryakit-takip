@@ -694,5 +694,82 @@
   "siteler": [
    "Timeturk"
   ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.35,
+  "siteler": [
+   "Afyon Türkeli Gazetesi",
+   "Gazete Arena",
+   "Gazete Zebra",
+   "Gündem Sivas",
+   "Haber Aktüel",
+   "Haber Ege",
+   "Haber Ekspres",
+   "Haber Expres",
+   "Haber Gündemim",
+   "Kayseri Gündem",
+   "Kısa Dalga",
+   "Milli Gazete",
+   "Toplumsal Haber",
+   "Urfanatik",
+   "Yeni Alanya",
+   "Yeni Ankara",
+   "Yeniçağ Gazetesi",
+   "Yeşil Afşin Gazetesi",
+   "İstanbul Ticaret Gazetesi",
+   "İzmir’de Son Dakika"
+  ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.35,
+  "siteler": [
+   "Gazete Kritik",
+   "Son Dakika",
+   "YENİ ASYA"
+  ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 7.65,
+  "siteler": [
+   "Ege Telgraf",
+   "Kurtalan Gazetesi",
+   "Yeni Şafak"
+  ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 7.5,
+  "siteler": [
+   "tv100 Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Instagram"
+  ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.55,
+  "siteler": [
+   "Timeturk"
+  ]
  }
 ]
