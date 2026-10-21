@@ -13873,5 +13873,39 @@
    "NNC Haber",
    "Sözcü Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Diken",
+   "Ege Telgraf",
+   "Ekonomim",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Haberci TV",
+   "Haberizma",
+   "Haberler",
+   "Haymana Gazetesi",
+   "KARAR",
+   "Manşet Haber",
+   "NNC Haber",
+   "Sözcü Gazetesi",
+   "Özgün Kocaeli"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Aksu TV Haber",
+   "Bursa TV",
+   "Ege Alternatif",
+   "Haber Hürriyeti"
+  ]
  }
 ]
