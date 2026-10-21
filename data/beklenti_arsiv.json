@@ -13793,5 +13793,26 @@
    "İnegöl Online",
    "İnternet Haber"
   ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "AHB Medya",
+   "Aksu TV Haber",
+   "Bursa TV",
+   "Ege Alternatif",
+   "Ege Telgraf",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Genç Gazete",
+   "Haber Hürriyeti",
+   "Haberci TV",
+   "NNC Haber",
+   "Sözcü Gazetesi",
+   "Süper Kanal TV"
+  ]
  }
 ]
