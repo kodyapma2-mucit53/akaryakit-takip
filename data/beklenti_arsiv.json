@@ -13834,5 +13834,25 @@
    "Süper Kanal TV",
    "İnegöl Online"
   ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Aksu TV Haber",
+   "Bursa TV",
+   "Ege Alternatif",
+   "Ege Telgraf",
+   "Eskişehir Haber",
+   "Gaziantep Time",
+   "Haber Hürriyeti",
+   "Haberci TV",
+   "Lider Haber",
+   "NNC Haber",
+   "Sözcü Gazetesi",
+   "Süper Kanal TV"
+  ]
  }
 ]
