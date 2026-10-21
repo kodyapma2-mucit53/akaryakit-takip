@@ -626,9 +626,15 @@
   "tutar": 3.35,
   "siteler": [
    "Egeli Gazete",
+   "Gazete Arena",
+   "Gündem Sivas",
    "Kayserim.net",
+   "Kısa Dalga",
+   "Milli Gazete",
+   "Toplumsal Haber",
    "Yeni Alanya",
    "Yeniçağ Gazetesi",
+   "Yeşil Afşin Gazetesi",
    "İstanbul Ticaret Gazetesi",
    "İzmir’de Son Dakika"
   ]
@@ -650,6 +656,24 @@
   "tutar": 7.5,
   "siteler": [
    "tv100 Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.35,
+  "siteler": [
+   "Son Dakika"
+  ]
+ },
+ {
+  "gun": "2026-10-21",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.55,
+  "siteler": [
+   "Timeturk"
   ]
  }
 ]
