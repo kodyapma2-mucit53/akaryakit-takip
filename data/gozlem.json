@@ -604,6 +604,7 @@
    "NNC Haber",
    "Sözcü Gazetesi",
    "Süper Kanal TV",
+   "haberonses.com",
    "İnegöl Online",
    "İnternet Haber",
    "İz Gazete"
@@ -633,6 +634,7 @@
    "Haber Aktüel",
    "Haber Ege",
    "Haber Ekspres",
+   "Haber Expres",
    "Haber Gündemim",
    "Kayseri Gündem",
    "Kayserim.net",
@@ -676,6 +678,7 @@
   "yon": "indirim",
   "tutar": 0.35,
   "siteler": [
+   "Anka Haber",
    "Gazete Kritik",
    "Son Dakika",
    "YENİ ASYA"
