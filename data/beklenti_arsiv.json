@@ -17609,5 +17609,31 @@
    "İnternet Haber",
    "İşte Kocaeli"
   ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.35,
+  "siteler": [
+   "AHB Medya",
+   "Afyon Türkeli Gazetesi",
+   "Ajans Balıklıgöl",
+   "Andırın Postası",
+   "Besni Güncel Gazetesi",
+   "Bizim Ankara",
+   "Doviz.com",
+   "Ege Telgraf",
+   "Haber Expres",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Milliyet",
+   "Yeni Şafak",
+   "birgun.net",
+   "www.malatyadan.com",
+   "İleri Gazetesi",
+   "İnternet Haber",
+   "İşte Kocaeli"
+  ]
  }
 ]
