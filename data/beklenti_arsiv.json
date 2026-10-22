@@ -17471,5 +17471,64 @@
    "Yeni Ankara",
    "Yeşil Afşin Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "AHB Medya",
+   "Ajans Balıklıgöl",
+   "Aksu TV Haber",
+   "Akyazı Haber Akyazı'nın Bir Numaralı Haber Sitesi",
+   "Andırın Postası",
+   "Bengü Türk",
+   "Besni Güncel Gazetesi",
+   "Bizim Ankara",
+   "Boyoz Haber",
+   "Doviz.com",
+   "Dürüst Haber",
+   "EHA Medya",
+   "Ege Telgraf",
+   "Eskişehir Ekspres",
+   "Evrensel",
+   "Güne Bakış Gazetesi",
+   "Haber Meydan",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Malatya Güncel",
+   "Milliyet",
+   "Referans Türk",
+   "Tokat Haber",
+   "Yalova Hayat",
+   "Yeni Şafak",
+   "Yeniufuk Gazetesi",
+   "Yıldırım Gazetesi",
+   "bianlikhaber.com",
+   "birgun.net",
+   "ede TV",
+   "www.malatyadan.com",
+   "İleri Gazetesi",
+   "İnternet Haber",
+   "İşte Kocaeli",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.35,
+  "siteler": [
+   "Afyon Türkeli Gazetesi",
+   "Gazete Zebra",
+   "Haber Ege",
+   "Haber Ekspres",
+   "Haber Expres",
+   "Haber Gündemim",
+   "Urfanatik",
+   "Yeni Ankara"
+  ]
  }
 ]
