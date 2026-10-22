@@ -17578,5 +17578,36 @@
    "Urfanatik",
    "Yeni Ankara"
   ]
+ },
+ {
+  "gun": "2026-10-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.35,
+  "siteler": [
+   "AHB Medya",
+   "Afyon Türkeli Gazetesi",
+   "Ajans Balıklıgöl",
+   "Andırın Postası",
+   "Besni Güncel Gazetesi",
+   "Bizim Ankara",
+   "Doviz.com",
+   "Ege Telgraf",
+   "Haber Ege",
+   "Haber Expres",
+   "Haber Gündemim",
+   "Haber Meydan",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Malatya Güncel",
+   "Milliyet",
+   "Yeni Şafak",
+   "Yeniufuk Gazetesi",
+   "birgun.net",
+   "www.malatyadan.com",
+   "İleri Gazetesi",
+   "İnternet Haber",
+   "İşte Kocaeli"
+  ]
  }
 ]
