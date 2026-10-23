@@ -17920,5 +17920,20 @@
    "birgun.net",
    "İleri Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-23",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.35,
+  "siteler": [
+   "DENİZLİ24HABER",
+   "Ege Telgraf",
+   "Kamudanhaber",
+   "Memur 365",
+   "Yeni Şafak",
+   "birgun.net",
+   "İleri Gazetesi"
+  ]
  }
 ]
