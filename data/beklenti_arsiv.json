@@ -17949,5 +17949,19 @@
    "birgun.net",
    "İleri Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-23",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.35,
+  "siteler": [
+   "Anka Haber",
+   "DENİZLİ24HABER",
+   "Kamudanhaber",
+   "Yeni Şafak",
+   "birgun.net",
+   "İleri Gazetesi"
+  ]
  }
 ]
