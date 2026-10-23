@@ -17835,5 +17835,24 @@
    "İleri Gazetesi",
    "İşte Kocaeli"
   ]
+ },
+ {
+  "gun": "2026-10-23",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Andırın Postası",
+   "DENİZLİ24HABER",
+   "Ege Telgraf",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Radyo Trafik",
+   "Yeni Şafak",
+   "birgun.net",
+   "www.malatyadan.com",
+   "İleri Gazetesi",
+   "İşte Kocaeli"
+  ]
  }
 ]
