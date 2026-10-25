@@ -860,5 +860,14 @@
    "Hey Haber",
    "heyhaber.com"
   ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 5.65,
+  "siteler": [
+   "Hey Haber"
+  ]
  }
 ]
