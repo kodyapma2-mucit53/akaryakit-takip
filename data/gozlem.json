@@ -850,5 +850,14 @@
    "Anka Haber",
    "Kamudanhaber"
   ]
+ },
+ {
+  "gun": "2026-10-25",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 5.65,
+  "siteler": [
+   "Hey Haber"
+  ]
  }
 ]
