@@ -17986,5 +17986,27 @@
    "DENİZLİ24HABER",
    "Kamudanhaber"
   ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Ekonomim",
+   "Taşköprü Postası",
+   "Tigris Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Ekonomim",
+   "Taşköprü Postası",
+   "Tigris Haber"
+  ]
  }
 ]
