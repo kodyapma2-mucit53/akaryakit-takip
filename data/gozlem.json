@@ -876,7 +876,12 @@
   "yon": "zam",
   "tutar": 3.6,
   "siteler": [
+   "Beyaz Gündem Gazetesi",
+   "Bundle",
+   "Haber Denizli",
    "Kısa Dalga",
+   "Niksar Danişmend",
+   "Sivas İrade",
    "Timeturk",
    "Yeniçağ Gazetesi",
    "yenicaggazetesi"
@@ -891,11 +896,15 @@
    "12punto",
    "16haber",
    "Aydınlık",
+   "Beyaz Gündem Gazetesi",
    "Ekonomim.com",
+   "Haber Denizli",
    "Haber3",
    "Kısa Dalga",
    "Milli Gazete",
    "NetGaste",
+   "Niksar Danişmend",
+   "Sivas İrade",
    "Timeturk",
    "Urfanatik",
    "Yeniçağ Gazetesi",
@@ -929,6 +938,15 @@
   "tutar": 4.15,
   "siteler": [
    "Aydınlık"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Bundle"
   ]
  }
 ]
