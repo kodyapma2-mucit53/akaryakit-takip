@@ -18157,5 +18157,41 @@
    "İz Gazete",
    "Şehrivan"
   ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "12punto",
+   "16haber",
+   "Aydınlık",
+   "Ekonomim.com",
+   "Haber3",
+   "Milli Gazete",
+   "NetGaste",
+   "Urfanatik",
+   "haberhurriyeti",
+   "sonmuhur.com",
+   "yenicaggazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "12punto",
+   "16haber",
+   "Ekonomim.com",
+   "Haber3",
+   "Milli Gazete",
+   "NetGaste",
+   "Urfanatik",
+   "haberhurriyeti",
+   "sonmuhur.com"
+  ]
  }
 ]

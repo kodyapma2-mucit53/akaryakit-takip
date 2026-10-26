@@ -877,7 +877,8 @@
   "tutar": 3.6,
   "siteler": [
    "Kısa Dalga",
-   "Yeniçağ Gazetesi"
+   "Yeniçağ Gazetesi",
+   "yenicaggazetesi"
   ]
  },
  {
@@ -886,8 +887,19 @@
   "yon": "zam",
   "tutar": 4.15,
   "siteler": [
+   "12punto",
+   "16haber",
+   "Aydınlık",
+   "Ekonomim.com",
+   "Haber3",
    "Kısa Dalga",
-   "Yeniçağ Gazetesi"
+   "Milli Gazete",
+   "NetGaste",
+   "Urfanatik",
+   "Yeniçağ Gazetesi",
+   "haberhurriyeti",
+   "sonmuhur.com",
+   "yenicaggazetesi"
   ]
  },
  {
@@ -906,6 +918,15 @@
   "tutar": 4.0,
   "siteler": [
    "Ekovitrin Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Aydınlık"
   ]
  }
 ]
