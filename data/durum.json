@@ -5,24 +5,24 @@
   "2026-10-26|benzin|zam|4.15": "2026-10-26T13:43:51.010238+03:00",
   "2026-10-26|motorin|zam|3.6": "2026-10-26T14:46:26.684224+03:00"
  },
- "son_calisma": "2026-10-26T23:38:33.742138+03:00",
+ "son_calisma": "2026-10-27T00:37:54.750578+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 76.07,
-    "motorin": 96.63
+    "benzin": 76.17,
+    "motorin": 96.73
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 78.28,
-    "motorin": 98.9
+    "benzin": 78.38,
+    "motorin": 99.0
    }
   }
  },
- "opet_lastupdate": "24.10.2026",
+ "opet_lastupdate": "27.10.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -33,8 +33,8 @@
   "Yüksek Kükürtlü Fuel Oil"
  ],
  "son_pompa_degisim": {
-  "motorin": "2026-10-20",
-  "benzin": "2026-10-22"
+  "motorin": "2026-10-27",
+  "benzin": "2026-10-27"
  },
  "degisim_gecmis": [
   [
@@ -61,12 +61,22 @@
    "benzin",
    "2026-10-22",
    -3.35
+  ],
+  [
+   "benzin",
+   "2026-10-27",
+   0.1
+  ],
+  [
+   "motorin",
+   "2026-10-27",
+   0.1
   ]
  ],
  "site_karnesi": {
   "Hey Haber": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "AHB Medya": {
    "dogru": 1,
@@ -154,11 +164,11 @@
   },
   "Milli Gazete": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Pamukova Halk": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 2
   },
   "Rize Takip": {
    "dogru": 1,
@@ -190,7 +200,7 @@
   },
   "Yeniçağ Gazetesi": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 3
   },
   "Yeşil Afşin Gazetesi": {
    "dogru": 2,
@@ -222,7 +232,7 @@
   },
   "Kısa Dalga": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 3
   },
   "kayserihaber.com": {
    "dogru": 0,
@@ -238,7 +248,7 @@
   },
   "16haber": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "45 Haber": {
    "dogru": 1,
@@ -342,7 +352,7 @@
   },
   "NetGaste": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Okur Gazetesi": {
    "dogru": 1,
@@ -386,7 +396,7 @@
   },
   "Timeturk": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 3
   },
   "Türkgün": {
    "dogru": 1,
@@ -570,7 +580,7 @@
   },
   "Urfanatik": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "İstanbul Ticaret Gazetesi": {
    "dogru": 1,
@@ -611,6 +621,62 @@
   "YENİ ASYA": {
    "dogru": 0,
    "yanlis": 1
+  },
+  "heyhaber.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "12punto": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Aydınlık": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "Beyaz Gündem Gazetesi": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "Ekonomim.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Haber Denizli": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "Haber3": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Niksar Danişmend": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "Sivas İrade": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "haberhurriyeti": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "sonmuhur.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "yenicaggazetesi": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "Ekovitrin Haber": {
+   "dogru": 0,
+   "yanlis": 2
+  },
+  "Bundle": {
+   "dogru": 0,
+   "yanlis": 2
   }
  }
 }

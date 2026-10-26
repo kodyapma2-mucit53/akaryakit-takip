@@ -950,5 +950,73 @@
   "siteler": [
    "Bundle"
   ]
+ },
+ {
+  "gun": "2026-10-27",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Beyaz Gündem Gazetesi",
+   "Bundle",
+   "Haber Denizli",
+   "Kısa Dalga",
+   "Pamukova Halk",
+   "Sivas İrade",
+   "Timeturk",
+   "Yeniçağ Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-27",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Aydınlık",
+   "Beyaz Gündem Gazetesi",
+   "Haber Denizli",
+   "Kısa Dalga",
+   "Pamukova Halk",
+   "Sivas İrade",
+   "Timeturk",
+   "Yeniçağ Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-27",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Ekovitrin Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-27",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Ekovitrin Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-27",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Aydınlık"
+  ]
+ },
+ {
+  "gun": "2026-10-27",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Bundle"
+  ]
  }
 ]
