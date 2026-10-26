@@ -869,5 +869,43 @@
   "siteler": [
    "Hey Haber"
   ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Kısa Dalga",
+   "Yeniçağ Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Kısa Dalga",
+   "Yeniçağ Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Ekovitrin Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Ekovitrin Haber"
+  ]
  }
 ]

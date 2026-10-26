@@ -18008,5 +18008,64 @@
    "Taşköprü Postası",
    "Tigris Haber"
   ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "16 Haber",
+   "Artı Gerçek",
+   "Büyük Sivas Haber",
+   "Ekonomim",
+   "Ensonhaber",
+   "Haber Sunum",
+   "Habererk.com",
+   "Haberler.com on MSN",
+   "Haberlisin",
+   "Hunat TV",
+   "Kocaeli Gazetesi",
+   "Kocaeli Kent Gazetesi",
+   "Manşet Haber",
+   "Milli Gazete",
+   "Nokta Gazetesi",
+   "Samanyolu Haber",
+   "Taşköprü Postası",
+   "Türkinform",
+   "Urfanatik",
+   "Yeni Alanya",
+   "İlke TV",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-10-26",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "16 Haber",
+   "Artı Gerçek",
+   "Büyük Sivas Haber",
+   "Ekonomim",
+   "Ensonhaber",
+   "Haber Sunum",
+   "Habererk.com",
+   "Haberlisin",
+   "Hunat TV",
+   "Kocaeli Gazetesi",
+   "Kocaeli Kent Gazetesi",
+   "Manşet Haber",
+   "Milli Gazete",
+   "Nokta Gazetesi",
+   "Samanyolu Haber",
+   "Taşköprü Postası",
+   "Türkinform",
+   "Urfanatik",
+   "Yeni Alanya",
+   "İlke TV",
+   "İz Gazete"
+  ]
  }
 ]
