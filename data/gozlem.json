@@ -957,6 +957,7 @@
   "yon": "zam",
   "tutar": 3.6,
   "siteler": [
+   "Amed TV",
    "Beyaz Gündem Gazetesi",
    "Bundle",
    "Haber Denizli",
@@ -965,7 +966,9 @@
    "Pamukova Halk",
    "Sivas İrade",
    "Timeturk",
-   "Yeniçağ Gazetesi"
+   "Yeniçağ Gazetesi",
+   "İstanbul Ticaret Gazetesi",
+   "İz Gazete"
   ]
  },
  {
@@ -974,6 +977,7 @@
   "yon": "zam",
   "tutar": 4.15,
   "siteler": [
+   "Amed TV",
    "Aydınlık",
    "Beyaz Gündem Gazetesi",
    "Haber Denizli",
@@ -982,7 +986,9 @@
    "Pamukova Halk",
    "Sivas İrade",
    "Timeturk",
-   "Yeniçağ Gazetesi"
+   "Yeniçağ Gazetesi",
+   "İstanbul Ticaret Gazetesi",
+   "İz Gazete"
   ]
  },
  {
