@@ -1205,5 +1205,79 @@
   "siteler": [
    "Bundle"
   ]
+ },
+ {
+  "gun": "2026-10-28",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "ABC Haber",
+   "AVAZTÜRK",
+   "Amed TV",
+   "Bağımsız Kocaeli Gazetesi",
+   "Bilecik Olay Haber",
+   "Bismil Haber",
+   "Bitlis Haber",
+   "Borsanın Gündemi",
+   "Bugün Kocaeli Gazetesi",
+   "Bundle",
+   "Bursa Saati Gazetesi",
+   "Büyük Sivas Haber",
+   "DENİZLİ24HABER",
+   "Diyarbakir.Net",
+   "Doviz.com",
+   "Dumlupınar Gazetesi",
+   "Ekonomim",
+   "Erzincan Net",
+   "Eskişehir Haberleri",
+   "Eskişehir Yenigün Gazetesi",
+   "Haber Global",
+   "Haber.com",
+   "Haberlisin",
+   "Habertürk",
+   "Kocaeli Gazetesi",
+   "Malatya Haber, Malatya Haberi, Malatya Son Dakika Haberleri",
+   "Medyabar",
+   "Memur 365",
+   "Nirvana Haber",
+   "Son Mühür",
+   "Tirebolu Haber",
+   "Tokat Haber",
+   "Türkgün",
+   "Türkiye İş Dünyası Haberleri",
+   "Van Ekspres",
+   "Yeni Alanya",
+   "Yeni Alanya Gazetesi",
+   "Yeni Şafak",
+   "Yeni Şebinkarahisar Gazetesi",
+   "Yeşil Afşin Gazetesi",
+   "abcgazetesi",
+   "haberonses.com",
+   "pusulagazetesi.net",
+   "tv100 Haber",
+   "İstanbul Ticaret Gazetesi",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-10-28",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Amed TV",
+   "İstanbul Ticaret Gazetesi",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-10-28",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Bundle"
+  ]
  }
 ]
