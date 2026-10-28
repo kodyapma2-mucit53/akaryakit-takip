@@ -1233,6 +1233,7 @@
    "Doğruhaber",
    "Dumlupınar Gazetesi",
    "Ege Alternatif",
+   "Ege Telgraf",
    "Ekonomim",
    "Erzincan Net",
    "Eskişehir Haberleri",
@@ -1354,6 +1355,15 @@
   "tutar": 3.6,
   "siteler": [
    "Bundle"
+  ]
+ },
+ {
+  "gun": "2026-10-28",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 3.5,
+  "siteler": [
+   "Karaman Son Dakika"
   ]
  }
 ]
