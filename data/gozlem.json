@@ -1533,5 +1533,41 @@
    "Yozgat Çamlık Gazetesi",
    "Şehrivan"
   ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Aksu TV Haber",
+   "Boyoz Haber",
+   "Bundle",
+   "Doğruhaber",
+   "Gaziantep Doğuş",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Tirebolu Haber",
+   "Yozgat Çamlık Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Aksu TV Haber",
+   "Boyoz Haber",
+   "Bundle",
+   "Doğruhaber",
+   "Gaziantep Doğuş",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Tirebolu Haber",
+   "Yozgat Çamlık Gazetesi"
+  ]
  }
 ]
