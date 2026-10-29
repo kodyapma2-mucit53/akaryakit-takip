@@ -1464,5 +1464,51 @@
    "İzmir’de Son Dakika",
    "Şehrivan"
   ]
+ },
+ {
+  "gun": "2026-10-29",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Avaz Türk",
+   "Aydın Hedef Gazetesi",
+   "Boyoz Haber",
+   "Bundle",
+   "Bursa Hakimiyet",
+   "Demokrat Kocaeli",
+   "Doğruhaber",
+   "Ege Alternatif",
+   "Ege Telgraf",
+   "Ekonomim",
+   "Gaziantep Doğuş",
+   "Haber Hürriyeti",
+   "Haberhergün",
+   "Hamle Gazetesi",
+   "Kamudanhaber",
+   "Kocaeli Halk Gazetesi",
+   "Merhaba Gazetesi",
+   "Merhaba Haber",
+   "Milli İrade Gazetesi",
+   "Sabah",
+   "Samsun Haber",
+   "Siirt haber",
+   "SuperHaber",
+   "Tirebolu Haber",
+   "YatırımX",
+   "Yeni Alanya",
+   "https://www.babaocagi.com/",
+   "İzmir’de Son Dakika",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-29",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Bundle"
+  ]
  }
 ]
