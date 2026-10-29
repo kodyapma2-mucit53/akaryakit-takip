@@ -3,52 +3,6 @@
   "gun": "2026-10-17",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": 5.65,
-  "siteler": [
-   "AHB Medya",
-   "Ajans04",
-   "Aksu TV Haber",
-   "Bu Sabah Malatya",
-   "Bursa Hakimiyet",
-   "Bursa TV",
-   "Finans Gündem",
-   "GZT",
-   "Gazete Gerçek",
-   "Haber Expres",
-   "Haber Fark",
-   "Haber Meydan",
-   "Haber3",
-   "Ortadoğu Gazetesi",
-   "Rize Takip",
-   "Toros Gazetesi",
-   "Yeni Malatya",
-   "Yeniçağ Gazetesi",
-   "gundem67.com.tr",
-   "İşçi Haber"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 4.0,
-  "siteler": [
-   "Anka Haber",
-   "Antakya Gazetesi",
-   "Aydın Haber, Son Dakika Aydın Haberleri | Aydinpost.com",
-   "Evrensel",
-   "Haberler",
-   "Notbir",
-   "Son Dakika",
-   "T24",
-   "Toplumsal Haber",
-   "İşte Kocaeli Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": null,
   "siteler": [
    "2Eylül Haber",
@@ -24139,6 +24093,42 @@
    "Merhaba Gazetesi",
    "Sabah",
    "SuperHaber",
+   "Tirebolu Haber",
+   "Yozgat Çamlık Gazetesi",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-29",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Aksu TV Haber",
+   "Boyoz Haber",
+   "Doğruhaber",
+   "Gaziantep Doğuş",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Tirebolu Haber",
+   "Yozgat Çamlık Gazetesi",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-29",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Aksu TV Haber",
+   "Boyoz Haber",
+   "Doğruhaber",
+   "Gaziantep Doğuş",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
    "Tirebolu Haber",
    "Yozgat Çamlık Gazetesi",
    "Şehrivan"
