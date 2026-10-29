@@ -1471,6 +1471,7 @@
   "yon": "zam",
   "tutar": 3.6,
   "siteler": [
+   "Aksu TV Haber",
    "Avaz Türk",
    "Aydın Hedef Gazetesi",
    "Boyoz Haber",
@@ -1509,7 +1510,28 @@
   "yon": "zam",
   "tutar": 3.6,
   "siteler": [
-   "Bundle"
+   "Aksu TV Haber",
+   "Avaz Türk",
+   "Aydın Hedef Gazetesi",
+   "Boyoz Haber",
+   "Bundle",
+   "Bursa Hakimiyet",
+   "Doğruhaber",
+   "Ege Telgraf",
+   "Gaziantep Doğuş",
+   "Haber Hürriyeti",
+   "Haberhergün",
+   "Hamle Gazetesi",
+   "Kamudanhaber",
+   "Merhaba Gazetesi",
+   "Milli İrade Gazetesi",
+   "Sabah",
+   "Siirt haber",
+   "SuperHaber",
+   "Tirebolu Haber",
+   "Yeni Alanya",
+   "Yozgat Çamlık Gazetesi",
+   "Şehrivan"
   ]
  }
 ]
