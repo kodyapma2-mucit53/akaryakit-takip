@@ -1,55 +1,6 @@
 [
  {
   "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 5.65,
-  "siteler": [
-   "24 Saat Gazetesi",
-   "AHB Medya",
-   "Ajans04",
-   "Aksu TV Haber",
-   "Bu Sabah Malatya",
-   "Bursa Hakimiyet",
-   "Bursa TV",
-   "Finans Gündem",
-   "GZT",
-   "Gazete Gerçek",
-   "Haber Expres",
-   "Haber Fark",
-   "Haber Gündemim",
-   "Haber Meydan",
-   "Haber3",
-   "Kocaeli Denge",
-   "Ortadoğu Gazetesi",
-   "Rize Takip",
-   "Samsun Gazetesi",
-   "Toros Gazetesi",
-   "Yeni Journal, Haber, Haberler, Son Dakika Haberler, Güncel Haber",
-   "Yeni Malatya",
-   "Yeniçağ Gazetesi",
-   "gundem67.com.tr",
-   "İşçi Haber"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 4.0,
-  "siteler": [
-   "Anka Haber",
-   "Antakya Gazetesi",
-   "Aydın Haber, Son Dakika Aydın Haberleri | Aydinpost.com",
-   "Evrensel",
-   "Haberler",
-   "Notbir",
-   "T24",
-   "Toplumsal Haber"
-  ]
- },
- {
-  "gun": "2026-10-17",
   "yakit": "motorin",
   "yon": "indirim",
   "tutar": null,
@@ -24290,6 +24241,56 @@
    "SuperHaber",
    "Tirebolu Haber",
    "Yeni Alanya",
+   "Yozgat Çamlık Gazetesi",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-29",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Aksu TV Haber",
+   "Avaz Türk",
+   "Aydın Hedef Gazetesi",
+   "Boyoz Haber",
+   "Doğruhaber",
+   "Ege Telgraf",
+   "Gaziantep Doğuş",
+   "Haber Hürriyeti",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Merhaba Haber",
+   "Sabah",
+   "Siirt haber",
+   "SuperHaber",
+   "Tirebolu Haber",
+   "Yozgat Çamlık Gazetesi",
+   "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-29",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Aksu TV Haber",
+   "Avaz Türk",
+   "Aydın Hedef Gazetesi",
+   "Boyoz Haber",
+   "Doğruhaber",
+   "Ege Telgraf",
+   "Gaziantep Doğuş",
+   "Haber Hürriyeti",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Merhaba Haber",
+   "Sabah",
+   "Siirt haber",
+   "SuperHaber",
+   "Tirebolu Haber",
    "Yozgat Çamlık Gazetesi",
    "Şehrivan"
   ]
