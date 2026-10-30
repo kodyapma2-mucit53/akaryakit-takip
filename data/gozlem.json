@@ -1575,6 +1575,7 @@
    "Sabah",
    "Tirebolu Haber",
    "Yozgat Çamlık Gazetesi",
+   "politikam.com",
    "İlke Haber Ajansı"
   ]
  },
@@ -1632,7 +1633,8 @@
   "tutar": 4.15,
   "siteler": [
    "24 Saat Gazetesi",
-   "Instagram"
+   "Instagram",
+   "politikam.com"
   ]
  },
  {
@@ -1660,6 +1662,7 @@
    "Kuzey Ekspres",
    "Mavi Kocaeli",
    "Milli Gazete",
+   "N Gazete",
    "Notbir",
    "Pusula Haber",
    "Sabah",
@@ -1678,6 +1681,7 @@
    "sivas360.com",
    "Özgür Kocaeli",
    "İnternet Haber",
+   "İşte Kocaeli",
    "Şehrivan"
   ]
  },
