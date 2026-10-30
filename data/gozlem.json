@@ -1549,7 +1549,8 @@
    "Merhaba Gazetesi",
    "Sabah",
    "Tirebolu Haber",
-   "Yozgat Çamlık Gazetesi"
+   "Yozgat Çamlık Gazetesi",
+   "İlke Haber Ajansı"
   ]
  },
  {
@@ -1565,10 +1566,12 @@
    "Doğruhaber",
    "Gaziantep Doğuş",
    "Hamle Gazetesi",
+   "Instagram",
    "Merhaba Gazetesi",
    "Sabah",
    "Tirebolu Haber",
-   "Yozgat Çamlık Gazetesi"
+   "Yozgat Çamlık Gazetesi",
+   "İlke Haber Ajansı"
   ]
  },
  {
@@ -1624,7 +1627,8 @@
   "yon": "zam",
   "tutar": 4.15,
   "siteler": [
-   "24 Saat Gazetesi"
+   "24 Saat Gazetesi",
+   "Instagram"
   ]
  },
  {
@@ -1635,7 +1639,15 @@
   "siteler": [
    "BBN Haber",
    "Batman Burada",
+   "Boyoz Haber",
+   "Haberler",
+   "Haberler.com on MSN",
+   "Instagram",
+   "Kuzey Ekspres",
+   "Milli Gazete",
+   "Pusula Haber",
    "Sabah",
+   "Son Dakika",
    "T24",
    "T24 on MSN",
    "Urfanatik",
@@ -1644,6 +1656,7 @@
    "Yeni Alanya Gazetesi",
    "kangalgundem.com",
    "sivas360.com",
+   "Özgür Kocaeli",
    "İnternet Haber"
   ]
  }
