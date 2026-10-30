@@ -1640,11 +1640,15 @@
    "BBN Haber",
    "Batman Burada",
    "Boyoz Haber",
+   "Cumhuriyet",
+   "Haber32",
    "Haberler",
    "Haberler.com on MSN",
    "Instagram",
    "Kuzey Ekspres",
+   "Mavi Kocaeli",
    "Milli Gazete",
+   "Notbir",
    "Pusula Haber",
    "Sabah",
    "Son Dakika",
@@ -1654,10 +1658,21 @@
    "YatırımX",
    "Yeni Alanya",
    "Yeni Alanya Gazetesi",
+   "Yıldırım Gazetesi",
+   "dokuz8HABER",
    "kangalgundem.com",
    "sivas360.com",
    "Özgür Kocaeli",
    "İnternet Haber"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "dokuz8HABER"
   ]
  }
 ]
