@@ -1578,13 +1578,16 @@
   "siteler": [
    "Aksu TV Haber",
    "Ege Alternatif",
+   "Ekovitrin Haber",
    "Gaziantep Doğuş",
    "Haber61",
    "Hamle Gazetesi",
    "Merhaba Gazetesi",
+   "Milli Gazete",
    "Sabah",
    "Ulusal Kanal",
    "Yozgat Çamlık Gazetesi",
+   "politikam.com",
    "Özgün Kocaeli",
    "İstanbul Ticaret Gazetesi"
   ]
@@ -1595,16 +1598,21 @@
   "yon": "zam",
   "tutar": 4.0,
   "siteler": [
+   "AHB Medya",
    "Aksu TV Haber",
    "Ege Alternatif",
+   "Ekovitrin Haber",
    "Gaziantep Doğuş",
+   "Haber Dairesi",
    "Haber61",
    "Hamle Gazetesi",
    "Merhaba Gazetesi",
+   "Milli Gazete",
    "Sabah",
    "Timeturk",
    "Ulusal Kanal",
    "Yozgat Çamlık Gazetesi",
+   "politikam.com",
    "Özgün Kocaeli",
    "İstanbul Ticaret Gazetesi"
   ]
