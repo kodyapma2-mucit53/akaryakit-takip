@@ -3,36 +3,6 @@
   "gun": "2026-10-17",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": 4.0,
-  "siteler": [
-   "Anka Haber",
-   "Aydın Haber, Son Dakika Aydın Haberleri | Aydinpost.com",
-   "Ege Alternatif",
-   "Evrensel",
-   "Haberler",
-   "Notbir",
-   "T24",
-   "Toplumsal Haber",
-   "İşte Kocaeli Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 4.3,
-  "siteler": [
-   "Egeli Gazete",
-   "Haber.com",
-   "Kocaeli Kent Gazetesi",
-   "TGRT Haber",
-   "Yayla Haber"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": null,
   "siteler": [
    "2Eylül Haber",
@@ -23791,6 +23761,42 @@
    "Merhaba Gazetesi",
    "Sabah",
    "Yozgat Çamlık Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Aksu TV Haber",
+   "Ege Alternatif",
+   "Gaziantep Doğuş",
+   "Haber61",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Ulusal Kanal",
+   "Yozgat Çamlık Gazetesi",
+   "Özgün Kocaeli"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Aksu TV Haber",
+   "Ege Alternatif",
+   "Gaziantep Doğuş",
+   "Haber61",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Ulusal Kanal",
+   "Yozgat Çamlık Gazetesi",
+   "Özgün Kocaeli"
   ]
  }
 ]

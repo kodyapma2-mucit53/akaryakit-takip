@@ -1569,5 +1569,41 @@
    "Tirebolu Haber",
    "Yozgat Çamlık Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Aksu TV Haber",
+   "Ege Alternatif",
+   "Gaziantep Doğuş",
+   "Haber61",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Ulusal Kanal",
+   "Yozgat Çamlık Gazetesi",
+   "Özgün Kocaeli"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 4.0,
+  "siteler": [
+   "Aksu TV Haber",
+   "Ege Alternatif",
+   "Gaziantep Doğuş",
+   "Haber61",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Sabah",
+   "Ulusal Kanal",
+   "Yozgat Çamlık Gazetesi",
+   "Özgün Kocaeli"
+  ]
  }
 ]
