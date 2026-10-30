@@ -1558,6 +1558,7 @@
   "yon": "zam",
   "tutar": 3.6,
   "siteler": [
+   "24 Saat Gazetesi",
    "Aksu TV Haber",
    "Boyoz Haber",
    "Bundle",
@@ -1615,6 +1616,15 @@
    "politikam.com",
    "Özgün Kocaeli",
    "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "24 Saat Gazetesi"
   ]
  }
 ]

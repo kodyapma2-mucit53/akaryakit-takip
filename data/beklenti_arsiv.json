@@ -3,59 +3,6 @@
   "gun": "2026-10-17",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": 4.3,
-  "siteler": [
-   "Aksu TV Haber",
-   "Bursa TV",
-   "Egeli Gazete",
-   "Haberlisin",
-   "Kocaeli Kent Gazetesi",
-   "Samsun Gazetesi",
-   "TGRT Haber",
-   "Yayla Haber",
-   "Yeniçağ Gazetesi",
-   "Yeşil Afşin Gazetesi",
-   "İlke Haber Ajansı"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 5.65,
-  "siteler": [
-   "AHB Medya",
-   "Aksu TV Haber",
-   "Bursa Hakimiyet",
-   "Bursa TV",
-   "Finans Gündem",
-   "GZT",
-   "Haber3",
-   "Ortadoğu Gazetesi",
-   "Rize Takip",
-   "Yeni Malatya",
-   "Yeniçağ Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 4.0,
-  "siteler": [
-   "Anka Haber",
-   "Ege Alternatif",
-   "Evrensel",
-   "Haberler",
-   "Notbir",
-   "T24",
-   "Toplumsal Haber"
-  ]
- },
- {
-  "gun": "2026-10-17",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": null,
   "siteler": [
    "2Eylül Haber",
@@ -23705,6 +23652,74 @@
    "politikam.com",
    "Özgün Kocaeli",
    "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "AHB Medya",
+   "Aksu TV Haber",
+   "Düzce Pusula Gazetesi",
+   "Ege Alternatif",
+   "Ekonomim",
+   "Ekovitrin Haber",
+   "Gaziantep Doğuş",
+   "Haber Dairesi",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Milli Gazete",
+   "Sabah",
+   "T24",
+   "T24 on MSN",
+   "Timeturk",
+   "Ulusal Kanal",
+   "YatırımX",
+   "Yozgat Çamlık Gazetesi",
+   "politikam.com",
+   "Özgün Kocaeli",
+   "İnternet Haber",
+   "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Aksu TV Haber",
+   "Düzce Pusula Gazetesi",
+   "Ege Alternatif",
+   "Ekonomim",
+   "Ekovitrin Haber",
+   "Gaziantep Doğuş",
+   "Hamle Gazetesi",
+   "Merhaba Gazetesi",
+   "Milli Gazete",
+   "Sabah",
+   "Ulusal Kanal",
+   "Yozgat Çamlık Gazetesi",
+   "politikam.com",
+   "Özgün Kocaeli",
+   "İnternet Haber",
+   "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-10-30",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "BBN Haber",
+   "Sabah",
+   "T24",
+   "T24 on MSN",
+   "YatırımX",
+   "İnternet Haber"
   ]
  }
 ]
