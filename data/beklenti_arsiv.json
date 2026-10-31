@@ -1,63 +1,5 @@
 [
  {
-  "gun": "2026-10-18",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "2Eylül Haber",
-   "Anadolu Gazetesi",
-   "Ankara Haber",
-   "Boyoz Haber",
-   "Bu Sabah Malatya",
-   "Burdur Yenigün",
-   "Enerji Günlüğü",
-   "Erzincan Net",
-   "Gaziantep Time",
-   "Habertürk",
-   "Kocaeli Denge",
-   "Marmara Bölge",
-   "Niğde DMC Haber",
-   "Nokta Gazetesi",
-   "Saray Medya",
-   "Sivas İrade",
-   "Sonsöz Gazetesi",
-   "Telgraf Gazetesi",
-   "Uzmanpara",
-   "Özgün Kocaeli Gazetesi",
-   "İnternet Haber"
-  ]
- },
- {
-  "gun": "2026-10-19",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "2Eylül Haber",
-   "Anadolu Gazetesi",
-   "Ankara Haber",
-   "Boyoz Haber",
-   "Bu Sabah Malatya",
-   "Burdur Yenigün",
-   "Enerji Günlüğü",
-   "Erzincan Net",
-   "Gaziantep Time",
-   "Habertürk",
-   "Kocaeli Denge",
-   "Marmara Bölge",
-   "Niğde DMC Haber",
-   "Nokta Gazetesi",
-   "Saray Medya",
-   "Sivas İrade",
-   "Sonsöz Gazetesi",
-   "Telgraf Gazetesi",
-   "Uzmanpara",
-   "Özgün Kocaeli Gazetesi",
-   "İnternet Haber"
-  ]
- },
- {
   "gun": "2026-10-19",
   "yakit": "benzin",
   "yon": "indirim",
@@ -23503,6 +23445,35 @@
    "İnternet Haber",
    "İşte Kocaeli Gazetesi",
    "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-31",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "En Son Haber",
+   "Habertürk",
+   "Patronlar Dünyası",
+   "Samsun Gazetesi",
+   "Sözcü Gazetesi",
+   "TGRT Haber",
+   "yatirimx"
+  ]
+ },
+ {
+  "gun": "2026-10-31",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "En Son Haber",
+   "Habertürk",
+   "Patronlar Dünyası",
+   "Samsun Gazetesi",
+   "Sözcü Gazetesi",
+   "yatirimx"
   ]
  }
 ]
