@@ -110,5 +110,24 @@
     "yeni": 99.0
    }
   ]
+ },
+ {
+  "zaman": "2026-11-01T00:11+03:00",
+  "lastUpdate": "01.11.2026",
+  "erken": false,
+  "degisimler": [
+   {
+    "il": "Erzurum",
+    "yakit": "benzin",
+    "eski": 78.38,
+    "yeni": 82.47
+   },
+   {
+    "il": "Erzurum",
+    "yakit": "motorin",
+    "eski": 99.0,
+    "yeni": 102.58
+   }
+  ]
  }
 ]
