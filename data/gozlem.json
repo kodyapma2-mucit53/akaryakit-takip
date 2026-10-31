@@ -1713,9 +1713,11 @@
    "Cumhuriyet",
    "Elazığ Haber Kent",
    "Enerji Günlüğü",
+   "Erzincan Net",
    "Haber Ay",
    "Haber3",
    "Haber32",
+   "Habere Güven",
    "Haberler",
    "HaberlerAnkara",
    "Hunat TV",
@@ -1757,6 +1759,7 @@
   "siteler": [
    "24 Saat Gazetesi",
    "Amed Haber",
+   "Habere Güven",
    "Instagram",
    "politikam.com",
    "İlke Haber Ajansı"
@@ -1769,6 +1772,7 @@
   "tutar": 4.15,
   "siteler": [
    "24 Saat Gazetesi",
+   "Habere Güven",
    "Instagram",
    "politikam.com"
   ]
