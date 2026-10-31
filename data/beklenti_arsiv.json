@@ -1,51 +1,6 @@
 [
  {
   "gun": "2026-10-19",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 4.3,
-  "siteler": [
-   "AHB Medya",
-   "Ajans04",
-   "Anadolu Ekspres Gazetesi",
-   "BBN Haber",
-   "BRS Haber",
-   "Bursa Hakimiyet",
-   "Dumlupınar Gazetesi",
-   "Düzce TV",
-   "Ensonhaber",
-   "GZT",
-   "Gündem Sivas",
-   "Hunat TV",
-   "Medyaradar",
-   "Milli Gazete",
-   "Okur Gazetesi",
-   "Ortadoğu Gazetesi",
-   "SAYFA16",
-   "Sivas Ekspres Gazetesi",
-   "Son Dakika",
-   "Timeturk",
-   "Uyan 32",
-   "Uşak Haber Gazetesi",
-   "Yeni Alanya",
-   "YeniSöke Gazetesi",
-   "Yeniçağ Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-19",
-  "yakit": "motorin",
-  "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "Ekonomim",
-   "Habertürk",
-   "Siirt haber",
-   "Ulusal Kanal"
-  ]
- },
- {
-  "gun": "2026-10-19",
   "yakit": "lpg",
   "yon": "indirim",
   "tutar": null,
@@ -23841,6 +23796,33 @@
    "Yozgat Hakimiyet",
    "İşte Kocaeli Gazetesi",
    "Şehrivan"
+  ]
+ },
+ {
+  "gun": "2026-10-31",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "En Son Haber",
+   "Habertürk",
+   "Sonsöz Gazetesi",
+   "Sözcü Gazetesi",
+   "sonmuhur.com",
+   "yatirimx"
+  ]
+ },
+ {
+  "gun": "2026-10-31",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "En Son Haber",
+   "Habertürk",
+   "Sonsöz Gazetesi",
+   "Sözcü Gazetesi",
+   "yatirimx"
   ]
  }
 ]
