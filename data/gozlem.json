@@ -2367,6 +2367,7 @@
    "Telgraf Gazetesi",
    "Timeturk",
    "Toplumsal Haber",
+   "Türkiye Gazetesi",
    "Türkiye İş Dünyası Haberleri",
    "Urfa Değişim",
    "Yayla Haber",
@@ -2387,8 +2388,10 @@
    "Özgün Kocaeli Gazetesi",
    "İLKHABER-Gazetesi",
    "İlkses Gazetesi",
+   "İnegöl Yerel Haber",
    "İnternet Haber",
    "İstanbul Ticaret Gazetesi",
+   "İzmir’de Son Dakika",
    "Şanlıurfa Olay",
    "Şok Gazetesi"
   ]
@@ -2403,7 +2406,8 @@
    "Referans Türk",
    "Sakarya Postası",
    "Sakarya Son Dakika",
-   "Siirt haber"
+   "Siirt haber",
+   "Timeturk"
   ]
  }
 ]
