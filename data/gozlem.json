@@ -2446,5 +2446,29 @@
   "siteler": [
    "Adapazarı Akşam Haberleri Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "AHB Medya",
+   "Alanya Postası",
+   "Bölgenin Sesi Gazetesi",
+   "Gazete Oksijen",
+   "Malatya Flaş Haber",
+   "Radyo Trafik",
+   "İnegöl Yerel Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.5,
+  "siteler": [
+   "Adapazarı Akşam Haberleri Gazetesi"
+  ]
  }
 ]
