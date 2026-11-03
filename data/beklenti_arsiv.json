@@ -3,35 +3,6 @@
   "gun": "2026-10-22",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": 3.35,
-  "siteler": [
-   "Afyon Türkeli Gazetesi",
-   "Gazete Arena",
-   "Gazete Zebra",
-   "Gündem Sivas",
-   "Haber Aktüel",
-   "Haber Ege",
-   "Haber Ekspres",
-   "Haber Expres",
-   "Haber Gündemim",
-   "Kayseri Gündem",
-   "Kısa Dalga",
-   "Milli Gazete",
-   "Toplumsal Haber",
-   "Urfanatik",
-   "Yeni Alanya",
-   "Yeni Ankara",
-   "Yeniçağ Gazetesi",
-   "Yeşil Afşin Gazetesi",
-   "İstanbul Ticaret Gazetesi",
-   "İzmir Time 35",
-   "İzmir’de Son Dakika"
-  ]
- },
- {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": null,
   "siteler": [
    "AHB Medya",
@@ -23985,6 +23956,33 @@
    "Radyo Trafik",
    "Türkiye İş Dünyası Haberleri",
    "Yeni Alanya",
+   "İnegöl Yerel Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-03",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "AHB Medya",
+   "Adıyamanlılar Net",
+   "Alanya Postası",
+   "Amed TV",
+   "Antakya Gazetesi",
+   "Batman Pusula Gazetesi",
+   "Bizim Ankara",
+   "Bölgenin Sesi Gazetesi",
+   "DENİZLİ24HABER",
+   "EKOTÜRK",
+   "Ereğli Haberleri",
+   "FinansTaksi",
+   "Gazete Oksijen",
+   "Malatya Flaş Haber",
+   "Manşet Haber",
+   "Medya Gazete",
+   "Radyo Trafik",
+   "Sakarya Yenigün Gazetesi",
    "İnegöl Yerel Haber"
   ]
  }
