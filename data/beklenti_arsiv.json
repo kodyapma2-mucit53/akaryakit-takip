@@ -3,39 +3,6 @@
   "gun": "2026-10-22",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "AHB Medya",
-   "Ajans Balıklıgöl",
-   "Andırın Postası",
-   "Bengü Türk",
-   "Besni Güncel Gazetesi",
-   "Bizim Ankara",
-   "Doviz.com",
-   "EHA Medya",
-   "Ege Telgraf",
-   "Eskişehir Ekspres",
-   "Güne Bakış Gazetesi",
-   "Haber Meydan",
-   "Kahta Haber Postası",
-   "Kamudanhaber",
-   "Malatya Güncel",
-   "Milliyet",
-   "Tokat Haber",
-   "Yalova Hayat",
-   "Yeni Şafak",
-   "Yeniufuk Gazetesi",
-   "birgun.net",
-   "www.malatyadan.com",
-   "İleri Gazetesi",
-   "İnternet Haber",
-   "İşte Kocaeli"
-  ]
- },
- {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": 3.35,
   "siteler": [
    "Afyon Türkeli Gazetesi",
@@ -23236,6 +23203,17 @@
    "Batman Pusula Gazetesi",
    "Medya Gazete",
    "bursa tv"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "Bölgenin Sesi Gazetesi",
+   "Gazete Aydın",
+   "Gazete Oksijen"
   ]
  }
 ]
