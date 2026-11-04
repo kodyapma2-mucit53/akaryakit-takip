@@ -7,32 +7,6 @@
   "siteler": [
    "AHB Medya",
    "Afyon Türkeli Gazetesi",
-   "Ajans Balıklıgöl",
-   "Andırın Postası",
-   "Besni Güncel Gazetesi",
-   "Bizim Ankara",
-   "Doviz.com",
-   "Ege Telgraf",
-   "Haber Expres",
-   "Kahta Haber Postası",
-   "Kamudanhaber",
-   "Milliyet",
-   "Yeni Şafak",
-   "birgun.net",
-   "www.malatyadan.com",
-   "İleri Gazetesi",
-   "İnternet Haber",
-   "İşte Kocaeli"
-  ]
- },
- {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 3.35,
-  "siteler": [
-   "AHB Medya",
-   "Afyon Türkeli Gazetesi",
    "Andırın Postası",
    "Besni Güncel Gazetesi",
    "Bizim Ankara",
@@ -23192,6 +23166,21 @@
    "Kayseri Anadolu Haber",
    "Kayserim.net",
    "NTV Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "Amed TV",
+   "Batman Pusula Gazetesi",
+   "Bölgenin Sesi Gazetesi",
+   "DENİZLİ24HABER",
+   "Gazete Aydın",
+   "Medya Gazete",
+   "bursa tv"
   ]
  }
 ]

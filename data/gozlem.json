@@ -2459,6 +2459,7 @@
    "Andırın Postası",
    "Batman Pusula Gazetesi",
    "Bölgenin Sesi Gazetesi",
+   "DENİZLİ24HABER",
    "EKOTÜRK",
    "Ereğli Haberleri",
    "Gazete Aydın",
@@ -2468,6 +2469,7 @@
    "Medya Gazete",
    "Radyo Trafik",
    "Sakarya Yenigün Gazetesi",
+   "bursa tv",
    "İnegöl Yerel Haber"
   ]
  },
@@ -2489,6 +2491,15 @@
    "Kayseri Anadolu Haber",
    "Kayserim.net",
    "NTV Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Kayserim.net"
   ]
  }
 ]
