@@ -12,79 +12,6 @@
    "Andırın Postası",
    "Bengü Türk",
    "Besni Güncel Gazetesi",
-   "Bitlis Haber",
-   "Bizim Ankara",
-   "Boyoz Haber",
-   "DENİZLİ24HABER",
-   "Doviz.com",
-   "Dürüst Haber",
-   "EHA Medya",
-   "Ege Telgraf",
-   "Eskişehir Ekspres",
-   "Evrensel",
-   "Gaziantep Time",
-   "Güne Bakış Gazetesi",
-   "Haber Meydan",
-   "Hatay Asi Gazetesi",
-   "Kahta Haber Postası",
-   "Kamudanhaber",
-   "Malatya Güncel",
-   "Milliyet",
-   "Pusula Haber",
-   "Referans Türk",
-   "Tokat Haber",
-   "Yalova Hayat",
-   "Yeni Şafak",
-   "Yeniufuk Gazetesi",
-   "Yıldırım Gazetesi",
-   "bianlikhaber.com",
-   "birgun.net",
-   "ede TV",
-   "https://www.manisahaber.com/",
-   "malabadigazetesi.com",
-   "www.malatyadan.com",
-   "yerelguc",
-   "İleri Gazetesi",
-   "İnternet Haber",
-   "İşte Kocaeli",
-   "Şehrivan"
-  ]
- },
- {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 3.35,
-  "siteler": [
-   "Afyon Türkeli Gazetesi",
-   "Gazete Arena",
-   "Gazete Zebra",
-   "Gündem Sivas",
-   "Haber Ege",
-   "Haber Ekspres",
-   "Haber Expres",
-   "Haber Gündemim",
-   "Kısa Dalga",
-   "Milli Gazete",
-   "Toplumsal Haber",
-   "Urfanatik",
-   "Yeni Ankara",
-   "Yeşil Afşin Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "AHB Medya",
-   "Ajans Balıklıgöl",
-   "Aksu TV Haber",
-   "Akyazı Haber Akyazı'nın Bir Numaralı Haber Sitesi",
-   "Andırın Postası",
-   "Bengü Türk",
-   "Besni Güncel Gazetesi",
    "Bizim Ankara",
    "Boyoz Haber",
    "Doviz.com",
@@ -23319,6 +23246,31 @@
    "Almanya Haberleri | ARTI49",
    "Cumhuriyet",
    "Haber Gündemim"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Amed TV",
+   "Andırın Postası",
+   "Batman Pusula Gazetesi",
+   "DENİZLİ24HABER",
+   "Medya Gazete",
+   "Sakarya Yenigün Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "Alanya Postası",
+   "Bölgenin Sesi Gazetesi",
+   "Gazete Oksijen"
   ]
  }
 ]
