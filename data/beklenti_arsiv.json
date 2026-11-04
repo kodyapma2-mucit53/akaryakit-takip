@@ -3,22 +3,6 @@
   "gun": "2026-10-22",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": 3.35,
-  "siteler": [
-   "Afyon Türkeli Gazetesi",
-   "Gazete Zebra",
-   "Haber Ege",
-   "Haber Ekspres",
-   "Haber Expres",
-   "Haber Gündemim",
-   "Urfanatik",
-   "Yeni Ankara"
-  ]
- },
- {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": null,
   "siteler": [
    "AHB Medya",
@@ -23240,6 +23224,18 @@
    "Andırın Postası",
    "Batman Pusula Gazetesi",
    "Medya Gazete"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": null,
+  "siteler": [
+   "Amed TV",
+   "Batman Pusula Gazetesi",
+   "Medya Gazete",
+   "bursa tv"
   ]
  }
 ]
