@@ -2511,5 +2511,33 @@
   "siteler": [
    "Bursa Hakimiyet"
   ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.3,
+  "siteler": [
+   "Kayserim.net",
+   "kayserihaber.com"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.8,
+  "siteler": [
+   "Bursa Hakimiyet"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Kayserim.net"
+  ]
  }
 ]
