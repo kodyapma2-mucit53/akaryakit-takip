@@ -1,26 +1,5 @@
 [
  {
-  "gun": "2026-10-22",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "AHB Medya",
-   "Andırın Postası",
-   "Besni Güncel Gazetesi",
-   "DENİZLİ24HABER",
-   "Ege Telgraf",
-   "Kamudanhaber",
-   "Radyo Trafik",
-   "Yeni Şafak",
-   "birgun.net",
-   "www.malatyadan.com",
-   "İleri Gazetesi",
-   "İnternet Haber",
-   "İşte Kocaeli"
-  ]
- },
- {
   "gun": "2026-10-23",
   "yakit": "benzin",
   "yon": "indirim",
@@ -23146,6 +23125,17 @@
    "Gazete Aydın",
    "Medya Gazete",
    "bursa tv"
+  ]
+ },
+ {
+  "gun": "2026-11-04",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Kayseri Anadolu Haber",
+   "Konya Yenigün",
+   "Urfanatik"
   ]
  }
 ]
