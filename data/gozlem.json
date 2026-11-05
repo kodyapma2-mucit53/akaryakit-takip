@@ -2537,6 +2537,7 @@
    "Hisse.net",
    "Kangal Gündem",
    "Timeturk",
+   "Uşak Olay",
    "borsaningundemi",
    "İzmir’de Son Dakika"
   ]
@@ -2559,10 +2560,12 @@
    "16 Haber",
    "AjansHaber",
    "EHA Medya",
+   "Gerçek Haberci",
    "Haberlisin",
    "Muhalif",
    "Muğla Yenigün",
    "Paratic Haber",
+   "Yeniçağ Gazetesi",
    "kayserihaber.com",
    "politikam.com"
   ]
@@ -2576,6 +2579,7 @@
    "AVAZTÜRK",
    "Aksu TV Haber",
    "Diken",
+   "Haberhergün",
    "Kayseri Gündem",
    "Kayserim.net",
    "Konhaber",
@@ -2604,7 +2608,9 @@
    "Anka Haber",
    "Gazete Oksijen",
    "GazeteKalem",
+   "Haberler",
    "Kısa Dalga",
+   "Medyascope",
    "Son Dakika",
    "Veryansın TV"
   ]
@@ -2617,6 +2623,16 @@
   "siteler": [
    "Haber TR",
    "Karadeniz Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 7.49,
+  "siteler": [
+   "Yayla Haber",
+   "Çorum Yayla Haber Gazetesi"
   ]
  }
 ]
