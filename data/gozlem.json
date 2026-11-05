@@ -2537,6 +2537,7 @@
    "Hisse.net",
    "Kangal Gündem",
    "Timeturk",
+   "borsaningundemi",
    "İzmir’de Son Dakika"
   ]
  },
@@ -2555,10 +2556,15 @@
   "yon": "indirim",
   "tutar": 6.08,
   "siteler": [
+   "16 Haber",
    "AjansHaber",
+   "EHA Medya",
    "Haberlisin",
+   "Muhalif",
+   "Muğla Yenigün",
    "Paratic Haber",
-   "kayserihaber.com"
+   "kayserihaber.com",
+   "politikam.com"
   ]
  },
  {
@@ -2567,9 +2573,15 @@
   "yon": "indirim",
   "tutar": 6.0,
   "siteler": [
+   "AVAZTÜRK",
    "Aksu TV Haber",
    "Diken",
-   "Kayserim.net"
+   "Kayseri Gündem",
+   "Kayserim.net",
+   "Konhaber",
+   "Notbir",
+   "Samsun Haber",
+   "Sonsöz Gazetesi"
   ]
  },
  {
@@ -2589,8 +2601,12 @@
   "yon": "indirim",
   "tutar": 6.8,
   "siteler": [
+   "Anka Haber",
+   "Gazete Oksijen",
    "GazeteKalem",
-   "Son Dakika"
+   "Kısa Dalga",
+   "Son Dakika",
+   "Veryansın TV"
   ]
  },
  {
@@ -2599,7 +2615,8 @@
   "yon": "indirim",
   "tutar": 0.08,
   "siteler": [
-   "Haber TR"
+   "Haber TR",
+   "Karadeniz Gazetesi"
   ]
  }
 ]
