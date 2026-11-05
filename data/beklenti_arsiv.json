@@ -3,92 +3,6 @@
   "gun": "2026-10-23",
   "yakit": "benzin",
   "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "DENİZLİ24HABER",
-   "Ege Telgraf",
-   "Kamudanhaber",
-   "Radyo Trafik",
-   "Yeni Şafak",
-   "birgun.net",
-   "İleri Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-23",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 3.35,
-  "siteler": [
-   "DENİZLİ24HABER",
-   "Ege Telgraf",
-   "Kamudanhaber",
-   "Memur 365",
-   "Radyo Trafik",
-   "Yeni Şafak",
-   "birgun.net",
-   "İleri Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-23",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 3.35,
-  "siteler": [
-   "DENİZLİ24HABER",
-   "Ege Telgraf",
-   "Kamudanhaber",
-   "Memur 365",
-   "Yeni Şafak",
-   "birgun.net",
-   "İleri Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-23",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": null,
-  "siteler": [
-   "DENİZLİ24HABER",
-   "Ege Telgraf",
-   "Kamudanhaber",
-   "Yeni Şafak",
-   "birgun.net",
-   "İleri Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-23",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 0.35,
-  "siteler": [
-   "Anka Haber",
-   "DENİZLİ24HABER",
-   "Kamudanhaber",
-   "Yeni Şafak",
-   "birgun.net",
-   "İleri Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-23",
-  "yakit": "benzin",
-  "yon": "indirim",
-  "tutar": 0.35,
-  "siteler": [
-   "Anka Haber",
-   "DENİZLİ24HABER",
-   "Kamudanhaber",
-   "İleri Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-23",
-  "yakit": "benzin",
-  "yon": "indirim",
   "tutar": 0.35,
   "siteler": [
    "Anka Haber",
@@ -23081,6 +22995,130 @@
    "Bursa Hakimiyet",
    "Ege Alternatif",
    "Timeturk"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "A Haber",
+   "Afyon Haber",
+   "Alanya Postası",
+   "Amed TV",
+   "Antalya Hakkında",
+   "Artı Siirt",
+   "Bursa Hakimiyet",
+   "Demokrat Kocaeli",
+   "Diyarbakir.Net",
+   "Doviz.com",
+   "Ekonomim",
+   "Enerji Ekonomisi",
+   "Ensonhaber",
+   "Eskişehir Haberleri",
+   "Evrensel.net",
+   "GZT",
+   "Gerçek Gündem",
+   "Haber 7",
+   "Haber Dairesi",
+   "Haber3",
+   "Hakimiyet Gazetesi",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Kayseri Anadolu Haber",
+   "Kocaeli Denge",
+   "Konya Hakimiyet Gazetesi",
+   "Konya Yenigün",
+   "Kütahya Ekspres",
+   "Malatya Sonsöz Haber",
+   "Mavi Kocaeli",
+   "Medyabar",
+   "Milat Gazetesi",
+   "Nokta Gazetesi",
+   "Ortadoğu Gazetesi",
+   "Pusula Haber",
+   "Referans Gazetesi",
+   "Sözcü Gazetesi",
+   "T24",
+   "Taşköprü Postası",
+   "Türkinform",
+   "Türkiye Gazetesi",
+   "Urfanatik",
+   "Van Ekspres",
+   "birgun.net",
+   "haberhurriyeti",
+   "halk54.com",
+   "pusulagazetesi.net",
+   "tv100 Haber",
+   "Öz Diyarbakır Gazetesi",
+   "Ülke TV",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.8,
+  "siteler": [
+   "Afyon Türkeli Gazetesi",
+   "Bursa Hakimiyet",
+   "Büyük Sivas Haber",
+   "Ege Alternatif",
+   "Haber TR",
+   "HaberTS",
+   "Hisse.net",
+   "Kangal Gündem",
+   "Timeturk",
+   "İzmir’de Son Dakika"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "A Haber",
+   "Enerji Ekonomisi",
+   "GazeteKalem",
+   "Pusula Haber",
+   "birgun.net"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 6.08,
+  "siteler": [
+   "AjansHaber",
+   "Haberlisin",
+   "Paratic Haber",
+   "kayserihaber.com"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 6.0,
+  "siteler": [
+   "Aksu TV Haber",
+   "Diken",
+   "Kayserim.net"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "Malatya Güncel",
+   "Manşet Haber",
+   "bursa tv"
   ]
  }
 ]

@@ -2528,9 +2528,16 @@
   "yon": "indirim",
   "tutar": 4.8,
   "siteler": [
+   "Afyon Türkeli Gazetesi",
    "Bursa Hakimiyet",
+   "Büyük Sivas Haber",
    "Ege Alternatif",
-   "Timeturk"
+   "Haber TR",
+   "HaberTS",
+   "Hisse.net",
+   "Kangal Gündem",
+   "Timeturk",
+   "İzmir’de Son Dakika"
   ]
  },
  {
@@ -2540,6 +2547,59 @@
   "tutar": 4.0,
   "siteler": [
    "Kayserim.net"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 6.08,
+  "siteler": [
+   "AjansHaber",
+   "Haberlisin",
+   "Paratic Haber",
+   "kayserihaber.com"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 6.0,
+  "siteler": [
+   "Aksu TV Haber",
+   "Diken",
+   "Kayserim.net"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "lpg",
+  "yon": "zam",
+  "tutar": 9.0,
+  "siteler": [
+   "Malatya Güncel",
+   "Manşet Haber",
+   "bursa tv"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 6.8,
+  "siteler": [
+   "GazeteKalem",
+   "Son Dakika"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.08,
+  "siteler": [
+   "Haber TR"
   ]
  }
 ]
