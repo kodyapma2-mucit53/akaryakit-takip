@@ -2567,6 +2567,7 @@
    "Egeli Gazete",
    "Gerçek Haberci",
    "Haberlisin",
+   "Kocaeli Denge",
    "Memur 365",
    "Muhalif",
    "Muğla Yenigün",
@@ -2581,7 +2582,8 @@
    "Yeniçağ Gazetesi",
    "kayserihaber.com",
    "politikam.com",
-   "yeniufukgazetesi.com.tr"
+   "yeniufukgazetesi.com.tr",
+   "Şanlıurfa Olay"
   ]
  },
  {
@@ -2662,6 +2664,8 @@
   "siteler": [
    "A Haber",
    "Başka Gazete",
+   "Besni Ekspres",
+   "Kamu Son Dakika Haberleri",
    "Kamudanhaber",
    "Medyascope",
    "Memurlar.Net",
