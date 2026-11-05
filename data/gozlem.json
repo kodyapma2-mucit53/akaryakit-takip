@@ -2560,6 +2560,7 @@
    "16 Haber",
    "AjansHaber",
    "EHA Medya",
+   "Egeli Gazete",
    "Gerçek Haberci",
    "Haberlisin",
    "Muhalif",
@@ -2573,7 +2574,8 @@
    "Yeni Alanya Gazetesi",
    "Yeniçağ Gazetesi",
    "kayserihaber.com",
-   "politikam.com"
+   "politikam.com",
+   "yeniufukgazetesi.com.tr"
   ]
  },
  {
@@ -2586,7 +2588,9 @@
    "Aksu TV Haber",
    "Alanya Postası",
    "Diken",
+   "Haberci TV",
    "Haberhergün",
+   "Instagram",
    "Kayseri Gündem",
    "Kayserim.net",
    "Konhaber",
@@ -2640,6 +2644,35 @@
   "siteler": [
    "Yayla Haber",
    "Çorum Yayla Haber Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 7.0,
+  "siteler": [
+   "A Haber",
+   "Başka Gazete",
+   "Kamudanhaber",
+   "Medyascope",
+   "Memurlar.Net",
+   "Milli Gazete",
+   "Nefes Gazetesi",
+   "Pusula Haber",
+   "birgun.net",
+   "nefes",
+   "Öğretmenler Sitesi",
+   "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-05",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 7.0,
+  "siteler": [
+   "Öğretmenler Sitesi"
   ]
  }
 ]
