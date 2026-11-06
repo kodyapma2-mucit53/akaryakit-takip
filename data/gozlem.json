@@ -2701,6 +2701,7 @@
    "EHA Medya",
    "Egeli Gazete",
    "Haberlisin",
+   "Instagram",
    "Kocaeli Denge",
    "Malatya Söz",
    "Memur 365",
@@ -2775,6 +2776,7 @@
    "Kangal Gündem",
    "Uşak Olay",
    "YURT HABERLERİ.net",
+   "Yeniçağ Gazetesi",
    "İzmir’de Son Dakika"
   ]
  },
@@ -2826,6 +2828,18 @@
   "tutar": 5.0,
   "siteler": [
    "Ege Alternatif"
+  ]
+ },
+ {
+  "gun": "2026-11-06",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.47,
+  "siteler": [
+   "Dünya Gazetesi",
+   "Egeli Gazete",
+   "Türkinform",
+   "YatırımX"
   ]
  }
 ]
