@@ -2858,6 +2858,7 @@
    "Medyahaber.com",
    "Muhalif",
    "Odatv",
+   "Pamukova Halk",
    "Samsun Gazetesi",
    "Türkinform",
    "Urfanın Nabzı",
@@ -2879,6 +2880,15 @@
    "Anka Haber",
    "Yeniçağ Gazetesi",
    "dokuz8HABER"
+  ]
+ },
+ {
+  "gun": "2026-11-06",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.29,
+  "siteler": [
+   "HaberX"
   ]
  }
 ]
