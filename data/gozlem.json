@@ -2707,6 +2707,7 @@
    "Memur 365",
    "Muğla Yenigün",
    "Paratic Haber",
+   "Radyo Trafik",
    "ShiftDelete.Net",
    "Yaşam Gazetesi",
    "Yeni Alanya",
@@ -2760,7 +2761,8 @@
    "Manisa Kulis Haber",
    "Notbir",
    "Samsun Haber",
-   "Sonsöz Gazetesi"
+   "Sonsöz Gazetesi",
+   "https://www.vanhaber.tr/"
   ]
  },
  {
@@ -2836,12 +2838,16 @@
   "yon": "indirim",
   "tutar": 5.47,
   "siteler": [
+   "Akyazi.Net",
    "Diyarbakır Olay Gazetesi",
    "Dünya Gazetesi",
    "EHA Medya",
    "Egeli Gazete",
+   "Instagram",
    "Kocaeli Kent Gazetesi",
+   "Kütahya'nın Sesi Gazetesi",
    "Kısa Dalga",
+   "Malatya Söz",
    "Mardin Life",
    "Medyabar",
    "Medyahaber.com",
@@ -2851,6 +2857,8 @@
    "YatırımX",
    "Yayla Haber",
    "Çorum Yayla Haber Gazetesi",
+   "İzmir’de Son Dakika",
+   "İşte Kocaeli Gazetesi",
    "Şırnak Haber 73"
   ]
  },
