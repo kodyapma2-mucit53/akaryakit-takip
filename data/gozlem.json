@@ -2838,8 +2838,24 @@
   "siteler": [
    "Dünya Gazetesi",
    "Egeli Gazete",
+   "Kocaeli Kent Gazetesi",
+   "Kısa Dalga",
+   "Muhalif",
+   "Samsun Gazetesi",
    "Türkinform",
-   "YatırımX"
+   "YatırımX",
+   "Çorum Yayla Haber Gazetesi",
+   "Şırnak Haber 73"
+  ]
+ },
+ {
+  "gun": "2026-11-06",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 0.47,
+  "siteler": [
+   "Yeniçağ Gazetesi",
+   "dokuz8HABER"
   ]
  }
 ]
