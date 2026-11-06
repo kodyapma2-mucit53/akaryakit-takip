@@ -2727,6 +2727,7 @@
    "Boyoz Haber",
    "Kamu Son Dakika Haberleri",
    "Kamudanhaber",
+   "Kocaeli Denge",
    "Medyascope",
    "Memurlar.Net",
    "Milli Gazete",
@@ -2796,6 +2797,7 @@
   "yon": "indirim",
   "tutar": 7.0,
   "siteler": [
+   "Kocaeli Denge",
    "Öğretmenler Sitesi"
   ]
  },
@@ -2815,6 +2817,15 @@
   "tutar": 0.08,
   "siteler": [
    "Karadeniz Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-06",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.0,
+  "siteler": [
+   "Ege Alternatif"
   ]
  }
 ]
