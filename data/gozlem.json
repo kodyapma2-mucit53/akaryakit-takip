@@ -2901,6 +2901,7 @@
   "yon": "indirim",
   "tutar": 5.47,
   "siteler": [
+   "Aksu TV Haber",
    "EHA Medya",
    "Egeli Gazete",
    "Fethiye Haber",
@@ -2915,6 +2916,7 @@
    "Malatya Söz",
    "Mardin Life",
    "Medyahaber.com",
+   "Muhalif",
    "Muşkara Haber",
    "Odatv",
    "Pamukova Halk",
@@ -2995,6 +2997,7 @@
   "yon": "indirim",
   "tutar": 6.0,
   "siteler": [
+   "Gerçek Haberci",
    "https://www.vanhaber.tr/"
   ]
  }
