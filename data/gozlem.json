@@ -3003,5 +3003,26 @@
    "Gerçek Haberci",
    "https://www.vanhaber.tr/"
   ]
+ },
+ {
+  "gun": "2026-11-08",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.47,
+  "siteler": [
+   "Aksu TV Haber",
+   "Haber49",
+   "Kocaeli Denge",
+   "emlak 365"
+  ]
+ },
+ {
+  "gun": "2026-11-08",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 7.0,
+  "siteler": [
+   "Kırşehir Memleket Haber Portalı"
+  ]
  }
 ]
