@@ -1,73 +1,6 @@
 [
  {
   "gun": "2026-10-29",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": 3.6,
-  "siteler": [
-   "Avaz Türk",
-   "Aydın Hedef Gazetesi",
-   "Boyoz Haber",
-   "Bundle",
-   "Bursa Hakimiyet",
-   "Demokrat Kocaeli",
-   "Doğruhaber",
-   "Ege Telgraf",
-   "Gaziantep Doğuş",
-   "Haber Hürriyeti",
-   "Haberhergün",
-   "Hamle Gazetesi",
-   "Kamudanhaber",
-   "Kocaeli Halk Gazetesi",
-   "Merhaba Gazetesi",
-   "Milli İrade Gazetesi",
-   "Sabah",
-   "Samsun Haber",
-   "Siirt haber",
-   "SuperHaber",
-   "Tirebolu Haber",
-   "Yeni Alanya",
-   "Yozgat Çamlık Gazetesi",
-   "https://www.babaocagi.com/",
-   "İzmir’de Son Dakika",
-   "Şehrivan"
-  ]
- },
- {
-  "gun": "2026-10-29",
-  "yakit": "benzin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Avaz Türk",
-   "Aydın Hedef Gazetesi",
-   "Boyoz Haber",
-   "Bursa Hakimiyet",
-   "Demokrat Kocaeli",
-   "Doğruhaber",
-   "Ege Telgraf",
-   "Gaziantep Doğuş",
-   "Haber Hürriyeti",
-   "Haberhergün",
-   "Hamle Gazetesi",
-   "Kamudanhaber",
-   "Kocaeli Halk Gazetesi",
-   "Merhaba Gazetesi",
-   "Milli İrade Gazetesi",
-   "Sabah",
-   "Samsun Haber",
-   "Siirt haber",
-   "SuperHaber",
-   "Tirebolu Haber",
-   "Yeni Alanya",
-   "Yozgat Çamlık Gazetesi",
-   "https://www.babaocagi.com/",
-   "İzmir’de Son Dakika",
-   "Şehrivan"
-  ]
- },
- {
-  "gun": "2026-10-29",
   "yakit": "benzin",
   "yon": "zam",
   "tutar": 3.6,
@@ -20415,6 +20348,46 @@
    "Haber49",
    "Kocaeli Denge",
    "emlak 365"
+  ]
+ },
+ {
+  "gun": "2026-11-07",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "24 Saat Gazetesi Ankara",
+   "Analiz Gazetesi",
+   "Artı Gerçek",
+   "Bizim Ankara",
+   "Ege Postası",
+   "Haber Gazetesi",
+   "LEBLEBİ TV",
+   "Medya Yenigün Gazetesi",
+   "Medyatava",
+   "Mynet Finans",
+   "Notbir",
+   "Sözcü Gazetesi",
+   "Yıldız Haber",
+   "birgun.net",
+   "halk54.com",
+   "ilkses",
+   "tv100 Haber",
+   "www.ajansflash.com",
+   "İlkses Gazetesi",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-11-07",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Kocaeli Denge",
+   "Konya Yenigün",
+   "Medya Yenigün Gazetesi",
+   "www.ajansflash.com"
   ]
  }
 ]
