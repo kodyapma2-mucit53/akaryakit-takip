@@ -1,24 +1,6 @@
 [
  {
   "gun": "2026-10-30",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": 3.6,
-  "siteler": [
-   "Aksu TV Haber",
-   "Boyoz Haber",
-   "Bundle",
-   "Doğruhaber",
-   "Gaziantep Doğuş",
-   "Hamle Gazetesi",
-   "Merhaba Gazetesi",
-   "Sabah",
-   "Tirebolu Haber",
-   "Yozgat Çamlık Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-30",
   "yakit": "benzin",
   "yon": "zam",
   "tutar": null,
@@ -20385,6 +20367,18 @@
    "LEBLEBİ TV",
    "Son Mühür",
    "Yıldız Haber",
+   "İlkses Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-08",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.29,
+  "siteler": [
+   "HaberX",
+   "LEBLEBİ TV",
+   "Son Mühür",
    "İlkses Gazetesi"
   ]
  }
