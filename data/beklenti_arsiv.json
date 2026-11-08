@@ -1,23 +1,5 @@
 [
  {
-  "gun": "2026-10-29",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Aksu TV Haber",
-   "Boyoz Haber",
-   "Doğruhaber",
-   "Gaziantep Doğuş",
-   "Hamle Gazetesi",
-   "Merhaba Gazetesi",
-   "Sabah",
-   "Tirebolu Haber",
-   "Yozgat Çamlık Gazetesi",
-   "Şehrivan"
-  ]
- },
- {
   "gun": "2026-10-30",
   "yakit": "benzin",
   "yon": "zam",
@@ -20384,6 +20366,27 @@
    "Sözcü Gazetesi",
    "Yıldız Haber",
    "birgun.net",
+   "halk54.com",
+   "tv100 Haber",
+   "İlkses Gazetesi",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-11-08",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "24 Saat Gazetesi Ankara",
+   "Analiz Gazetesi",
+   "Artı Gerçek",
+   "Ege Postası",
+   "LEBLEBİ TV",
+   "Medyatava",
+   "Notbir",
+   "Son Mühür",
+   "Yıldız Haber",
    "halk54.com",
    "tv100 Haber",
    "İlkses Gazetesi",
