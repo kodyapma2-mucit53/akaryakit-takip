@@ -1,28 +1,26 @@
 {
  "gonderilen": {
-  "2026-11-07|motorin|indirim|None": "2026-11-07T00:19:25.037846+03:00",
-  "2026-11-07|benzin|indirim|6.08": "2026-11-07T00:19:25.037846+03:00",
   "2026-11-08|motorin|indirim|5.47": "2026-11-08T00:40:26.960612+03:00",
   "2026-11-08|motorin|indirim|5.29": "2026-11-08T16:52:32.669133+03:00"
  },
- "son_calisma": "2026-11-09T23:30:41.606429+03:00",
+ "son_calisma": "2026-11-10T00:28:00.608027+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 74.37,
-    "motorin": 94.97
+    "benzin": 74.49,
+    "motorin": 95.09
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 76.58,
-    "motorin": 97.24
+    "benzin": 76.7,
+    "motorin": 97.36
    }
   }
  },
- "opet_lastupdate": "07.11.2026",
+ "opet_lastupdate": "10.11.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -33,8 +31,8 @@
   "Yüksek Kükürtlü Fuel Oil"
  ],
  "son_pompa_degisim": {
-  "motorin": "2026-11-07",
-  "benzin": "2026-11-06"
+  "motorin": "2026-11-10",
+  "benzin": "2026-11-10"
  },
  "degisim_gecmis": [
   [
@@ -101,6 +99,16 @@
    "motorin",
    "2026-11-07",
    -5.44
+  ],
+  [
+   "benzin",
+   "2026-11-10",
+   0.12
+  ],
+  [
+   "motorin",
+   "2026-11-10",
+   0.12
   ]
  ],
  "site_karnesi": {
@@ -122,7 +130,7 @@
   },
   "Aksu TV Haber": {
    "dogru": 3,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Anadolu Ekspres Gazetesi": {
    "dogru": 1,
@@ -178,7 +186,7 @@
   },
   "Kayserim.net": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Kocaeli Kent Gazetesi": {
    "dogru": 2,
@@ -554,7 +562,7 @@
   },
   "Sözcü Gazetesi": {
    "dogru": 1,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Süper Kanal TV": {
    "dogru": 0,
@@ -570,7 +578,7 @@
   },
   "İz Gazete": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Afyon Türkeli Gazetesi": {
    "dogru": 1,
@@ -638,7 +646,7 @@
   },
   "tv100 Haber": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Anka Haber": {
    "dogru": 0,
@@ -818,7 +826,7 @@
   },
   "Kocaeli Denge": {
    "dogru": 2,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Kocaeli Gazetesi": {
    "dogru": 1,
@@ -1014,7 +1022,7 @@
   },
   "HaberX": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Kocaeli Şehir Gazetesi": {
    "dogru": 0,
@@ -1026,7 +1034,7 @@
   },
   "Son Mühür": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Yomra SonHaber": {
    "dogru": 0,
@@ -1142,7 +1150,7 @@
   },
   "Notbir": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Gazete Oksijen": {
    "dogru": 0,
@@ -1198,7 +1206,7 @@
   },
   "birgun.net": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "nefes": {
    "dogru": 0,
@@ -1206,7 +1214,7 @@
   },
   "Kırşehir Memleket Haber Portalı": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Telgraf Gazetesi": {
    "dogru": 0,
@@ -1226,7 +1234,7 @@
   },
   "Haber49": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Kütahya'nın Sesi Gazetesi": {
    "dogru": 1,
@@ -1258,7 +1266,7 @@
   },
   "emlak 365": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "İşte Kocaeli Gazetesi": {
    "dogru": 1,
@@ -1271,6 +1279,54 @@
   "Şırnak Haber 73": {
    "dogru": 1,
    "yanlis": 0
+  },
+  "24 Saat Gazetesi Ankara": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Analiz Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Artı Gerçek": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Ege Postası": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "LEBLEBİ TV": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Medyatava": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Mynet": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Mynet Finans": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Yıldız Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "halk54.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "İlkses Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Günebakış Haber": {
+   "dogru": 0,
+   "yanlis": 1
   }
  }
 }
