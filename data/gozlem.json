@@ -3133,9 +3133,12 @@
    "AHB Medya",
    "Adapazarı Akşam Haberleri Gazetesi",
    "Adıyaman Işık Gazetesi",
+   "Afyon Kent Haber",
    "Alanya Postası",
    "Anka Haber",
    "Artı Gerçek",
+   "Bursa Hakimiyet",
+   "Cumhuriyet",
    "Doğruhaber",
    "Doğubayazıt Gazetesi",
    "Düzcenin Sesi",
@@ -3149,12 +3152,15 @@
    "Kocaeli TV",
    "Kısa Dalga",
    "MEDYARADAR",
+   "Medyaradar",
    "Merhaba Gazetesi",
    "Merhaba Haber",
    "Milli Gazete",
    "Milli İrade Gazetesi",
+   "Muhalif",
    "Mynet",
    "Mynet Finans",
+   "Paranın Yönü",
    "Samsun Haber",
    "Son Mühür",
    "T24",
@@ -3163,13 +3169,25 @@
    "Türkinform",
    "Urfanatik",
    "YatırımX",
+   "Yayla Haber",
    "Yeniçağ Gazetesi",
    "abcgazetesi",
    "birgun.net",
+   "dokuz8HABER",
    "elipshaber.com",
    "haberhurriyeti",
    "ilkses",
-   "İnternet Haber"
+   "İnternet Haber",
+   "Şırnak Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.0,
+  "siteler": [
+   "Yayla Haber"
   ]
  }
 ]
