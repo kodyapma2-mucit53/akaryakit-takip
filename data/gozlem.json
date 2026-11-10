@@ -3073,5 +3073,49 @@
    "Günebakış Haber",
    "Kayserim.net"
   ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Alanya Postası",
+   "Anka Haber",
+   "Artı Gerçek",
+   "Doğruhaber",
+   "Ekonomim",
+   "Güneş TV",
+   "Haber Sunum",
+   "Hey Haber",
+   "Kocaeli Halk Gazetesi",
+   "Kısa Dalga",
+   "Toplumsal Haber",
+   "Yeniçağ Gazetesi",
+   "birgun.net",
+   "elipshaber.com"
+  ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Alanya Postası",
+   "Anka Haber",
+   "Artı Gerçek",
+   "Doğruhaber",
+   "Ekonomim",
+   "Güneş TV",
+   "Haber Sunum",
+   "Hey Haber",
+   "Kocaeli Halk Gazetesi",
+   "Kısa Dalga",
+   "Toplumsal Haber",
+   "Yeniçağ Gazetesi",
+   "birgun.net",
+   "elipshaber.com"
+  ]
  }
 ]

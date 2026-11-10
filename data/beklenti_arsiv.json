@@ -6,40 +6,6 @@
   "tutar": null,
   "siteler": [
    "Aksu TV Haber",
-   "Boyoz Haber",
-   "Doğruhaber",
-   "Gaziantep Doğuş",
-   "Hamle Gazetesi",
-   "Merhaba Gazetesi",
-   "Sabah",
-   "Tirebolu Haber",
-   "Yozgat Çamlık Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-30",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Aksu TV Haber",
-   "Boyoz Haber",
-   "Doğruhaber",
-   "Gaziantep Doğuş",
-   "Hamle Gazetesi",
-   "Merhaba Gazetesi",
-   "Sabah",
-   "Tirebolu Haber",
-   "Yozgat Çamlık Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-30",
-  "yakit": "benzin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Aksu TV Haber",
    "Doğruhaber",
    "Gaziantep Doğuş",
    "Hamle Gazetesi",
@@ -20380,6 +20346,50 @@
    "LEBLEBİ TV",
    "Son Mühür",
    "İlkses Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Alanya Postası",
+   "Anka Haber",
+   "Artı Gerçek",
+   "Doğruhaber",
+   "Ekonomim",
+   "Güneş TV",
+   "Haber Sunum",
+   "Hey Haber",
+   "Kocaeli Halk Gazetesi",
+   "Kısa Dalga",
+   "Toplumsal Haber",
+   "Yeniçağ Gazetesi",
+   "birgun.net",
+   "elipshaber.com"
+  ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Alanya Postası",
+   "Anka Haber",
+   "Artı Gerçek",
+   "Doğruhaber",
+   "Ekonomim",
+   "Güneş TV",
+   "Haber Sunum",
+   "Hey Haber",
+   "Kocaeli Halk Gazetesi",
+   "Kısa Dalga",
+   "Toplumsal Haber",
+   "Yeniçağ Gazetesi",
+   "birgun.net",
+   "elipshaber.com"
   ]
  }
 ]
