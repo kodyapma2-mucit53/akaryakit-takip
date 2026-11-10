@@ -3,36 +3,6 @@
   "gun": "2026-10-30",
   "yakit": "benzin",
   "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Aksu TV Haber",
-   "Doğruhaber",
-   "Gaziantep Doğuş",
-   "Hamle Gazetesi",
-   "Merhaba Gazetesi",
-   "Sabah",
-   "Yozgat Çamlık Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-30",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Aksu TV Haber",
-   "Doğruhaber",
-   "Gaziantep Doğuş",
-   "Hamle Gazetesi",
-   "Merhaba Gazetesi",
-   "Sabah",
-   "Yozgat Çamlık Gazetesi"
-  ]
- },
- {
-  "gun": "2026-10-30",
-  "yakit": "benzin",
-  "yon": "zam",
   "tutar": 3.6,
   "siteler": [
    "Aksu TV Haber",
@@ -20428,6 +20398,76 @@
    "birgun.net",
    "elipshaber.com",
    "ilkses"
+  ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "AHB Medya",
+   "Alanya Postası",
+   "Anka Haber",
+   "Doğruhaber",
+   "Düzcenin Sesi",
+   "Ekonomim",
+   "Güneş TV",
+   "Haber Sunum",
+   "HaberTS",
+   "Haberlisin",
+   "Hey Haber",
+   "Kocaeli Halk Gazetesi",
+   "Kocaeli TV",
+   "Milli Gazete",
+   "Milli İrade Gazetesi",
+   "Mynet",
+   "T24",
+   "Toplumsal Haber",
+   "Türkinform",
+   "Urfanatik",
+   "YatırımX",
+   "Yeniçağ Gazetesi",
+   "birgun.net",
+   "elipshaber.com",
+   "haberhurriyeti",
+   "ilkses",
+   "İnternet Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-10",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "AHB Medya",
+   "Alanya Postası",
+   "Anka Haber",
+   "Doğruhaber",
+   "Düzcenin Sesi",
+   "Ekonomim",
+   "Güneş TV",
+   "Haber Sunum",
+   "HaberTS",
+   "Haberlisin",
+   "Hey Haber",
+   "Kocaeli Halk Gazetesi",
+   "Kocaeli TV",
+   "Milli Gazete",
+   "Milli İrade Gazetesi",
+   "Mynet",
+   "T24",
+   "Toplumsal Haber",
+   "Türkinform",
+   "Urfanatik",
+   "YatırımX",
+   "Yeniçağ Gazetesi",
+   "birgun.net",
+   "elipshaber.com",
+   "haberhurriyeti",
+   "ilkses",
+   "İnternet Haber"
   ]
  }
 ]

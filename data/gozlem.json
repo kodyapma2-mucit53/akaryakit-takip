@@ -3086,17 +3086,22 @@
    "Artı Gerçek",
    "Doğruhaber",
    "Doğubayazıt Gazetesi",
+   "Düzcenin Sesi",
    "Ekonomim",
    "Güneş TV",
    "Haber Sunum",
    "HaberTS",
+   "Haberlisin",
    "Hey Haber",
    "Kocaeli Halk Gazetesi",
+   "Kocaeli TV",
    "Kısa Dalga",
    "MEDYARADAR",
    "Merhaba Gazetesi",
    "Merhaba Haber",
    "Milli Gazete",
+   "Milli İrade Gazetesi",
+   "Mynet",
    "Mynet Finans",
    "Son Mühür",
    "T24",
@@ -3108,7 +3113,9 @@
    "Yeniçağ Gazetesi",
    "birgun.net",
    "elipshaber.com",
-   "ilkses"
+   "haberhurriyeti",
+   "ilkses",
+   "İnternet Haber"
   ]
  },
  {
@@ -3123,17 +3130,22 @@
    "Artı Gerçek",
    "Doğruhaber",
    "Doğubayazıt Gazetesi",
+   "Düzcenin Sesi",
    "Ekonomim",
    "Güneş TV",
    "Haber Sunum",
    "HaberTS",
+   "Haberlisin",
    "Hey Haber",
    "Kocaeli Halk Gazetesi",
+   "Kocaeli TV",
    "Kısa Dalga",
    "MEDYARADAR",
    "Merhaba Gazetesi",
    "Merhaba Haber",
    "Milli Gazete",
+   "Milli İrade Gazetesi",
+   "Mynet",
    "Mynet Finans",
    "Son Mühür",
    "T24",
@@ -3145,7 +3157,9 @@
    "Yeniçağ Gazetesi",
    "birgun.net",
    "elipshaber.com",
-   "ilkses"
+   "haberhurriyeti",
+   "ilkses",
+   "İnternet Haber"
   ]
  }
 ]
