@@ -3320,6 +3320,7 @@
    "Yayla Haber",
    "Yeni Asır",
    "Yeni Bakış Gazetesi İzmir",
+   "Yeni Birlik",
    "Yeni Şafak",
    "Yeniçağ Gazetesi",
    "Yozgat Çamlık Gazetesi",
@@ -3361,6 +3362,7 @@
   "yon": "indirim",
   "tutar": 3.0,
   "siteler": [
+   "Haber Ege",
    "Son Mühür",
    "Timeturk",
    "Yayla Haber"
@@ -3372,6 +3374,7 @@
   "yon": "indirim",
   "tutar": 3.54,
   "siteler": [
+   "2Eylül Haber",
    "AHB Medya",
    "Afyon Türkeli Gazetesi",
    "Aksu TV Haber",
@@ -3379,14 +3382,18 @@
    "Aydın Haber, Son Dakika Aydın Haberleri | Aydinpost.com",
    "Aydın Haberleri",
    "Bugün Kocaeli Gazetesi",
+   "Bursa Hakimiyet",
    "Büyük Sivas Haber",
+   "Dosya Haber",
    "EHA Medya",
    "Egeli Gazete",
    "Gazete Gerçek",
    "Gazete Kritik",
    "Güneş TV",
    "Haber32",
+   "Haberci TV",
    "Haberhergün",
+   "Halkın Sesi Gazetesi",
    "Kangal Gündem",
    "Kayserim.net",
    "Kocaeli Kent Gazetesi",
@@ -3398,7 +3405,9 @@
    "Veryansın TV",
    "Yayla Haber",
    "Yeni İzmir Haber",
-   "birgun.net"
+   "birgun.net",
+   "kahramantv",
+   "yeniufukgazetesi.com.tr"
   ]
  }
 ]
