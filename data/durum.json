@@ -6,26 +6,28 @@
   "2026-11-10|benzin|indirim|None": "2026-11-10T15:28:24.810484+03:00",
   "baski|benzin|2026-11-10|-|1": "2026-11-11T09:01:59.056187+03:00",
   "2026-11-11|benzin|indirim|3.54": "2026-11-11T10:15:52.561792+03:00",
-  "2026-11-11|benzin|indirim|3.0": "2026-11-11T11:35:21.181366+03:00"
+  "2026-11-11|benzin|indirim|3.0": "2026-11-11T11:35:21.181366+03:00",
+  "2026-11-12|benzin|indirim|None": "2026-11-12T02:01:18.262967+03:00",
+  "2026-11-12|motorin|indirim|4.0": "2026-11-12T02:01:18.262967+03:00"
  },
- "son_calisma": "2026-11-11T19:31:26.739926+03:00",
+ "son_calisma": "2026-11-12T02:01:18.262967+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 74.49,
+    "benzin": 71.01,
     "motorin": 95.09
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 76.7,
+    "benzin": 73.22,
     "motorin": 97.36
    }
   }
  },
- "opet_lastupdate": "11.11.2026",
+ "opet_lastupdate": "12.11.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -37,7 +39,7 @@
  ],
  "son_pompa_degisim": {
   "motorin": "2026-11-10",
-  "benzin": "2026-11-10"
+  "benzin": "2026-11-12"
  },
  "degisim_gecmis": [
   [
@@ -114,27 +116,32 @@
    "motorin",
    "2026-11-10",
    0.12
+  ],
+  [
+   "benzin",
+   "2026-11-12",
+   -3.48
   ]
  ],
  "site_karnesi": {
   "Hey Haber": {
    "dogru": 0,
-   "yanlis": 2
+   "yanlis": 3
   },
   "AHB Medya": {
    "dogru": 2,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Adapazarı Akşam Haberleri Gazetesi": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Ajans04": {
    "dogru": 1,
    "yanlis": 1
   },
   "Aksu TV Haber": {
-   "dogru": 3,
+   "dogru": 4,
    "yanlis": 3
   },
   "Anadolu Ekspres Gazetesi": {
@@ -166,7 +173,7 @@
    "yanlis": 0
   },
   "Egeli Gazete": {
-   "dogru": 4,
+   "dogru": 5,
    "yanlis": 0
   },
   "Haber Ekspres": {
@@ -179,7 +186,7 @@
   },
   "Haberlisin": {
    "dogru": 2,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Karamanhaberleri.com": {
    "dogru": 1,
@@ -190,15 +197,15 @@
    "yanlis": 0
   },
   "Kayserim.net": {
-   "dogru": 2,
+   "dogru": 3,
    "yanlis": 2
   },
   "Kocaeli Kent Gazetesi": {
-   "dogru": 2,
+   "dogru": 3,
    "yanlis": 1
   },
   "Malatya Güncel": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "Mardin Life": {
@@ -207,7 +214,7 @@
   },
   "Milli Gazete": {
    "dogru": 2,
-   "yanlis": 4
+   "yanlis": 5
   },
   "Pamukova Halk": {
    "dogru": 3,
@@ -234,16 +241,16 @@
    "yanlis": 2
   },
   "Veryansın TV": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 1
   },
   "Yayla Haber": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Yeniçağ Gazetesi": {
    "dogru": 2,
-   "yanlis": 4
+   "yanlis": 5
   },
   "Yeşil Afşin Gazetesi": {
    "dogru": 2,
@@ -275,10 +282,10 @@
   },
   "Kısa Dalga": {
    "dogru": 2,
-   "yanlis": 4
+   "yanlis": 5
   },
   "kayserihaber.com": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 4
   },
   "Yeni Kıroba": {
@@ -314,15 +321,15 @@
    "yanlis": 1
   },
   "Bugün Kocaeli Gazetesi": {
-   "dogru": 2,
+   "dogru": 3,
    "yanlis": 3
   },
   "Bursa Hakimiyet": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 3
   },
   "Büyük Sivas Haber": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 2
   },
   "Dumlupınar Gazetesi": {
@@ -362,7 +369,7 @@
    "yanlis": 1
   },
   "Haber32": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 1
   },
   "Haberler": {
@@ -423,14 +430,14 @@
   },
   "Samsun Haber": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Son 32": {
    "dogru": 1,
    "yanlis": 0
   },
   "Son Dakika": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 3
   },
   "Son haberler": {
@@ -439,7 +446,7 @@
   },
   "Timeturk": {
    "dogru": 2,
-   "yanlis": 7
+   "yanlis": 8
   },
   "Türkgün": {
    "dogru": 1,
@@ -546,7 +553,7 @@
    "yanlis": 2
   },
   "Haberci TV": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 1
   },
   "Instagram": {
@@ -558,7 +565,7 @@
    "yanlis": 1
   },
   "Manşet Haber": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 1
   },
   "NNC Haber": {
@@ -579,14 +586,14 @@
   },
   "İnternet Haber": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "İz Gazete": {
    "dogru": 0,
    "yanlis": 2
   },
   "Afyon Türkeli Gazetesi": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 1
   },
   "Gazete Arena": {
@@ -603,7 +610,7 @@
   },
   "Haber Ege": {
    "dogru": 2,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Haber Expres": {
    "dogru": 1,
@@ -619,11 +626,11 @@
   },
   "Toplumsal Haber": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Urfanatik": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "İstanbul Ticaret Gazetesi": {
    "dogru": 2,
@@ -643,7 +650,7 @@
   },
   "YatırımX": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Yeni Şafak": {
    "dogru": 0,
@@ -655,10 +662,10 @@
   },
   "Anka Haber": {
    "dogru": 0,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Gazete Kritik": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 1
   },
   "YENİ ASYA": {
@@ -703,7 +710,7 @@
   },
   "haberhurriyeti": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "sonmuhur.com": {
    "dogru": 0,
@@ -719,7 +726,7 @@
   },
   "Bundle": {
    "dogru": 1,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Amed Haber": {
    "dogru": 1,
@@ -731,7 +738,7 @@
   },
   "Doğruhaber": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Gaziantep Doğuş": {
    "dogru": 1,
@@ -743,7 +750,7 @@
   },
   "Merhaba Gazetesi": {
    "dogru": 1,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Sabah": {
    "dogru": 1,
@@ -803,7 +810,7 @@
   },
   "Ekonomim": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Enerji Günlüğü": {
    "dogru": 1,
@@ -855,7 +862,7 @@
   },
   "Milli İrade Gazetesi": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "NTV Haber": {
    "dogru": 1,
@@ -943,7 +950,7 @@
   },
   "HaberTS": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Herkes Duysun": {
    "dogru": 1,
@@ -966,7 +973,7 @@
    "yanlis": 1
   },
   "dokuz8HABER": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 2
   },
   "Akhisar Press Haber": {
@@ -990,7 +997,7 @@
    "yanlis": 3
   },
   "Manisa Kulis Haber": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 2
   },
   "finanshatti.com": {
@@ -1006,7 +1013,7 @@
    "yanlis": 2
   },
   "2Eylül Haber": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 1
   },
   "Alanya Türk": {
@@ -1039,7 +1046,7 @@
   },
   "Son Mühür": {
    "dogru": 0,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Yomra SonHaber": {
    "dogru": 0,
@@ -1062,7 +1069,7 @@
    "yanlis": 1
   },
   "Sakarya Postası": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 1
   },
   "Sakarya Son Dakika": {
@@ -1086,7 +1093,7 @@
    "yanlis": 1
   },
   "Kangal Gündem": {
-   "dogru": 0,
+   "dogru": 1,
    "yanlis": 1
   },
   "YURT HABERLERİ.net": {
@@ -1098,7 +1105,7 @@
    "yanlis": 1
   },
   "EHA Medya": {
-   "dogru": 2,
+   "dogru": 3,
    "yanlis": 0
   },
   "Memur 365": {
@@ -1110,7 +1117,7 @@
    "yanlis": 0
   },
   "Paratic Haber": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "ShiftDelete.Net": {
@@ -1122,11 +1129,11 @@
    "yanlis": 0
   },
   "Yeniufuk Gazetesi": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "yeniufukgazetesi.com.tr": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "Şanlıurfa Olay": {
@@ -1139,10 +1146,10 @@
   },
   "Alanya Postası": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Haberhergün": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "Karadeniz Gazetesi": {
@@ -1211,7 +1218,7 @@
   },
   "birgun.net": {
    "dogru": 0,
-   "yanlis": 2
+   "yanlis": 3
   },
   "nefes": {
    "dogru": 0,
@@ -1267,7 +1274,7 @@
   },
   "Türkinform": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "emlak 365": {
    "dogru": 1,
@@ -1295,7 +1302,7 @@
   },
   "Artı Gerçek": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Ege Postası": {
    "dogru": 0,
@@ -1303,7 +1310,7 @@
   },
   "LEBLEBİ TV": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Medyatava": {
    "dogru": 0,
@@ -1311,11 +1318,11 @@
   },
   "Mynet": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Mynet Finans": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Yıldız Haber": {
    "dogru": 0,
@@ -1332,6 +1339,122 @@
   "Günebakış Haber": {
    "dogru": 0,
    "yanlis": 1
+  },
+  "ABC Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Adıyaman Işık Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Doğubayazıt Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Düzcenin Sesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Güneş TV": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Haber Sunum": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Kocaeli Halk Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Kocaeli TV": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "MEDYARADAR": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Merhaba Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Siirt'te": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "T24": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "T24 on MSN": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "abcgazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "elipshaber.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "ilkses": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "www.kentgazetesi.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "www.siirthaberci.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Kent Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Aydın Haber, Son Dakika Aydın Haberleri | Aydinpost.com": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Aydın Haberleri": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Dosya Haber": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Gazete Gerçek": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Halkın Sesi Gazetesi": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Malatya Haber, Malatya Haberi, Malatya Son Dakika Haberleri": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Malatya Net Haber": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Ticari Hayat": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "Yeni İzmir Haber": {
+   "dogru": 1,
+   "yanlis": 0
+  },
+  "kahramantv": {
+   "dogru": 1,
+   "yanlis": 0
   }
  }
 }

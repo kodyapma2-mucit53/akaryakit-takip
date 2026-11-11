@@ -248,5 +248,24 @@
     "yeni": 97.36
    }
   ]
+ },
+ {
+  "zaman": "2026-11-12T02:01+03:00",
+  "lastUpdate": "12.11.2026",
+  "erken": false,
+  "degisimler": [
+   {
+    "il": "İstanbul",
+    "yakit": "benzin",
+    "eski": 74.49,
+    "yeni": 71.01
+   },
+   {
+    "il": "Erzurum",
+    "yakit": "benzin",
+    "eski": 76.7,
+    "yeni": 73.22
+   }
+  ]
  }
 ]
