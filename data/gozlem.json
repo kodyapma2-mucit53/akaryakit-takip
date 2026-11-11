@@ -3245,12 +3245,14 @@
    "Bursa Hakimiyet",
    "Cumhuriyet",
    "Diken",
+   "Diyarbakir.Net",
    "Doğruhaber",
    "Düzcenin Sesi",
    "Ege Postası",
    "Ekonomim",
    "Erzincan Net",
    "Gazete Memur",
+   "Haber Global",
    "Haber Hürriyeti",
    "Haber Sunum",
    "HaberTS",
@@ -3269,6 +3271,7 @@
    "Milli İrade Gazetesi",
    "Muhalif",
    "Mynet",
+   "Nefes Gazetesi",
    "OGÜN Haber",
    "Odakgazetesi",
    "Okur Gazetesi",
@@ -3279,6 +3282,7 @@
    "Siirt'te",
    "Son Mühür",
    "T24",
+   "Timeturk",
    "Tirebolu Haber",
    "Toplumsal Haber",
    "Türkgün",
@@ -3327,6 +3331,7 @@
   "yon": "indirim",
   "tutar": 3.0,
   "siteler": [
+   "Timeturk",
    "Yayla Haber"
   ]
  }
