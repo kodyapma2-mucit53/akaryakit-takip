@@ -3435,10 +3435,12 @@
    "ABC Haber",
    "AHB Medya",
    "Afyon Ana Haber",
+   "Anadolu Gazetesi",
    "Aydın Denge Haber",
    "Besni Güncel Gazetesi",
    "Birgün Gazetesi",
    "Bursa'ya Dair Her Şey",
+   "DENİZLİ24HABER",
    "Diken",
    "Dosya Haber",
    "Doğubayazıt Gazetesi",
@@ -3449,6 +3451,7 @@
    "Gazete Arena",
    "Gazete Kritik",
    "Gerçek Haberci",
+   "Haber Ege",
    "Haber Fokus",
    "Haber Global",
    "Haber46",
@@ -3476,7 +3479,9 @@
    "Yeni Birlik",
    "Yeni Şafak",
    "Yozgat Çamlık Gazetesi",
+   "izgazete.net",
    "politikam.com",
+   "Çağdaş Kocaeli Gazetesi",
    "Öz Diyarbakır Gazetesi",
    "İstiklal Gazetesi"
   ]
@@ -3549,6 +3554,15 @@
   "tutar": 4.0,
   "siteler": [
    "LEBLEBİ TV"
+  ]
+ },
+ {
+  "gun": "2026-11-12",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.4,
+  "siteler": [
+   "Haber Ege"
   ]
  }
 ]
