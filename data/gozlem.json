@@ -3564,5 +3564,43 @@
   "siteler": [
    "Haber Ege"
   ]
+ },
+ {
+  "gun": "2026-11-13",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.54,
+  "siteler": [
+   "12punto",
+   "ABC Haber",
+   "Akyazı Haber Akyazı'nın Bir Numaralı Haber Sitesi",
+   "Anadolu Gazetesi",
+   "DENİZLİ24HABER",
+   "EKOTÜRK",
+   "Gazete Oksijen",
+   "Haber Global",
+   "Haber3",
+   "Habertürk",
+   "Hatay Asi Gazetesi",
+   "Kamudanhaber",
+   "Manşet Aydın",
+   "Saray Medya",
+   "Yozgat Hakimiyet",
+   "Çağdaş Kocaeli Gazetesi",
+   "İleri Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-13",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "ABC Haber",
+   "Anadolu Gazetesi",
+   "DENİZLİ24HABER",
+   "Yozgat Hakimiyet",
+   "Çağdaş Kocaeli Gazetesi"
+  ]
  }
 ]
