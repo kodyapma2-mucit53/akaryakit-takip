@@ -3597,10 +3597,49 @@
   "tutar": 4.0,
   "siteler": [
    "ABC Haber",
+   "Amed Haber",
    "Anadolu Gazetesi",
+   "Bağımsız Kocaeli Gazetesi",
+   "Bursa Hakimiyet",
+   "CNN Türk",
    "DENİZLİ24HABER",
+   "Doğruhaber",
+   "Ege Telgraf",
+   "GZT",
+   "Günışığı Gazetesi",
+   "Haber Ege",
+   "Haber Global",
+   "Haber3",
+   "Haberlisin",
+   "Hey Haber",
+   "Kocaeli Şehir Gazetesi",
+   "Milli Gazete",
+   "Samsun İlk Haber",
+   "Ticari Hayat",
+   "Türkinform",
+   "Van Bölge Gazetesi",
    "Yozgat Hakimiyet",
-   "Çağdaş Kocaeli Gazetesi"
+   "Çağdaş Kocaeli Gazetesi",
+   "İnegöl Online",
+   "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-13",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Haber3"
+  ]
+ },
+ {
+  "gun": "2026-11-13",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.4,
+  "siteler": [
+   "Haber Ege"
   ]
  }
 ]
