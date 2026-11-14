@@ -1,17 +1,17 @@
 {
  "gonderilen": {
-  "baski|benzin|2026-11-10|-|1": "2026-11-11T09:01:59.056187+03:00",
-  "2026-11-11|benzin|indirim|3.54": "2026-11-11T10:15:52.561792+03:00",
-  "2026-11-11|benzin|indirim|3.0": "2026-11-11T11:35:21.181366+03:00",
   "2026-11-12|benzin|indirim|None": "2026-11-12T02:01:18.262967+03:00",
   "2026-11-12|motorin|indirim|4.0": "2026-11-12T02:01:18.262967+03:00",
   "iptal|motorine indirim hayali suya düştü! iran'dan gelen açıklama pompaları etkiledi": "2026-11-12T15:35:13.022413+03:00",
   "2026-11-13|benzin|indirim|3.54": "2026-11-13T04:27:22.671872+03:00",
   "2026-11-14|motorin|indirim|4.0": "2026-11-14T01:50:39.279511+03:00",
   "2026-11-14|benzin|indirim|None": "2026-11-14T01:50:39.279511+03:00",
-  "iptal|motorine indirim gelecek mi? 4 tl indirim neden iptal oldu?": "2026-11-14T01:50:39.279511+03:00"
+  "iptal|motorine indirim gelecek mi? 4 tl indirim neden iptal oldu?": "2026-11-14T01:50:39.279511+03:00",
+  "iptal|motorine indirim beklentisi iptal: gelecek hafta zam da indirim de yok": "2026-11-14T13:53:17.620119+03:00",
+  "iptal|motorine neden indirim yapılmadı, beklenen 4 liralık indirim iptal mi edildi?": "2026-11-14T13:53:17.620119+03:00",
+  "iptal|motorine dev indirim iptal edildi! sadece bir gerekçesi var": "2026-11-14T13:53:17.620119+03:00"
  },
- "son_calisma": "2026-11-14T06:07:59.244365+03:00",
+ "son_calisma": "2026-11-14T13:53:17.620119+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
