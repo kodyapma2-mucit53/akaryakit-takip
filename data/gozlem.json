@@ -3693,6 +3693,7 @@
   "yon": "indirim",
   "tutar": 4.0,
   "siteler": [
+   "24 Saat Gazetesi",
    "24 Saat Gazetesi Ankara",
    "AKŞAM",
    "Afyon Haber",
@@ -3777,6 +3778,7 @@
   "yon": "indirim",
   "tutar": 3.54,
   "siteler": [
+   "Gündem Van",
    "ShiftDelete.Net"
   ]
  }
