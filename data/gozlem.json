@@ -3787,5 +3787,23 @@
    "Gündem Van",
    "ShiftDelete.Net"
   ]
+ },
+ {
+  "gun": "2026-11-15",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Ajans344",
+   "Beyaz Gündem Gazetesi",
+   "Bizim Ankara",
+   "DENİZLİ24HABER",
+   "Gazete Vatan",
+   "Gazete İpekyol",
+   "Haberhergün",
+   "Habertürk",
+   "Kocaeli Denge",
+   "Medya Yenigün Gazetesi"
+  ]
  }
 ]
