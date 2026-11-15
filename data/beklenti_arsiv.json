@@ -1,47 +1,6 @@
 [
  {
   "gun": "2026-10-31",
-  "yakit": "lpg",
-  "yon": "zam",
-  "tutar": 9.0,
-  "siteler": [
-   "BBN Haber",
-   "Boyoz Haber",
-   "Bursa Hakimiyet",
-   "Cumhuriyet",
-   "Dürüst Haber",
-   "Elazığ Haber Kent",
-   "Enerji Günlüğü",
-   "Erzincan Net",
-   "Haber Ay",
-   "Haber3",
-   "Haber32",
-   "Habere Güven",
-   "Haberler",
-   "Hunat TV",
-   "Instagram",
-   "Kangal Gündem",
-   "Kocaeli Denge",
-   "Kocaeli Şehir Gazetesi",
-   "Milli Gazete",
-   "Notbir",
-   "Pusula Haber",
-   "Son Dakika",
-   "T24",
-   "Taka Gazete",
-   "Tirebolu Haber",
-   "Urfanatik",
-   "Van Bölge Gazetesi",
-   "YatırımX",
-   "Yozgat Hakimiyet",
-   "dokuz8HABER",
-   "İnternet Haber",
-   "İşte Kocaeli Gazetesi",
-   "Şehrivan"
-  ]
- },
- {
-  "gun": "2026-10-31",
   "yakit": "motorin",
   "yon": "zam",
   "tutar": null,
@@ -21628,6 +21587,19 @@
    "Habertürk",
    "Kocaeli Denge",
    "Medya Yenigün Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-15",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Ajans344",
+   "DENİZLİ24HABER",
+   "Gazete Vatan",
+   "Gündem Van",
+   "Kocaeli Denge"
   ]
  }
 ]
