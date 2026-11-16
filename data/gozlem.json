@@ -3807,5 +3807,14 @@
    "Kocaeli Denge",
    "Medya Yenigün Gazetesi"
   ]
+ },
+ {
+  "gun": "2026-11-16",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "AjansHaber"
+  ]
  }
 ]
