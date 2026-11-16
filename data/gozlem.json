@@ -3816,5 +3816,20 @@
   "siteler": [
    "AjansHaber"
   ]
+ },
+ {
+  "gun": "2026-11-16",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.54,
+  "siteler": [
+   "Aksu TV Haber",
+   "Amida Haber",
+   "EHA Medya",
+   "GZT",
+   "Mavi Kocaeli",
+   "https://www.manisahaber.com/",
+   "kayserihaber.com"
+  ]
  }
 ]
