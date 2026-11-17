@@ -5,20 +5,6 @@
   "yon": "zam",
   "tutar": null,
   "siteler": [
-   "En Son Haber",
-   "Habertürk",
-   "Patronlar Dünyası",
-   "Samsun Gazetesi",
-   "Sözcü Gazetesi",
-   "yatirimx"
-  ]
- },
- {
-  "gun": "2026-10-31",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
    "12punto",
    "2Eylül Haber",
    "Alanya Postası",
@@ -21439,6 +21425,22 @@
   "siteler": [
    "Aksu TV Haber",
    "Amida Haber",
+   "EHA Medya",
+   "GZT",
+   "Mavi Kocaeli",
+   "https://www.manisahaber.com/",
+   "kayserihaber.com"
+  ]
+ },
+ {
+  "gun": "2026-11-17",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 3.54,
+  "siteler": [
+   "Aksu TV Haber",
+   "Amida Haber",
+   "DENİZLİ24HABER",
    "EHA Medya",
    "GZT",
    "Mavi Kocaeli",

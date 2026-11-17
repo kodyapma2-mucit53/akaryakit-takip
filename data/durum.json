@@ -1,8 +1,5 @@
 {
  "gonderilen": {
-  "2026-11-14|motorin|indirim|4.0": "2026-11-14T01:50:39.279511+03:00",
-  "2026-11-14|benzin|indirim|None": "2026-11-14T01:50:39.279511+03:00",
-  "iptal|motorine indirim gelecek mi? 4 tl indirim neden iptal oldu?": "2026-11-14T01:50:39.279511+03:00",
   "iptal|motorine indirim beklentisi iptal: gelecek hafta zam da indirim de yok": "2026-11-14T13:53:17.620119+03:00",
   "iptal|motorine neden indirim yapılmadı, beklenen 4 liralık indirim iptal mi edildi?": "2026-11-14T13:53:17.620119+03:00",
   "iptal|motorine dev indirim iptal edildi! sadece bir gerekçesi var": "2026-11-14T13:53:17.620119+03:00",
@@ -10,24 +7,24 @@
   "iptal|motorinde indirim bekleyen sürücülere kötü haber: 4 tl’lik beklenti son anda ipt": "2026-11-15T11:25:35.909943+03:00",
   "2026-11-16|benzin|indirim|3.54": "2026-11-16T21:25:02.772687+03:00"
  },
- "son_calisma": "2026-11-16T21:25:02.772687+03:00",
+ "son_calisma": "2026-11-17T05:03:57.413169+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 71.01,
-    "motorin": 95.09
+    "benzin": 71.09,
+    "motorin": 95.19
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 73.22,
-    "motorin": 97.36
+    "benzin": 73.3,
+    "motorin": 97.46
    }
   }
  },
- "opet_lastupdate": "12.11.2026",
+ "opet_lastupdate": "17.11.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -38,8 +35,8 @@
   "Yüksek Kükürtlü Fuel Oil"
  ],
  "son_pompa_degisim": {
-  "motorin": "2026-11-10",
-  "benzin": "2026-11-12"
+  "motorin": "2026-11-17",
+  "benzin": "2026-11-17"
  },
  "degisim_gecmis": [
   [
@@ -121,6 +118,16 @@
    "benzin",
    "2026-11-12",
    -3.48
+  ],
+  [
+   "benzin",
+   "2026-11-17",
+   0.08
+  ],
+  [
+   "motorin",
+   "2026-11-17",
+   0.1
   ]
  ],
  "site_karnesi": {
@@ -142,7 +149,7 @@
   },
   "Aksu TV Haber": {
    "dogru": 4,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Anadolu Ekspres Gazetesi": {
    "dogru": 1,
@@ -286,7 +293,7 @@
   },
   "kayserihaber.com": {
    "dogru": 1,
-   "yanlis": 4
+   "yanlis": 5
   },
   "Yeni Kıroba": {
    "dogru": 1,
@@ -354,7 +361,7 @@
   },
   "GZT": {
    "dogru": 2,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Gerçek Fethiye": {
    "dogru": 1,
@@ -530,7 +537,7 @@
   },
   "AjansHaber": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Gerçek Haberci": {
    "dogru": 1,
@@ -686,7 +693,7 @@
   },
   "Beyaz Gündem Gazetesi": {
    "dogru": 0,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Ekonomim.com": {
    "dogru": 0,
@@ -798,7 +805,7 @@
   },
   "DENİZLİ24HABER": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Demokrat32.com": {
    "dogru": 1,
@@ -830,7 +837,7 @@
   },
   "Habertürk": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Halikarnas Haber": {
    "dogru": 1,
@@ -838,7 +845,7 @@
   },
   "Kocaeli Denge": {
    "dogru": 2,
-   "yanlis": 4
+   "yanlis": 5
   },
   "Kocaeli Gazetesi": {
    "dogru": 1,
@@ -1106,7 +1113,7 @@
   },
   "EHA Medya": {
    "dogru": 3,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Memur 365": {
    "dogru": 1,
@@ -1150,7 +1157,7 @@
   },
   "Haberhergün": {
    "dogru": 2,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Karadeniz Gazetesi": {
    "dogru": 1,
@@ -1455,6 +1462,42 @@
   "kahramantv": {
    "dogru": 1,
    "yanlis": 0
+  },
+  "Amida Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Mavi Kocaeli": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "https://www.manisahaber.com/": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Ajans344": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Bizim Ankara": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Gazete Vatan": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Gazete İpekyol": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Gündem Van": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Medya Yenigün Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
   }
  }
 }
