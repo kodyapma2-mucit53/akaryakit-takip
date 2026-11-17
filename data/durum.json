@@ -1,14 +1,12 @@
 {
  "gonderilen": {
-  "iptal|motorine indirim beklentisi iptal: gelecek hafta zam da indirim de yok": "2026-11-14T13:53:17.620119+03:00",
-  "iptal|motorine neden indirim yapılmadı, beklenen 4 liralık indirim iptal mi edildi?": "2026-11-14T13:53:17.620119+03:00",
-  "iptal|motorine dev indirim iptal edildi! sadece bir gerekçesi var": "2026-11-14T13:53:17.620119+03:00",
   "iptal|sürücülerin beklediği haber gelmedi: motorin indirimi neden iptal edildi?": "2026-11-15T11:25:35.909943+03:00",
   "iptal|motorinde indirim bekleyen sürücülere kötü haber: 4 tl’lik beklenti son anda ipt": "2026-11-15T11:25:35.909943+03:00",
   "2026-11-16|benzin|indirim|3.54": "2026-11-16T21:25:02.772687+03:00",
-  "baski|motorin|2026-11-17|-|1": "2026-11-17T13:38:39.749602+03:00"
+  "baski|motorin|2026-11-17|-|1": "2026-11-17T13:38:39.749602+03:00",
+  "2026-11-17|motorin|indirim|4.5": "2026-11-17T22:47:22.071774+03:00"
  },
- "son_calisma": "2026-11-17T13:38:39.749602+03:00",
+ "son_calisma": "2026-11-17T22:47:22.071774+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
