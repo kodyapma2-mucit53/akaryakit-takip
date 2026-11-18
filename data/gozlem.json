@@ -3881,5 +3881,15 @@
    "Samsun Gazetesi",
    "bursa tv"
   ]
+ },
+ {
+  "gun": "2026-11-18",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Haberler",
+   "Yeniçağ Gazetesi"
+  ]
  }
 ]
