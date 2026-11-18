@@ -3888,8 +3888,44 @@
   "yon": "indirim",
   "tutar": 4.0,
   "siteler": [
+   "Antakya Gazetesi",
    "Haberler",
-   "Yeniçağ Gazetesi"
+   "Manisa Manşet Gazetesi",
+   "Yeniçağ Gazetesi",
+   "Özgür Kocaeli"
+  ]
+ },
+ {
+  "gun": "2026-11-18",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.2,
+  "siteler": [
+   "Büyük Sivas Haber",
+   "EHA Medya",
+   "Haberlisin",
+   "KARAR",
+   "Sanayi Gazetesi",
+   "abcgazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-18",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.5,
+  "siteler": [
+   "Memur 365",
+   "İşin Olsa"
+  ]
+ },
+ {
+  "gun": "2026-11-18",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 6.77,
+  "siteler": [
+   "Enerji Ekonomisi"
   ]
  }
 ]
