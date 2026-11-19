@@ -3935,15 +3935,25 @@
   "tutar": 5.2,
   "siteler": [
    "ABC Haber",
+   "Aksu TV Haber",
    "Büyük Sivas Haber",
+   "Dosya Haber",
    "EHA Medya",
+   "Ege Alternatif",
+   "Eskişehir Haber Ajansı",
    "Haberlisin",
    "KARAR",
    "Karaköse Haber",
+   "Kırşehir Çiğdem",
+   "Manşet Aydın",
    "Sakarya Yenihaber",
+   "Samsun Gazetesi",
    "Sanayi Gazetesi",
    "abcgazetesi",
-   "sonhaberler.com"
+   "sonhaberler.com",
+   "Özgün Kocaeli",
+   "İstanbul Ticaret Gazetesi",
+   "Şırnak Haber 73"
   ]
  },
  {
@@ -3976,6 +3986,53 @@
   "tutar": 6.77,
   "siteler": [
    "Enerji Ekonomisi"
+  ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 6.58,
+  "siteler": [
+   "Adayorum",
+   "Ajans344",
+   "Artı Siirt",
+   "Bursa Hakimiyet",
+   "Diken",
+   "Düzce TV",
+   "Gazetem İzmir",
+   "Haber Denizli",
+   "Haber Ege",
+   "Kahramanmaraş Bugün Gazetesi",
+   "Kısa Dalga",
+   "Muğla Yenigün",
+   "Ortadoğu Gazetesi",
+   "Rudaw",
+   "Sabır Gazetesi",
+   "https://www.vanhaber.tr/",
+   "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 0.58,
+  "siteler": [
+   "Borsatek",
+   "Evrensel",
+   "Gazete Kritik",
+   "Habererk.com",
+   "Yeniçağ Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.0,
+  "siteler": [
+   "Adapazarı Akşam Haberleri Gazetesi"
   ]
  }
 ]
