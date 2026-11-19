@@ -3927,5 +3927,55 @@
   "siteler": [
    "Enerji Ekonomisi"
   ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.2,
+  "siteler": [
+   "ABC Haber",
+   "Büyük Sivas Haber",
+   "EHA Medya",
+   "Haberlisin",
+   "KARAR",
+   "Karaköse Haber",
+   "Sakarya Yenihaber",
+   "Sanayi Gazetesi",
+   "abcgazetesi",
+   "sonhaberler.com"
+  ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Antakya Gazetesi",
+   "Haberler",
+   "Manisa Manşet Gazetesi",
+   "Yeniçağ Gazetesi",
+   "Özgür Kocaeli"
+  ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 5.5,
+  "siteler": [
+   "Memur 365",
+   "İşin Olsa"
+  ]
+ },
+ {
+  "gun": "2026-11-19",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 6.77,
+  "siteler": [
+   "Enerji Ekonomisi"
+  ]
  }
 ]
