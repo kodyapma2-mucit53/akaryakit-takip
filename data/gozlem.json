@@ -4069,16 +4069,23 @@
    "ABC Haber",
    "AHB Medya",
    "Adayorum",
+   "Afyon Türkeli Gazetesi",
    "Ajans344",
    "Anadolu Gazetesi",
    "Bursa Hakimiyet",
    "Bölgenin Sesi Gazetesi",
+   "Demokrat Haber",
    "Diken",
+   "Gazete Kritik",
    "Gazetem İzmir",
    "Gerçek Haberci",
    "Haber Ege",
    "Haber Kenti",
+   "Haber Meydan",
+   "Habere Güven",
    "Haberhergün",
+   "Instagram",
+   "Karaman Uyanış Gazetesi",
    "Kenthaber27",
    "Kısa Dalga",
    "Manisa Manşet Gazetesi",
@@ -4129,6 +4136,7 @@
   "yon": "indirim",
   "tutar": 0.58,
   "siteler": [
+   "Anka Haber",
    "Borsatek",
    "Evrensel",
    "Gazete Kritik",
@@ -4143,6 +4151,41 @@
   "tutar": 5.0,
   "siteler": [
    "Adapazarı Akşam Haberleri Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 1.8599999999999999,
+  "siteler": [
+   "Artı Gerçek",
+   "Düzce Gazete Efsane",
+   "Ege Alternatif",
+   "Egeli Gazete",
+   "Gazete Kritik",
+   "Haber Kenti",
+   "Haber.com",
+   "Habere Güven",
+   "Haberhergün",
+   "Kısa Dalga",
+   "Ortadoğu Gazetesi",
+   "Son Dakika",
+   "Yeniçağ Gazetesi",
+   "politikam.com",
+   "İlke Haber Ajansı"
+  ]
+ },
+ {
+  "gun": "2026-11-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 0.86,
+  "siteler": [
+   "Habererk.com",
+   "Son Dakika",
+   "dokuz8HABER",
+   "İz Gazete"
   ]
  }
 ]
