@@ -1,6 +1,5 @@
 {
  "gonderilen": {
-  "2026-11-17|motorin|indirim|4.5": "2026-11-17T22:47:22.071774+03:00",
   "2026-11-18|motorin|indirim|None": "2026-11-18T13:40:40.796047+03:00",
   "baski|motorin|2026-11-17|-|2": "2026-11-18T22:23:15.712373+03:00",
   "baski|benzin|2026-11-17|-|1": "2026-11-18T22:23:15.712373+03:00",
@@ -14,26 +13,27 @@
   "2026-11-20|benzin|indirim|None": "2026-11-20T04:13:55.260817+03:00",
   "2026-11-20|benzin|indirim|1.8599999999999999": "2026-11-20T12:08:28.402083+03:00",
   "2026-11-20|benzin|indirim|0.86": "2026-11-20T12:08:28.402083+03:00",
-  "2026-11-20|benzin|indirim|2.95": "2026-11-20T20:59:26.943096+03:00"
+  "2026-11-20|benzin|indirim|2.95": "2026-11-20T20:59:26.943096+03:00",
+  "2026-11-21|motorin|indirim|6.58": "2026-11-21T02:57:17.474425+03:00"
  },
- "son_calisma": "2026-11-20T20:59:26.943096+03:00",
+ "son_calisma": "2026-11-21T02:57:17.474425+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 71.09,
+    "benzin": 68.16,
     "motorin": 88.65
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 73.3,
+    "benzin": 70.37,
     "motorin": 90.92
    }
   }
  },
- "opet_lastupdate": "20.11.2026",
+ "opet_lastupdate": "21.11.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -45,7 +45,7 @@
  ],
  "son_pompa_degisim": {
   "motorin": "2026-11-20",
-  "benzin": "2026-11-17"
+  "benzin": "2026-11-21"
  },
  "degisim_gecmis": [
   [
@@ -142,6 +142,11 @@
    "motorin",
    "2026-11-20",
    -6.54
+  ],
+  [
+   "benzin",
+   "2026-11-21",
+   -2.93
   ]
  ],
  "site_karnesi": {
@@ -195,7 +200,7 @@
   },
   "Egeli Gazete": {
    "dogru": 6,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Haber Ekspres": {
    "dogru": 2,
@@ -271,7 +276,7 @@
   },
   "Yeniçağ Gazetesi": {
    "dogru": 2,
-   "yanlis": 6
+   "yanlis": 7
   },
   "Yeşil Afşin Gazetesi": {
    "dogru": 2,
@@ -295,15 +300,15 @@
   },
   "İlke Haber Ajansı": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Ege Alternatif": {
    "dogru": 1,
-   "yanlis": 6
+   "yanlis": 7
   },
   "Kısa Dalga": {
    "dogru": 3,
-   "yanlis": 5
+   "yanlis": 6
   },
   "kayserihaber.com": {
    "dogru": 1,
@@ -435,7 +440,7 @@
   },
   "Ortadoğu Gazetesi": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Referans Türk": {
    "dogru": 1,
@@ -459,7 +464,7 @@
   },
   "Son Dakika": {
    "dogru": 2,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Son haberler": {
    "dogru": 1,
@@ -467,7 +472,7 @@
   },
   "Timeturk": {
    "dogru": 2,
-   "yanlis": 8
+   "yanlis": 9
   },
   "Türkgün": {
    "dogru": 1,
@@ -511,7 +516,7 @@
   },
   "haberonses.com": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "orduyenidonem.com.tr": {
    "dogru": 1,
@@ -555,7 +560,7 @@
   },
   "Gerçek Haberci": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Ege Telgraf": {
    "dogru": 1,
@@ -611,7 +616,7 @@
   },
   "İz Gazete": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Afyon Türkeli Gazetesi": {
    "dogru": 2,
@@ -634,7 +639,7 @@
    "yanlis": 1
   },
   "Haber Expres": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "Kayseri Gündem": {
@@ -687,7 +692,7 @@
   },
   "Gazete Kritik": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "YENİ ASYA": {
    "dogru": 0,
@@ -795,7 +800,7 @@
   },
   "politikam.com": {
    "dogru": 3,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Özgün Kocaeli": {
    "dogru": 1,
@@ -847,7 +852,7 @@
   },
   "Habere Güven": {
    "dogru": 2,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Habertürk": {
    "dogru": 1,
@@ -995,7 +1000,7 @@
   },
   "dokuz8HABER": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Akhisar Press Haber": {
    "dogru": 0,
@@ -1139,7 +1144,7 @@
   },
   "Paratic Haber": {
    "dogru": 2,
-   "yanlis": 0
+   "yanlis": 1
   },
   "ShiftDelete.Net": {
    "dogru": 1,
@@ -1171,7 +1176,7 @@
   },
   "Haberhergün": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Karadeniz Gazetesi": {
    "dogru": 1,
@@ -1270,12 +1275,12 @@
    "yanlis": 1
   },
   "Kütahya'nın Sesi Gazetesi": {
-   "dogru": 1,
+   "dogru": 2,
    "yanlis": 0
   },
   "Malatya Söz": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Medyabar": {
    "dogru": 1,
@@ -1323,7 +1328,7 @@
   },
   "Artı Gerçek": {
    "dogru": 0,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Ege Postası": {
    "dogru": 0,
@@ -1515,7 +1520,7 @@
   },
   "Düzce Gazete Efsane": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "bursa tv": {
    "dogru": 0,
@@ -1563,7 +1568,7 @@
   },
   "Yeni Bakış Gazetesi İzmir": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "sonhaberler.com": {
    "dogru": 0,
@@ -1587,7 +1592,7 @@
   },
   "Haber Kenti": {
    "dogru": 1,
-   "yanlis": 0
+   "yanlis": 1
   },
   "Kahramanmaraş Bugün Gazetesi": {
    "dogru": 1,
@@ -1623,7 +1628,27 @@
   },
   "Habererk.com": {
    "dogru": 0,
+   "yanlis": 2
+  },
+  "Haber Fokus": {
+   "dogru": 0,
    "yanlis": 1
+  },
+  "Haber.com": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Haber46": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Kayseri Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "724ege.com": {
+   "dogru": 1,
+   "yanlis": 0
   }
  }
 }
