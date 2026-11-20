@@ -4080,6 +4080,7 @@
    "Gazetem İzmir",
    "Gerçek Haberci",
    "Haber Ege",
+   "Haber Gazetesi",
    "Haber Kenti",
    "Haber Meydan",
    "Habere Güven",
@@ -4088,6 +4089,7 @@
    "Karaman Uyanış Gazetesi",
    "Kenthaber27",
    "Kısa Dalga",
+   "Malatya Söz",
    "Manisa Manşet Gazetesi",
    "Maraş Ana Haber",
    "Muğla Yenigün",
@@ -4097,6 +4099,7 @@
    "Rudaw",
    "Sabır Gazetesi",
    "Siirt haber",
+   "T24",
    "Toros Gazetesi",
    "Van Bölge Gazetesi",
    "Van Haber Gazetesi",
@@ -4107,6 +4110,7 @@
    "canlihaber.com",
    "https://www.vanhaber.tr/",
    "politikam.com",
+   "tv100 Haber",
    "İnegöl Yerel Haber",
    "İz Gazete",
    "Şırnak Haber"
@@ -4164,14 +4168,23 @@
    "Ege Alternatif",
    "Egeli Gazete",
    "Gazete Kritik",
+   "Gerçek Haberci",
+   "Haber Fokus",
    "Haber Kenti",
    "Haber.com",
+   "Haber46",
    "Habere Güven",
    "Haberhergün",
+   "Kayseri Haber",
    "Kısa Dalga",
+   "Malatya Söz",
    "Ortadoğu Gazetesi",
+   "Paratic Haber",
    "Son Dakika",
+   "Timeturk",
+   "Yeni Bakış Gazetesi İzmir",
    "Yeniçağ Gazetesi",
+   "haberonses.com",
    "politikam.com",
    "İlke Haber Ajansı"
   ]
@@ -4186,6 +4199,35 @@
    "Son Dakika",
    "dokuz8HABER",
    "İz Gazete"
+  ]
+ },
+ {
+  "gun": "2026-11-20",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 2.95,
+  "siteler": [
+   "724ege.com",
+   "Haber Expres",
+   "Kütahya'nın Sesi Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-20",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 6.5,
+  "siteler": [
+   "Uzmanpara"
+  ]
+ },
+ {
+  "gun": "2026-11-20",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 1.8599999999999999,
+  "siteler": [
+   "haberonses.com"
   ]
  }
 ]
