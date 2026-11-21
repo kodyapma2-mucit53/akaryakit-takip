@@ -4335,5 +4335,39 @@
    "Kütahya'nın Sesi Gazetesi",
    "Türkinform"
   ]
+ },
+ {
+  "gun": "2026-11-22",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 6.58,
+  "siteler": [
+   "Habertürk",
+   "Mersin Halk Haber",
+   "Okur Gazetesi",
+   "Yeni Alanya",
+   "Yeni Şafak",
+   "İmza Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 2.95,
+  "siteler": [
+   "Instagram",
+   "Türkinform"
+  ]
+ },
+ {
+  "gun": "2026-11-22",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 1.8599999999999999,
+  "siteler": [
+   "Büyük Sivas Haber",
+   "Yorumla"
+  ]
  }
 ]
