@@ -1,76 +1,6 @@
 [
  {
   "gun": "2026-11-01",
-  "yakit": "lpg",
-  "yon": "zam",
-  "tutar": 9.0,
-  "siteler": [
-   "Dürüst Haber",
-   "Erzincan Net",
-   "Eskişehir Haberleri",
-   "Hunat TV",
-   "Pamukova Halk",
-   "Son Mühür",
-   "kayserihaber.com"
-  ]
- },
- {
-  "gun": "2026-11-01",
-  "yakit": "motorin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "2Eylül Haber",
-   "Akhisar Press Haber",
-   "Alanya Türk",
-   "Anadolu Gazetesi",
-   "Ankara Masası",
-   "Batman Yön Gazetesi",
-   "Bomba 32",
-   "Bugün Kocaeli Gazetesi",
-   "Demokrat32.com",
-   "Düzce TV",
-   "Ensonhaber",
-   "Finans Hattı",
-   "Foreks.com",
-   "Günaydın Milas",
-   "Güneydoğu Ekspres",
-   "Haber Denizli",
-   "Haber Fark",
-   "HaberX",
-   "Hamle Gazetesi",
-   "KARAR",
-   "Kamudanhaber",
-   "Kocaeli Denge",
-   "Kocaeli Şehir Gazetesi",
-   "Kurtalan Gazetesi",
-   "Malatya Sonsöz Haber",
-   "Manisa Haberleri",
-   "Manisa Kulis Haber",
-   "Mebpersonel.Com",
-   "Milli İrade Gazetesi",
-   "N Gazete",
-   "Pamukova Halk",
-   "Para Ajansı",
-   "Paranın Yönü",
-   "Siirt haber",
-   "Son Dakika",
-   "Son Mühür",
-   "Sonsöz Gazetesi",
-   "Toros Gazetesi",
-   "Türkgün",
-   "Türkiye Eğitim",
-   "Van Haber Gazetesi",
-   "Yeşil Afşin Gazetesi",
-   "Yıldırım Gazetesi",
-   "hakkariilsesigazetesi.com",
-   "herkesduysun.com",
-   "Özgür Kocaeli",
-   "Şehrivan"
-  ]
- },
- {
-  "gun": "2026-11-01",
   "yakit": "benzin",
   "yon": "zam",
   "tutar": null,
@@ -19860,6 +19790,34 @@
    "Yeni Şafak",
    "https://www.babaocagi.com/",
    "Ülke TV"
+  ]
+ },
+ {
+  "gun": "2026-11-23",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Bugün Kocaeli Gazetesi",
+   "Merhaba Gazetesi",
+   "Merhaba Haber",
+   "Yeni Alanya",
+   "Çağdaş Kocaeli",
+   "Çağdaş Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-23",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Bugün Kocaeli Gazetesi",
+   "Merhaba Gazetesi",
+   "Merhaba Haber",
+   "Yeni Alanya",
+   "Çağdaş Kocaeli",
+   "Çağdaş Kocaeli Gazetesi"
   ]
  }
 ]
