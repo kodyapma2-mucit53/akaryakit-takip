@@ -1,62 +1,6 @@
 [
  {
   "gun": "2026-11-01",
-  "yakit": "benzin",
-  "yon": "zam",
-  "tutar": null,
-  "siteler": [
-   "Akhisar Press Haber",
-   "Anadolu Gazetesi",
-   "Ankara Masası",
-   "Batman Yön Gazetesi",
-   "Bugün Kocaeli Gazetesi",
-   "Demokrat32.com",
-   "Düzce TV",
-   "Ensonhaber",
-   "Finans Hattı",
-   "Foreks.com",
-   "Genç Gazete",
-   "Günaydın Milas",
-   "Güneydoğu Ekspres",
-   "Haber Fark",
-   "Hamle Gazetesi",
-   "KARAR",
-   "Kamudanhaber",
-   "Kocaeli Denge",
-   "Kurtalan Gazetesi",
-   "Malatya Sonsöz Haber",
-   "Manisa Haberleri",
-   "Manisa Kulis Haber",
-   "Mebpersonel.Com",
-   "Milli İrade Gazetesi",
-   "N Gazete",
-   "Pamukova Halk",
-   "Para Ajansı",
-   "Paranın Yönü",
-   "Sonsöz Gazetesi",
-   "Toros Gazetesi",
-   "Türkgün",
-   "Van Haber Gazetesi",
-   "Yıldırım Gazetesi",
-   "hakkariilsesigazetesi.com",
-   "herkesduysun.com",
-   "Şehrivan"
-  ]
- },
- {
-  "gun": "2026-11-01",
-  "yakit": "lpg",
-  "yon": "zam",
-  "tutar": 9.0,
-  "siteler": [
-   "Dürüst Haber",
-   "Eskişehir Haberleri",
-   "Pamukova Halk",
-   "Son Mühür"
-  ]
- },
- {
-  "gun": "2026-11-01",
   "yakit": "motorin",
   "yon": "zam",
   "tutar": null,
@@ -19815,6 +19759,32 @@
    "Bugün Kocaeli Gazetesi",
    "Merhaba Gazetesi",
    "Merhaba Haber",
+   "Yeni Alanya",
+   "Çağdaş Kocaeli",
+   "Çağdaş Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Merhaba Gazetesi",
+   "Süper Kanal TV",
+   "Yeni Alanya",
+   "Çağdaş Kocaeli",
+   "Çağdaş Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": null,
+  "siteler": [
+   "Merhaba Gazetesi",
+   "Süper Kanal TV",
    "Yeni Alanya",
    "Çağdaş Kocaeli",
    "Çağdaş Kocaeli Gazetesi"
