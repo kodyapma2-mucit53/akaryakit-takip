@@ -4370,5 +4370,57 @@
    "Herkes Duysun",
    "Yorumla"
   ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 1.7,
+  "siteler": [
+   "Bugün Kocaeli Gazetesi",
+   "Düzce Gazete Efsane",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Memurlar.Net",
+   "Merhaba Gazetesi",
+   "Süper Kanal TV",
+   "Yeni Alanya",
+   "Çağdaş Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 1.7,
+  "siteler": [
+   "Bugün Kocaeli Gazetesi",
+   "Düzce Gazete Efsane",
+   "Kahta Haber Postası",
+   "Kamudanhaber",
+   "Memurlar.Net",
+   "Merhaba Gazetesi",
+   "Süper Kanal TV",
+   "Yeni Alanya",
+   "Çağdaş Kocaeli Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Yeniçağ Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Yeniçağ Gazetesi"
+  ]
  }
 ]

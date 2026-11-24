@@ -5,26 +5,28 @@
   "2026-11-22|benzin|indirim|1.8599999999999999": "2026-11-22T04:15:29.422016+03:00",
   "2026-11-23|motorin|indirim|None": "2026-11-23T15:22:53.243971+03:00",
   "baski|motorin|2026-11-20|-|1": "2026-11-24T03:19:39.616078+03:00",
-  "2026-11-24|benzin|indirim|None": "2026-11-24T03:19:39.616078+03:00"
+  "2026-11-24|benzin|indirim|None": "2026-11-24T03:19:39.616078+03:00",
+  "2026-11-24|motorin|indirim|1.7": "2026-11-24T13:23:55.446636+03:00",
+  "2026-11-24|benzin|indirim|1.7": "2026-11-24T13:23:55.446636+03:00"
  },
- "son_calisma": "2026-11-24T03:19:39.616078+03:00",
+ "son_calisma": "2026-11-24T13:23:55.446636+03:00",
  "opet_son": {
   "34": {
    "il": "İstanbul",
    "fiyat": {
-    "benzin": 68.16,
-    "motorin": 88.65
+    "benzin": 68.28,
+    "motorin": 88.81
    }
   },
   "25": {
    "il": "Erzurum",
    "fiyat": {
-    "benzin": 70.37,
-    "motorin": 90.92
+    "benzin": 70.49,
+    "motorin": 91.08
    }
   }
  },
- "opet_lastupdate": "21.11.2026",
+ "opet_lastupdate": "24.11.2026",
  "opet_urun_adlari": [
   "Fuel Oil",
   "Gazyağı",
@@ -35,8 +37,8 @@
   "Yüksek Kükürtlü Fuel Oil"
  ],
  "son_pompa_degisim": {
-  "motorin": "2026-11-20",
-  "benzin": "2026-11-21"
+  "motorin": "2026-11-25",
+  "benzin": "2026-11-25"
  },
  "degisim_gecmis": [
   [
@@ -138,6 +140,16 @@
    "benzin",
    "2026-11-21",
    -2.93
+  ],
+  [
+   "benzin",
+   "2026-11-25",
+   0.12
+  ],
+  [
+   "motorin",
+   "2026-11-25",
+   0.16
   ]
  ],
  "site_karnesi": {
@@ -347,7 +359,7 @@
   },
   "Büyük Sivas Haber": {
    "dogru": 2,
-   "yanlis": 3
+   "yanlis": 4
   },
   "Dumlupınar Gazetesi": {
    "dogru": 1,
@@ -423,7 +435,7 @@
   },
   "Okur Gazetesi": {
    "dogru": 2,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Ordu Yeni Dönem Gazetesi": {
    "dogru": 1,
@@ -491,7 +503,7 @@
   },
   "Yeni Alanya": {
    "dogru": 3,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Yeni Alanya Gazetesi": {
    "dogru": 3,
@@ -575,7 +587,7 @@
   },
   "Instagram": {
    "dogru": 4,
-   "yanlis": 1
+   "yanlis": 2
   },
   "Lider Haber": {
    "dogru": 0,
@@ -671,7 +683,7 @@
   },
   "Yeni Şafak": {
    "dogru": 0,
-   "yanlis": 1
+   "yanlis": 2
   },
   "tv100 Haber": {
    "dogru": 0,
@@ -847,7 +859,7 @@
   },
   "Habertürk": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "Halikarnas Haber": {
    "dogru": 1,
@@ -971,7 +983,7 @@
   },
   "Herkes Duysun": {
    "dogru": 1,
-   "yanlis": 2
+   "yanlis": 3
   },
   "MUĞLATÜRK": {
    "dogru": 1,
@@ -1291,7 +1303,7 @@
   },
   "Türkinform": {
    "dogru": 1,
-   "yanlis": 1
+   "yanlis": 2
   },
   "emlak 365": {
    "dogru": 1,
@@ -1640,6 +1652,18 @@
   "724ege.com": {
    "dogru": 1,
    "yanlis": 0
+  },
+  "Yorumla": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "Mersin Halk Haber": {
+   "dogru": 0,
+   "yanlis": 1
+  },
+  "İmza Gazetesi": {
+   "dogru": 0,
+   "yanlis": 1
   }
  }
 }
