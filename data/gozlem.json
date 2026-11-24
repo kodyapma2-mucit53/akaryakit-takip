@@ -4379,11 +4379,14 @@
   "siteler": [
    "Bugün Kocaeli Gazetesi",
    "Düzce Gazete Efsane",
+   "Haberci TV",
    "Kahta Haber Postası",
    "Kamudanhaber",
+   "Mebpersonel.Com",
    "Memurlar.Net",
    "Merhaba Gazetesi",
    "Süper Kanal TV",
+   "Türkiye Eğitim",
    "Yeni Alanya",
    "Çağdaş Kocaeli Gazetesi"
   ]
@@ -4396,11 +4399,14 @@
   "siteler": [
    "Bugün Kocaeli Gazetesi",
    "Düzce Gazete Efsane",
+   "Haberci TV",
    "Kahta Haber Postası",
    "Kamudanhaber",
+   "Mebpersonel.Com",
    "Memurlar.Net",
    "Merhaba Gazetesi",
    "Süper Kanal TV",
+   "Türkiye Eğitim",
    "Yeni Alanya",
    "Çağdaş Kocaeli Gazetesi"
   ]
@@ -4411,7 +4417,23 @@
   "yon": "zam",
   "tutar": 4.15,
   "siteler": [
-   "Yeniçağ Gazetesi"
+   "Adapazarı Akşam Haberleri Gazetesi",
+   "Alanya Postası",
+   "Cumhuriyet",
+   "Doğubayazıt Gazetesi",
+   "Ekonomim",
+   "Haber Gündemim",
+   "Haberler",
+   "Milli İrade Gazetesi",
+   "Nefes Gazetesi",
+   "Sanayi Gazetesi",
+   "Yeniçağ Gazetesi",
+   "ilkses",
+   "kayserihaber.com",
+   "nefes",
+   "İlkses Gazetesi",
+   "İnternet Haber",
+   "İşçi Haber"
   ]
  },
  {
@@ -4420,7 +4442,42 @@
   "yon": "zam",
   "tutar": 3.6,
   "siteler": [
-   "Yeniçağ Gazetesi"
+   "Adapazarı Akşam Haberleri Gazetesi",
+   "Alanya Postası",
+   "Cumhuriyet",
+   "Doğubayazıt Gazetesi",
+   "Ekonomim",
+   "Haber Gündemim",
+   "Haberler",
+   "Milli İrade Gazetesi",
+   "Nefes Gazetesi",
+   "Sanayi Gazetesi",
+   "Yeniçağ Gazetesi",
+   "ilkses",
+   "kayserihaber.com",
+   "nefes",
+   "İlkses Gazetesi",
+   "İnternet Haber",
+   "İşçi Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.05,
+  "siteler": [
+   "Dosya Haber",
+   "Malatya Net Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-24",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Malatya Net Haber"
   ]
  }
 ]
