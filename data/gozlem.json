@@ -4479,5 +4479,100 @@
   "siteler": [
    "Malatya Net Haber"
   ]
+ },
+ {
+  "gun": "2026-11-25",
+  "yakit": "benzin",
+  "yon": "zam",
+  "tutar": 4.15,
+  "siteler": [
+   "Adapazarı Akşam Haberleri Gazetesi",
+   "Alanya Postası",
+   "Başka Gazete",
+   "Cumhuriyet",
+   "Doğubayazıt Gazetesi",
+   "Ekonomim.com",
+   "Haber Gündemim",
+   "Haberler",
+   "Milli İrade Gazetesi",
+   "Nefes Gazetesi",
+   "Paratic Haber",
+   "Sanayi Gazetesi",
+   "Yeniçağ Gazetesi",
+   "kayserihaber.com",
+   "nefes",
+   "İlkses Gazetesi",
+   "İnternet Haber",
+   "İşçi Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-25",
+  "yakit": "motorin",
+  "yon": "zam",
+  "tutar": 3.6,
+  "siteler": [
+   "Adapazarı Akşam Haberleri Gazetesi",
+   "Alanya Postası",
+   "Başka Gazete",
+   "Cumhuriyet",
+   "Doğubayazıt Gazetesi",
+   "Ekonomim.com",
+   "Haber Gündemim",
+   "Haberler",
+   "Milli İrade Gazetesi",
+   "Nefes Gazetesi",
+   "Paratic Haber",
+   "Sanayi Gazetesi",
+   "Yeniçağ Gazetesi",
+   "kayserihaber.com",
+   "nefes",
+   "İlkses Gazetesi",
+   "İnternet Haber",
+   "İşçi Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-25",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 1.7,
+  "siteler": [
+   "Haberci TV",
+   "Kamu Personeli Alımı",
+   "Memurlar.Net",
+   "Türkiye Eğitim"
+  ]
+ },
+ {
+  "gun": "2026-11-25",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 1.7,
+  "siteler": [
+   "Haberci TV",
+   "Kamu Personeli Alımı",
+   "Memurlar.Net",
+   "Türkiye Eğitim"
+  ]
+ },
+ {
+  "gun": "2026-11-25",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.05,
+  "siteler": [
+   "Dosya Haber",
+   "Malatya Net Haber"
+  ]
+ },
+ {
+  "gun": "2026-11-25",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Malatya Net Haber"
+  ]
  }
 ]
