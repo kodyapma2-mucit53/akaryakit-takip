@@ -4713,6 +4713,7 @@
    "Dünya Gazetesi",
    "Düzce TV",
    "EHA Medya",
+   "Evrensel",
    "Gazete Kritik",
    "Gerçek Taraf",
    "Güneş TV",
@@ -4736,6 +4737,7 @@
    "Notbir",
    "Ortadoğu Gazetesi",
    "Paratic Haber",
+   "Personel Sağlık Net",
    "Referans Türk",
    "Saray Medya",
    "Son Dakika",
@@ -4778,6 +4780,7 @@
    "Mynet Finans",
    "Paranın Yönü",
    "Paratic Haber",
+   "Personel Sağlık Net",
    "Siirt haber",
    "gdh dijital",
    "İstanbul Ticaret Gazetesi"
@@ -4818,6 +4821,18 @@
   "tutar": 1.7,
   "siteler": [
    "Kamu Personeli Alımı"
+  ]
+ },
+ {
+  "gun": "2026-11-26",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Haber Denizli",
+   "Kayseri Gündem",
+   "Kayserim.net",
+   "Yeşil Niksar Yerel Haber Sitesi"
   ]
  }
 ]
