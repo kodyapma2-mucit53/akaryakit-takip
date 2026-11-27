@@ -4867,8 +4867,47 @@
   "yon": "indirim",
   "tutar": 4.32,
   "siteler": [
+   "Ege Saati",
    "Evrensel",
+   "Foreks.com",
+   "Haber TR",
+   "Personel Sağlık Net",
+   "Yayla Haber",
+   "canlihaber.com",
    "kamuajans"
+  ]
+ },
+ {
+  "gun": "2026-11-27",
+  "yakit": "benzin",
+  "yon": "indirim",
+  "tutar": 1.7,
+  "siteler": [
+   "A Haber",
+   "Alanya Postası",
+   "Ayıntab Gazetesi",
+   "Bağımsız Kocaeli Gazetesi",
+   "Foreks.com",
+   "Gerçek Gündem",
+   "Haberlisin",
+   "Kocaeli Şehir Gazetesi",
+   "Personel Sağlık Net",
+   "Sektör Gazetesi",
+   "Ticari Hayat",
+   "Yayla Haber",
+   "Yeni Şafak",
+   "canlihaber.com",
+   "kamuajans",
+   "İstanbul Ticaret Gazetesi"
+  ]
+ },
+ {
+  "gun": "2026-11-27",
+  "yakit": "motorin",
+  "yon": "indirim",
+  "tutar": 4.0,
+  "siteler": [
+   "Haber3"
   ]
  }
 ]
